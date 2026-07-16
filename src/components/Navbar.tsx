@@ -45,9 +45,9 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <button className="rounded-lg bg-primary px-5 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors">
+          <Link href="/login" className="rounded-lg bg-primary px-5 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors">
             登录
-          </button>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -73,9 +73,9 @@ export default function Navbar() {
             <Link href="/community" className="text-sm font-medium text-muted-foreground py-1">
               加入用户群
             </Link>
-            <button className="mt-2 w-full rounded-lg bg-primary py-2.5 text-sm font-medium text-white">
+            <Link href="/login" className="mt-2 w-full rounded-lg bg-primary py-2.5 text-sm font-medium text-white text-center block">
               登录
-            </button>
+            </Link>
           </nav>
         </div>
       )}

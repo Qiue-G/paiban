@@ -9,7 +9,7 @@ export default function CTA() {
         </h2>
         <p className="text-muted-foreground text-base mb-8">立享智能排版体验</p>
         <Link
-          href="/doc/1"
+          href="/doc/new"
           className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 text-base font-medium text-white hover:opacity-90 transition-opacity shadow-lg shadow-primary/25"
         >
           开始排版
