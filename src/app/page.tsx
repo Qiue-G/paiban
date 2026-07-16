@@ -66,19 +66,21 @@ var THEME_MODES:Record<Theme,{pageBg:string;border:string;text:string;dim:string
 
 // ===== Typesetting Engine =====
 function typeset(text:string):{title:string;blocks:Block[]} {
-  var lines=text.trim().split("\n"), blocks:Block[]=[], title="未命名文档", ch=0;
+  var lines=text.trim().split("\n"), blocks:Block[]=[], title="未命名文档", ch=0, para:string[]=[];
+  function flushPara(){if(para.length){blocks.push({type:"paragraph",content:para.join("<br>")});para=[];}}
   for(var i=0;i<lines.length;i++){
-    var line=lines[i].trim(); if(!line)continue;
+    var line=lines[i].trim(); if(!line){flushPara();continue;}
     if(i===0){title=line.replace(/^#+\s*/,"").slice(0,60);blocks.push({type:"title",content:line.replace(/^#+\s*/,"")});continue;}
-    if(/^[-*]{3,}$/.test(line)){blocks.push({type:"divider",content:""});continue;}
-    if(/^第[一二三四五六七八九十\d]+[章节篇部]/.test(line)||/^[一二三四五六七八九十]+[、，,.]./.test(line)||/^Chapter\s+\d+/i.test(line)){ch++;blocks.push({type:"chapter",content:line.replace(/^#+\s*/,""),chapterNum:ch});continue;}
-    if(/^#{2,3}\s/.test(line)){blocks.push({type:"subchapter",content:line.replace(/^#{2,3}\s*/,""),chapterNum:ch});continue;}
-    if(line.startsWith("```")){var cl:string[]=[];i++;while(i<lines.length&&!lines[i].trim().startsWith("```")){cl.push(lines[i]);i++;}blocks.push({type:"code",content:cl.join("\n")});continue;}
-    if(line.startsWith(">")){blocks.push({type:"quote",content:line.replace(/^>\s*/,"")});continue;}
-    if(/^[-*•]\s/.test(line)){var li:string[]=[];while(i<lines.length&&/^[-*•]\s/.test(lines[i].trim())){li.push(lines[i].trim().replace(/^[-*•]\s*/,""));i++;}i--;blocks.push({type:"list",content:"",items:li});continue;}
-    if(/^\d+[.)]\s/.test(line)){var nl:string[]=[];while(i<lines.length&&/^\d+[.)]\s/.test(lines[i].trim())){nl.push(lines[i].trim().replace(/^\d+[.)]\s*/,""));i++;}i--;blocks.push({type:"list",content:"",items:nl});continue;}
-    blocks.push({type:"paragraph",content:line});
+    if(/^[-*]{3,}$/.test(line)){flushPara();blocks.push({type:"divider",content:""});continue;}
+    if(/^第[一二三四五六七八九十\d]+[章节篇部]/.test(line)||/^[一二三四五六七八九十]+[、，,.]./.test(line)||/^Chapter\s+\d+/i.test(line)){flushPara();ch++;blocks.push({type:"chapter",content:line.replace(/^#+\s*/,""),chapterNum:ch});continue;}
+    if(/^#{2,3}\s/.test(line)){flushPara();blocks.push({type:"subchapter",content:line.replace(/^#{2,3}\s*/,""),chapterNum:ch});continue;}
+    if(line.startsWith("```")){flushPara();var cl:string[]=[];i++;while(i<lines.length&&!lines[i].trim().startsWith("```")){cl.push(lines[i]);i++;}blocks.push({type:"code",content:cl.join("\n")});continue;}
+    if(line.startsWith(">")){flushPara();blocks.push({type:"quote",content:line.replace(/^>\s*/,"")});continue;}
+    if(/^[-*•]\s/.test(line)){flushPara();var li:string[]=[];while(i<lines.length&&/^[-*•]\s/.test(lines[i].trim())){li.push(lines[i].trim().replace(/^[-*•]\s*/,""));i++;}i--;blocks.push({type:"list",content:"",items:li});continue;}
+    if(/^\d+[.)]\s/.test(line)){flushPara();var nl:string[]=[];while(i<lines.length&&/^\d+[.)]\s/.test(lines[i].trim())){nl.push(lines[i].trim().replace(/^\d+[.)]\s*/,""));i++;}i--;blocks.push({type:"list",content:"",items:nl});continue;}
+    para.push(line);
   }
+  flushPara();
   for(var k=0;k<blocks.length;k++){if(blocks[k].type==="paragraph"){blocks[k].content=blocks[k].content.replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");}}
   var hd=blocks.filter(function(b){return b.type==="chapter"||b.type==="subchapter"});
   if(hd.length>=2){blocks.splice(blocks.findIndex(function(b){return b.type==="title"})+1,0,{type:"toc",content:"",items:hd.map(function(h){return h.type==="chapter"?(h.chapterNum+". "+h.content):"  "+h.content;})});}
