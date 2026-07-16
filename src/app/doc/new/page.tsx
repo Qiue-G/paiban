@@ -534,12 +534,9 @@ export default function DocNewPage() {
   var [title,setTitle]=useState("未命名文档");
   var [theme,setTheme]=useState("default" as Theme);
   var [copied,setCopied]=useState(false);
-  var [autoLayout,setAutoLayout]=useState(null as Layout|null);
-  var [textProfile,setTextProfile]=useState(null as TextProfile|null);
   var progress=useReadingProgress();
 
-  var effectiveLayout=layout; // may be overridden by auto-detect
-  var tpl=TP[effectiveLayout];
+  var tpl=TP[layout];
   var thm=THEME_MODES[theme];
   var pageIsDark=theme==="dark";
 
@@ -548,24 +545,15 @@ export default function DocNewPage() {
   function doTypeset(){
     if(!input.trim())return;
     var seg=smartSegment(input);
-    var pf=analyzeText(seg);
-    setTextProfile(pf);
-    // Auto-select template if user didn't manually change it
-    if(autoLayout===null){
-      setLayout(pf.suggestedLayout);
-      setTheme(pf.suggestedTheme);
-      effectiveLayout=pf.suggestedLayout;
-    }
     var r=typeset(seg);
-    // Attach smart images
-    r.blocks=attachSmartImages(r.blocks,TP[autoLayout===null?pf.suggestedLayout:layout]);
+    r.blocks=attachSmartImages(r.blocks,tpl);
     setTitle(r.title);setBlocks(r.blocks);setStep("result");
     setTimeout(function(){window.scrollTo({top:0,behavior:"smooth"});},100);
   }
 
   // Pick renderer
   var renderers={business:BZ, media:MZ, academic:AZ, resume:RZ, marketing:KT, wechat:WZ} as {[k:string]:(bg:string,tp:Tpl)=>any};
-  var Article=renderers[effectiveLayout](tpl.pageBg,tpl);
+  var Article=renderers[layout](tpl.pageBg,tpl);
 
   return React.createElement("div",{className:"min-h-screen transition-colors duration-500",style:{backgroundColor:thm.pageBg,fontFamily:"system-ui"}},
     // progress bar
@@ -590,21 +578,8 @@ export default function DocNewPage() {
     step==="edit"&&React.createElement("div",{className:"max-w-4xl mx-auto px-4 py-8"},
       React.createElement("div",{className:"flex items-center gap-2 mb-4"},
         React.createElement("span",{className:"text-xs px-2.5 py-1 rounded-full text-white font-bold",style:{backgroundColor:tpl.accent}},tpl.name),
-        React.createElement("button",{onClick:function(){setStep("template");setAutoLayout(null);},className:"text-xs underline",style:{color:thm.text}},"换模板")),
+        React.createElement("button",{onClick:function(){setStep("template");},className:"text-xs underline",style:{color:thm.text}},"换模板")),
       React.createElement("p",{className:"text-xs mb-3",style:{color:thm.dim}},"支持：Markdown 语法 · # 标题 · ## 副标题 · **加粗** · - 列表 · > 引用 · --- 分隔 · 第X章 章节"),
-      (function(){
-        var raw=input.trim();
-        if(!raw||raw.length<80)return null;
-        var pf=analyzeText(smartSegment(raw));
-        var kw=pf.keywords.filter(function(k){return k.length>=2&&!/[发去是有在和这那就她了过到得着也说会能要个]/.test(k[0]);}).slice(0,3);
-        return React.createElement("div",{className:"mb-3 flex flex-wrap items-center gap-2 px-3 py-2 rounded-lg text-xs",style:{borderColor:thm.border,border:"1px solid",backgroundColor:pageIsDark?"#1e293b":"#f8fafc"}},
-          React.createElement("span",{style:{color:thm.dim}},pf.wordCount,"字 · ",pf.readingTime,"分钟"),
-          pf.genre!=="通用"&&React.createElement("span",{className:"px-1.5 py-0.5 rounded font-bold",style:{backgroundColor:tpl.accent+"18",color:tpl.accent}},pf.genre),
-          kw.length>0&&kw.map(function(k:string){return React.createElement("span",{key:k,className:"px-1.5 py-0.5 rounded",style:{backgroundColor:pageIsDark?"#334155":"#e2e8f0",color:thm.text}},"#"+k);}),
-          React.createElement("span",{style:{color:thm.dim}},"\u2192 ",TP[pf.suggestedLayout].name,"模板"),
-          autoLayout===null?React.createElement("span",{style:{color:tpl.accent,fontSize:11}},"\u25C9"):
-          React.createElement("button",{onClick:function(){setAutoLayout(null);},className:"underline",style:{color:thm.dim}},"重置推荐"));
-      })(),
       React.createElement("textarea",{value:input,onChange:function(e:any){setInput(e.target.value);},
         placeholder:"第一行为标题\n\n第1章 项目背景分析\n本章介绍项目启动的宏观环境。\n\n**核心结论：市场正经历结构性转变。**\n\n## 细分市场洞察\n\n- 第一代产品已进入成熟期\n- 新兴技术带来颠覆性机会\n- 用户习惯正在快速迁移\n\n> 行业专家指出：未来三年将出现三到五家百亿级平台。\n\n---\n\n第2章 战略执行路线图\n本章阐述具体落地计划。",
         className:"w-full h-96 rounded-xl border p-6 text-sm leading-relaxed resize-none focus:outline-none focus:ring-2 transition-all font-mono",
