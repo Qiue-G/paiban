@@ -18,9 +18,9 @@ WORKDIR /app
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
 
 # Install project dependencies with frozen lockfile for reproducible builds
-RUN --mount=type=cache,target=/root/.npm \
-  --mount=type=cache,target=/usr/local/share/.cache/yarn \
-  --mount=type=cache,target=/root/.local/share/pnpm/store \
+RUN --mount=type=cache,target=/root/.npm,id=npm \
+  --mount=type=cache,target=/usr/local/share/.cache/yarn,id=yarn \
+  --mount=type=cache,target=/root/.local/share/pnpm/store,id=pnpm \
   if [ -f package-lock.json ]; then \
   npm ci --no-audit --no-fund; \
   elif [ -f yarn.lock ]; then \
