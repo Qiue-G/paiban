@@ -46,6 +46,67 @@ var THEME_MODES:Record<Theme,{pageBg:string;border:string;text:string;dim:string
 };
 
 // ===== Typesetting Engine =====
+
+// Smart auto-segmentation: detect plain text vs markdown, auto-structure plain text
+function smartSegment(raw:string):string {
+  var lines=raw.split("\n"), hasMd=false;
+  // Check if already has markdown markers
+  for(var i=0;i<lines.length;i++){
+    var l=lines[i].trim();
+    if(/^#+ |^[-*>] |^```|^第[一二三四五六七八九十\d]+[章节篇部]|^Chapter\s+\d+/i.test(l)){hasMd=true;break;}
+  }
+  if(hasMd) return raw; // already markdown, pass through
+
+  // Plain text: auto-detect structure
+  var result:string[]=[], ch=0, inList=false;
+  for(var i=0;i<lines.length;i++){
+    var l=lines[i].trim();
+    // Skip empty lines
+    if(!l){inList=false;continue;}
+    // Title: first non-empty line
+    if(result.length===0){result.push("# "+l.slice(0,80));continue;}
+    // Divider
+    if(/^[-*_]{3,}$/.test(l)){result.push("---");inList=false;continue;}
+    // Chapter detection: 第X章, X. title pattern, short standalone bold line
+    if(/^第[一二三四五六七八九十\d]+[章节篇部]/.test(l)||/^(Chapter|Part)\s+\d+/i.test(l)){
+      ch++;result.push("第"+ch+"章 "+l.replace(/^(第[一二三四五六七八九十\d]+[章节篇部]\s*)/,""));inList=false;continue;}
+    // Numbered chapter: "一、xxx" "1. xxx" etc (but only if preceded by blank line and is standalone)
+    if((/^[一二三四五六七八九十]+[、，,.]/.test(l)||/^\d+[.)]\s/.test(l))&&l.length<30&&(i===0||!lines[i-1].trim())){
+      ch++;result.push("第"+ch+"章 "+l.replace(/^[一二三四五六七八九十\d]+\s*[、，,.。.)]\s*/,""));inList=false;continue;}
+    // Sub heading: short line without end punctuation, preceded by blank line
+    var prevBlank=i===0||!lines[i-1].trim();
+    var noEndPunct=!/[。！？，、；：）\)""」』\.!\?,;:)$]$/.test(l);
+    if(prevBlank&&l.length<35&&noEndPunct&&!/^[一二三四五六七八九十\d]+[、.)]/.test(l)&&!/^[（(]*[\u4e00-\u9fa5\w]/.test(l.slice(0,2))){
+      result.push("## "+l);inList=false;continue;}
+    // List detection: line starts with bullet-like pattern
+    if(/^[-*•◦▪▸►→·]\s/.test(l)){result.push("- "+l.replace(/^[-*•◦▪▸►→·]\s*/,""));inList=true;continue;}
+    // Numbered list
+    if(/^\d+[.)]\s/.test(l)){result.push("- "+l.replace(/^\d+[.)]\s*/,""));inList=true;continue;}
+    // Continuation of list (indented or similar)
+    if(inList&&(l.startsWith("  ")||l.startsWith("\t"))){result.push("- "+l.trim());continue;}
+    inList=false;
+    // Quote: text in quotes or looks like a citation
+    if(/^[""「『].+[""」』]$/.test(l)&&l.length>10&&prevBlank){result.push("> "+l.replace(/^[""「『]/,"").replace(/[""」』]$/,""));continue;}
+    // Regular paragraph
+    result.push(l);
+  }
+  // Merge consecutive paragraphs into one if no blank line between them
+  var merged:string[]=[];
+  for(var j=0;j<result.length;j++){
+    var r=result[j];
+    if(r.startsWith("# ")||r.startsWith("## ")||r.startsWith("- ")||r.startsWith("> ")||r.startsWith("---")||j===0){
+      merged.push(r);continue;
+    }
+    var prev=merged[merged.length-1];
+    if(prev&&!prev.startsWith("# ")&&!prev.startsWith("## ")&&!prev.startsWith("- ")&&!prev.startsWith("> ")&&!prev.startsWith("---")){
+      merged[merged.length-1]=prev+"\n"+r;
+    }else{
+      merged.push(r);
+    }
+  }
+  return merged.join("\n\n");
+}
+
 function typeset(text:string):{title:string;blocks:Block[]} {
   var lines=text.trim().split("\n"), blocks:Block[]=[], title="未命名文档", ch=0;
   for(var i=0;i<lines.length;i++){
@@ -348,7 +409,7 @@ export default function DocNewPage() {
 
   function cycleTheme(){var ks=["default","serif","dark","minimal"] as Theme[];setTheme(ks[(ks.indexOf(theme)+1)%ks.length]);}
   function doCopy(){var t=blocks.map(function(b){return b.type==="list"?(b.items||[]).join("\n"):b.content;}).join("\n\n");navigator.clipboard.writeText(t);setCopied(true);setTimeout(function(){setCopied(false);},2000);}
-  function doTypeset(){if(!input.trim())return;var r=typeset(input);setTitle(r.title);setBlocks(r.blocks);setStep("result");setTimeout(function(){window.scrollTo({top:0,behavior:"smooth"});},100);}
+  function doTypeset(){if(!input.trim())return;var r=typeset(smartSegment(input));setTitle(r.title);setBlocks(r.blocks);setStep("result");setTimeout(function(){window.scrollTo({top:0,behavior:"smooth"});},100);}
 
   // Pick renderer
   var renderers={business:BZ, media:MZ, academic:AZ, resume:RZ, marketing:KT, wechat:WZ} as {[k:string]:(bg:string,tp:Tpl)=>any};
