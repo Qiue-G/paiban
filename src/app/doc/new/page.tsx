@@ -24,13 +24,13 @@ var TP:Record<Layout,Tpl> = {
   media:     { id:"media", name:"新媒体图文", desc:"彩色卡片阵 · 圆角大图 · 社媒风格",
     pageBg:"#fdf6f0", textColor:"#3d2c1e", accent:"#ff6b35", accent2:"#ff8a60",
     titleColor:"#e85d2c", subColor:"#8b5e3c", cardBg:"#ffffff", cardBorder:"#ffe0d0", fontFamily:"system-ui" },
-  academic:  { id:"academic", name:"学术论文", desc:"宋体/楷体 · 两端对齐 · 首行缩进 · 页眉",
+  academic:  { id:"academic", name:"学术论文", desc:"衬线字体 · 两端对齐 · 首行缩进 · 目录页眉",
     pageBg:"#fcfaf5", textColor:"#2c2c2c", accent:"#8b0000", accent2:"#a52a2a",
     titleColor:"#1a1a1a", subColor:"#666666", cardBg:"#fefefe", cardBorder:"#d4c5a9", fontFamily:"'Noto Serif SC', 'SimSun', serif" },
-  resume:    { id:"resume", name:"简历名片", desc:"大留白 · 细线分隔 · 时间轴 · 极简克制",
+  resume:    { id:"resume", name:"简历名片", desc:"大留白 · 时间轴 · 编号索引 · 极简克制",
     pageBg:"#ffffff", textColor:"#334155", accent:"#94a3b8", accent2:"#64748b",
     titleColor:"#0f172a", subColor:"#94a3b8", cardBg:"#ffffff", cardBorder:"#f1f5f9", fontFamily:"system-ui" },
-  marketing: { id:"marketing", name:"营销落地页", desc:"深色渐变 · 大字报 · 霓虹高亮 · 冲击感",
+  marketing: { id:"marketing", name:"营销落地页", desc:"深色渐变 · 特大标题 · 霓虹光晕 · 视觉冲击",
     pageBg:"#0a0815", textColor:"#cbd5e1", accent:"#a855f7", accent2:"#c084fc",
     titleColor:"#ffffff", subColor:"#94a3b8", cardBg:"#141028", cardBorder:"#2d1f6e", fontFamily:"system-ui" },
   wechat:    { id:"wechat", name:"微信聊天风", desc:"气泡对话 · 手机边框 · 绿色主题 · 轻松",
@@ -333,9 +333,14 @@ function MZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Academic ======
 function AZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-8 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
-      React.createElement("div",{className:"text-center mb-2 text-xs tracking-widest uppercase",style:{color:tp.subColor}},"\u2500\u2500 学术排版 \u2500\u2500"),
+      // Page header (页眉) - running header with title
+      React.createElement("div",{className:"flex items-center justify-between pb-4 mb-10 border-b",style:{borderColor:tp.cardBorder}},
+        React.createElement("div",{className:"flex items-center gap-2"},
+          React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent}}),
+          React.createElement("span",{className:"text-[10px] tracking-widest uppercase",style:{color:tp.subColor}},props.title||"学术文稿")),
+        React.createElement("span",{className:"text-[10px]",style:{color:tp.subColor}},"\u00A9 2026")),
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 text-center"},
           React.createElement("h1",{className:"text-2xl font-bold tracking-wide leading-relaxed",style:{color:tp.titleColor}},b.content),
@@ -370,7 +375,11 @@ function RZ(contentBg:string,tp:Tpl) {
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-16"},
           React.createElement("h1",{className:"text-lg font-light tracking-[0.3em] uppercase",style:{color:tp.titleColor}},b.content),
           React.createElement("div",{className:"mt-5 w-6 h-px",style:{backgroundColor:tp.accent}}));
-        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-14 mb-6",style:{scrollMarginTop:"5rem"}},
+        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"relative mt-14 mb-6 pl-8",style:{scrollMarginTop:"5rem"}},
+          // Timeline dot
+          React.createElement("div",{className:"absolute left-0 top-1 w-2.5 h-2.5 rounded-full border-2",style:{borderColor:tp.accent,backgroundColor:tp.pageBg}}),
+          // Timeline line (connects all chapters)
+          React.createElement("div",{className:"absolute left-[4px] top-4 bottom-0 w-px",style:{backgroundColor:tp.accent,opacity:0.2}}),
           React.createElement("span",{className:"text-[10px] tracking-[0.3em] uppercase block mb-2",style:{color:tp.accent}},String(b.chapterNum||0).padStart(2,"0")),
           React.createElement("h2",{className:"text-sm font-medium",style:{color:tp.titleColor}},b.content),
           React.createElement("div",{className:"mt-3 w-full h-px",style:{backgroundColor:tp.cardBorder}}));
@@ -397,9 +406,9 @@ function KT(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[]}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-10",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
-        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 p-8 -mx-6 text-center rounded-3xl",style:{background:"linear-gradient(135deg, "+tp.accent+" 0%, "+tp.accent2+" 100%)"}},
+        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 p-10 -mx-6 text-center rounded-3xl",style:{background:"linear-gradient(135deg, "+tp.accent+" 0%, "+tp.accent2+" 100%)"}},
           React.createElement("span",{className:"inline-block px-3 py-1 rounded-full text-xs font-bold mb-4",style:{backgroundColor:"rgba(255,255,255,0.2)",color:"#fff"}},"\uD83D\uDD25 TRENDING"),
-          React.createElement("h1",{className:"text-3xl font-black leading-tight text-white"},b.content));
+          React.createElement("h1",{className:"text-4xl md:text-5xl font-black leading-tight text-white",style:{textShadow:"0 0 30px rgba(255,255,255,0.3), 0 0 60px rgba(168,85,247,0.4)"}},b.content));
         if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-14 mb-8",style:{scrollMarginTop:"5rem"}},
           React.createElement("span",{className:"text-xs tracking-[0.3em] uppercase block mb-3 font-bold",style:{color:tp.accent2}},"Part "+String(b.chapterNum).padStart(2,"0")),
           React.createElement("h2",{className:"text-2xl font-black",style:{color:tp.titleColor}},b.content));
