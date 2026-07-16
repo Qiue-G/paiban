@@ -13,7 +13,7 @@ export default function AdminDashboard() {
         {stats.map((s, i) => (
           <div key={i} className="bg-white rounded-2xl border border-border p-5">
             <div className="flex items-center justify-between mb-3">
-              <span className="text-xs text-secondary">{s.label}</span>
+              <span className="text-xs text-muted-foreground">{s.label}</span>
               <i className={`fas ${s.icon} ${s.color}`} />
             </div>
             <div className="text-2xl font-bold text-dark">{s.value}</div>

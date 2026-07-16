@@ -15,7 +15,7 @@ export default function UserCenter() {
   return (
     <div className="min-h-screen bg-bg-light">
       <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">个人中心</h1>
       </header>
 
@@ -27,7 +27,7 @@ export default function UserCenter() {
           </div>
           <div className="flex-1">
             <div className="font-semibold text-dark">{user.name}</div>
-            <div className="text-xs text-secondary mt-0.5">
+            <div className="text-xs text-muted-foreground mt-0.5">
               {user.vip ? `VIP 有效期至 ${user.expireDate}` : "普通用户"}
             </div>
           </div>

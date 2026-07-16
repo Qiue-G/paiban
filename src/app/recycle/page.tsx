@@ -9,7 +9,7 @@ export default function RecyclePage() {
   return (
     <div className="min-h-screen bg-bg-light">
       <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/user" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">回收站</h1>
         <div className="ml-auto text-xs text-secondary-light">30天后自动清除</div>
       </header>
@@ -20,7 +20,7 @@ export default function RecyclePage() {
             <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center text-primary mx-auto mb-4">
               <i className="fas fa-trash-can text-2xl" />
             </div>
-            <p className="text-secondary text-sm">回收站为空</p>
+            <p className="text-muted-foreground text-sm">回收站为空</p>
           </div>
         ) : (
           <div className="space-y-2">
@@ -38,7 +38,7 @@ export default function RecyclePage() {
                 <button className="text-xs text-primary">恢复</button>
               </div>
             ))}
-            <button className="w-full rounded-xl border border-border py-2.5 text-xs text-secondary mt-4 hover:text-destructive hover:border-destructive/20 transition-colors">
+            <button className="w-full rounded-xl border border-border py-2.5 text-xs text-muted-foreground mt-4 hover:text-destructive hover:border-destructive/20 transition-colors">
               清空回收站
             </button>
           </div>

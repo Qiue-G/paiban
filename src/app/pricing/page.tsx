@@ -67,7 +67,7 @@ export default function PricingPage() {
             选择适合你的
             <span className="text-primary">方案</span>
           </h1>
-          <p className="text-secondary max-w-xl mx-auto">
+          <p className="text-muted-foreground max-w-xl mx-auto">
             数千名用户已通过 TeXpeed 改变了他们的创作与阅读体验
           </p>
         </div>
@@ -95,7 +95,7 @@ export default function PricingPage() {
               </div>
               <ul className="space-y-2.5 mb-8">
                 {plan.features.map((f) => (
-                  <li key={f} className="flex items-start gap-2 text-sm text-secondary">
+                  <li key={f} className="flex items-start gap-2 text-sm text-muted-foreground">
                     <i className="fas fa-check text-xs text-green-500 mt-1 shrink-0" />
                     {f}
                   </li>

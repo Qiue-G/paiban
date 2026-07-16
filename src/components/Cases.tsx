@@ -28,7 +28,7 @@ export default function Cases() {
             AI 排版
             <span className="text-primary">案例展示</span>
           </h2>
-          <p className="text-secondary max-w-xl mx-auto">
+          <p className="text-muted-foreground max-w-xl mx-auto">
             看 AI 如何将普通文字变为视觉艺术品
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function Cases() {
                 {c.tag}
               </span>
               <h3 className="text-xl font-semibold text-dark mb-3">{c.title}</h3>
-              <p className="text-sm text-secondary leading-relaxed">{c.desc}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{c.desc}</p>
               <div className="mt-6 h-40 rounded-xl bg-white/80 border border-border/50 flex items-center justify-center text-secondary-light text-sm">
                 <i className="fas fa-image text-3xl opacity-30" />
               </div>

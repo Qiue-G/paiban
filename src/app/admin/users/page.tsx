@@ -16,11 +16,11 @@ export default function UsersAdmin() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border bg-bg-light">
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">用户名</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden sm:table-cell">邮箱</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">角色</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden md:table-cell">加入时间</th>
-                <th className="text-right px-4 py-3 text-xs font-medium text-secondary">文档</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground">用户名</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground hidden sm:table-cell">邮箱</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground">角色</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground hidden md:table-cell">加入时间</th>
+                <th className="text-right px-4 py-3 text-xs font-medium text-muted-foreground">文档</th>
               </tr>
             </thead>
             <tbody>
@@ -32,14 +32,14 @@ export default function UsersAdmin() {
                     </div>
                     {u.name}
                   </td>
-                  <td className="px-4 py-3 text-secondary text-xs hidden sm:table-cell">{u.email}</td>
+                  <td className="px-4 py-3 text-muted-foreground text-xs hidden sm:table-cell">{u.email}</td>
                   <td className="px-4 py-3">
                     <span className={`text-[10px] px-2 py-0.5 rounded-full ${
                       u.role === "VIP用户" ? "bg-purple-50 text-purple-600" : "bg-gray-100 text-gray-500"
                     }`}>{u.role}</span>
                   </td>
                   <td className="px-4 py-3 text-secondary-light text-xs hidden md:table-cell">{u.joined}</td>
-                  <td className="px-4 py-3 text-secondary text-xs text-right">{u.docs}</td>
+                  <td className="px-4 py-3 text-muted-foreground text-xs text-right">{u.docs}</td>
                 </tr>
               ))}
             </tbody>

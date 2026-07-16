@@ -26,7 +26,7 @@ export default function Hero() {
             智能文档排版引擎
           </h1>
 
-          <p className="text-lg text-secondary max-w-2xl mx-auto mb-10">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
             基于AI大模型的语义理解，30 秒将无格式文本蜕变为出版级精美视觉
           </p>
 

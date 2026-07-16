@@ -4,7 +4,7 @@ export default function MagicPage() {
   return (
     <div className="min-h-screen bg-white">
       <header className="border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">一键排版</h1>
       </header>
 
@@ -15,7 +15,7 @@ export default function MagicPage() {
               <i className="fas fa-wand-magic-sparkles text-2xl" />
             </div>
             <h2 className="text-xl font-bold text-dark mb-2">一键AI排版</h2>
-            <p className="text-sm text-secondary">粘贴无格式文本，30秒出片</p>
+            <p className="text-sm text-muted-foreground">粘贴无格式文本，30秒出片</p>
           </div>
 
           <textarea
@@ -28,7 +28,7 @@ export default function MagicPage() {
               <i className="fas fa-wand-magic-sparkles mr-1.5" />
               开始排版
             </button>
-            <button className="rounded-xl border border-border px-4 py-3 text-sm text-secondary hover:bg-bg-light transition-colors">
+            <button className="rounded-xl border border-border px-4 py-3 text-sm text-muted-foreground hover:bg-bg-light transition-colors">
               <i className="fas fa-upload" />
             </button>
           </div>
@@ -37,7 +37,7 @@ export default function MagicPage() {
             {["产品需求", "工作报告", "学术论文", "营销文案", "技术博客"].map((tag) => (
               <button
                 key={tag}
-                className="rounded-full border border-border px-3 py-1 text-[10px] text-secondary hover:border-primary/30 hover:text-primary transition-colors"
+                className="rounded-full border border-border px-3 py-1 text-[10px] text-muted-foreground hover:border-primary/30 hover:text-primary transition-colors"
               >
                 {tag}
               </button>

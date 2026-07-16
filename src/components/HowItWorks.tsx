@@ -39,7 +39,7 @@ export default function HowItWorks() {
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
             如何<span className="text-primary">使用</span>
           </h2>
-          <p className="text-secondary max-w-xl mx-auto">
+          <p className="text-muted-foreground max-w-xl mx-auto">
             五步完成从无格式文本到精美视觉的蜕变
           </p>
         </div>
@@ -63,7 +63,7 @@ export default function HowItWorks() {
                 </h3>
                 <ul className="space-y-2">
                   {s.items.map((item, j) => (
-                    <li key={j} className="flex items-start gap-2 text-sm text-secondary">
+                    <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground">
                       <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-primary/40 shrink-0" />
                       {item}
                     </li>

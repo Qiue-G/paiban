@@ -9,7 +9,7 @@ export default function OrdersPage() {
   return (
     <div className="min-h-screen bg-bg-light">
       <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/user" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">我的订单</h1>
       </header>
 
@@ -19,7 +19,7 @@ export default function OrdersPage() {
             <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center text-primary mx-auto mb-4">
               <i className="fas fa-basket-shopping text-2xl" />
             </div>
-            <p className="text-secondary text-sm">暂无订单记录</p>
+            <p className="text-muted-foreground text-sm">暂无订单记录</p>
           </div>
         ) : (
           orders.map((o, i) => (

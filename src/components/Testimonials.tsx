@@ -34,7 +34,7 @@ export default function Testimonials() {
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
             用户<span className="text-primary">评价</span>
           </h2>
-          <p className="text-secondary max-w-xl mx-auto">
+          <p className="text-muted-foreground max-w-xl mx-auto">
             看看创作者们怎么说
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function Testimonials() {
                   <i key={j} className="fas fa-star text-[10px]" />
                 ))}
               </div>
-              <p className="text-xs text-secondary leading-relaxed mb-4 flex-1">
+              <p className="text-xs text-muted-foreground leading-relaxed mb-4 flex-1">
                 "{t.quote}"
               </p>
               <div className="border-t border-border pt-3">

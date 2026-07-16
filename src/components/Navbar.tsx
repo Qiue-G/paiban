@@ -31,13 +31,13 @@ export default function Navbar() {
           </Link>
           <Link
             href="/docs"
-            className="text-sm font-medium text-secondary hover:text-primary transition-colors"
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
           >
             文档库
           </Link>
           <Link
             href="/community"
-            className="text-sm font-medium text-secondary hover:text-primary transition-colors"
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
           >
             加入用户群
           </Link>
@@ -67,10 +67,10 @@ export default function Navbar() {
             <Link href="/" className="text-sm font-medium text-dark py-1">
               首页
             </Link>
-            <Link href="/docs" className="text-sm font-medium text-secondary py-1">
+            <Link href="/docs" className="text-sm font-medium text-muted-foreground py-1">
               文档库
             </Link>
-            <Link href="/community" className="text-sm font-medium text-secondary py-1">
+            <Link href="/community" className="text-sm font-medium text-muted-foreground py-1">
               加入用户群
             </Link>
             <button className="mt-2 w-full rounded-lg bg-primary py-2.5 text-sm font-medium text-white">

@@ -8,7 +8,7 @@ export default function Community() {
             <br />
             <span className="text-primary">改变了他们的创作与阅读体验</span>
           </h2>
-          <p className="text-secondary text-base mb-10">
+          <p className="text-muted-foreground text-base mb-10">
             现在，轮到你了。
           </p>
 
@@ -38,7 +38,7 @@ export default function Community() {
                   <i className={`fas ${item.icon} text-lg`} />
                 </div>
                 <h4 className="font-semibold text-dark mb-1">{item.title}</h4>
-                <p className="text-sm text-secondary">{item.desc}</p>
+                <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
             ))}
           </div>

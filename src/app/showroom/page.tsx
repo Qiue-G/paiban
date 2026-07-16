@@ -13,7 +13,7 @@ export default function Showroom() {
   return (
     <div className="min-h-screen bg-bg-light">
       <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">排版展示</h1>
       </header>
 
@@ -32,7 +32,7 @@ export default function Showroom() {
                   <i className={`fas ${s.icon}`} />
                 </div>
                 <h3 className="font-semibold text-dark mb-1">{s.title}</h3>
-                <p className="text-xs text-secondary">{s.desc}</p>
+                <p className="text-xs text-muted-foreground">{s.desc}</p>
               </div>
             </Link>
           ))}

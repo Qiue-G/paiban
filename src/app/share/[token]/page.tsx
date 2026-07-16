@@ -16,7 +16,7 @@ export default function SharePage() {
             分享文档
           </div>
         </div>
-        <button className="rounded-lg border border-border px-3 py-1 text-xs text-secondary hover:text-dark transition-colors">
+        <button className="rounded-lg border border-border px-3 py-1 text-xs text-muted-foreground hover:text-dark transition-colors">
           <i className="fas fa-copy mr-1" />复制链接
         </button>
       </header>
@@ -64,7 +64,7 @@ export default function SharePage() {
             <h2 className="text-lg font-semibold mt-8 mb-3">真实案例</h2>
             <div className="rounded-xl border border-border bg-bg-light p-5">
               <p className="text-xs text-secondary-light mb-2">排版前</p>
-              <p className="text-sm text-secondary mb-4 p-3 bg-white rounded-lg border border-border/50">
+              <p className="text-sm text-muted-foreground mb-4 p-3 bg-white rounded-lg border border-border/50">
                 用户在编辑器中输入的内容通常是纯文本格式，没有任何视觉层次。而AI排版引擎可以自动识别段落结构、语义重点，将乏味的文字转化为具有视觉美感的作品。
               </p>
               <p className="text-xs text-secondary-light mb-2">AI 排版后</p>

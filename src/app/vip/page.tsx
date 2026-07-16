@@ -31,7 +31,7 @@ export default function VIPPage() {
   return (
     <div className="min-h-screen bg-bg-light">
       <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
-        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <Link href="/user" className="text-muted-foreground"><i className="fas fa-arrow-left" /></Link>
         <h1 className="font-semibold text-dark">VIP会员</h1>
       </header>
 
@@ -50,13 +50,13 @@ export default function VIPPage() {
             )}
             <div className="flex items-end gap-1 mb-4">
               <span className="text-2xl font-bold text-dark">{plan.price}</span>
-              <span className="text-xs text-secondary line-through">{plan.original}</span>
-              {plan.period && <span className="text-xs text-secondary">{plan.period}</span>}
+              <span className="text-xs text-muted-foreground line-through">{plan.original}</span>
+              {plan.period && <span className="text-xs text-muted-foreground">{plan.period}</span>}
             </div>
             <div className="text-sm font-semibold text-dark mb-3">{plan.name}</div>
             <ul className="space-y-1.5 mb-4">
               {plan.features.map((f, j) => (
-                <li key={j} className="text-xs text-secondary flex items-center gap-1.5">
+                <li key={j} className="text-xs text-muted-foreground flex items-center gap-1.5">
                   <i className="fas fa-check text-primary text-[10px]" />{f}
                 </li>
               ))}

@@ -47,7 +47,7 @@ export default function Features() {
                 <i className={`fas ${feat.icon} text-lg`} />
               </div>
               <h3 className="text-base font-semibold text-dark mb-2">{feat.title}</h3>
-              <p className="text-xs text-secondary leading-relaxed">{feat.desc}</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">{feat.desc}</p>
             </div>
           ))}
         </div>

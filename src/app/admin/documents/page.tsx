@@ -21,18 +21,18 @@ export default function DocumentsAdmin() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border bg-bg-light">
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">文档名称</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">作者</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden sm:table-cell">日期</th>
-                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">状态</th>
-                <th className="text-right px-4 py-3 text-xs font-medium text-secondary hidden md:table-cell">浏览</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground">文档名称</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground">作者</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground hidden sm:table-cell">日期</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground">状态</th>
+                <th className="text-right px-4 py-3 text-xs font-medium text-muted-foreground hidden md:table-cell">浏览</th>
               </tr>
             </thead>
             <tbody>
               {docs.map((d, i) => (
                 <tr key={i} className="border-b border-border last:border-0 hover:bg-bg-light">
                   <td className="px-4 py-3 text-dark">{d.name}</td>
-                  <td className="px-4 py-3 text-secondary text-xs">{d.author}</td>
+                  <td className="px-4 py-3 text-muted-foreground text-xs">{d.author}</td>
                   <td className="px-4 py-3 text-secondary-light text-xs hidden sm:table-cell">{d.date}</td>
                   <td className="px-4 py-3">
                     <span className={`text-[10px] px-2 py-0.5 rounded-full ${
@@ -41,7 +41,7 @@ export default function DocumentsAdmin() {
                       "bg-gray-100 text-gray-500"
                     }`}>{d.status}</span>
                   </td>
-                  <td className="px-4 py-3 text-secondary text-xs text-right hidden md:table-cell">{d.views}</td>
+                  <td className="px-4 py-3 text-muted-foreground text-xs text-right hidden md:table-cell">{d.views}</td>
                 </tr>
               ))}
             </tbody>
