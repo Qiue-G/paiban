@@ -180,7 +180,7 @@ function analyzeText(text:string):TextProfile {
   var density=avgParaLen>300?"密集":avgParaLen>150?"适中":"稀疏";
 
   // Keywords (top frequent meaningful words)
-  var stopWords=["的","了","在","是","我","有","和","就","不","人","都","一","一个","上","也","很","到","说","要","去","你","会","着","没有","看","好","自己","这"];
+  var stopWords=["的","了","在","是","我","有","和","就","不","人","都","一","一个","上","也","很","到","说","要","去","你","会","着","没有","看","好","自己","这","他","她","它","们","那","可以","什么","怎么","因为","所以","但是","而且","然后","如果","还是","已经","比较","非常","可能","应该","开始","结束","发生","进行","使用","通过","出现","具有","需要","该","本","其","为","与","及","做","被","让","给","能","从","向","把","将","对","用","以","来","也","中","过","而","或","之","等","前","后","当","并","更","新","每"];
   var freq:{[k:string]:number}={};
   words.forEach(function(w){
     if(w.length>=2&&stopWords.indexOf(w)<0&&!/^[\d\W_]+$/.test(w)){
@@ -593,25 +593,17 @@ export default function DocNewPage() {
         React.createElement("button",{onClick:function(){setStep("template");setAutoLayout(null);},className:"text-xs underline",style:{color:thm.text}},"换模板")),
       React.createElement("p",{className:"text-xs mb-3",style:{color:thm.dim}},"支持：Markdown 语法 · # 标题 · ## 副标题 · **加粗** · - 列表 · > 引用 · --- 分隔 · 第X章 章节"),
       (function(){
-        var pf=input.trim()?analyzeText(smartSegment(input)):null;
-        return pf&&React.createElement("div",{className:"mb-4 p-4 rounded-xl border",style:{borderColor:thm.border,backgroundColor:pageIsDark?"#1e293b":"#f8fafc"}},
-          React.createElement("div",{className:"grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3"},
-            React.createElement("div",null,React.createElement("div",{className:"text-xs",style:{color:thm.dim}},"字数"),React.createElement("div",{className:"font-bold text-sm",style:{color:thm.text}},pf.wordCount)),
-            React.createElement("div",null,React.createElement("div",{className:"text-xs",style:{color:thm.dim}},"阅读时长"),React.createElement("div",{className:"font-bold text-sm",style:{color:thm.text}},pf.readingTime,"分钟")),
-            React.createElement("div",null,React.createElement("div",{className:"text-xs",style:{color:thm.dim}},"识别类型"),React.createElement("div",{className:"font-bold text-sm",style:{color:tpl.accent}},pf.genre)),
-            React.createElement("div",null,React.createElement("div",{className:"text-xs",style:{color:thm.dim}},"推荐模板"),React.createElement("div",{className:"font-bold text-sm",style:{color:tpl.accent2||tpl.accent}},TP[pf.suggestedLayout].name))),
-          React.createElement("div",{className:"flex flex-wrap gap-2"},
-            React.createElement("span",{className:"text-xs px-2 py-0.5 rounded-full",style:{backgroundColor:pageIsDark?"#334155":"#e2e8f0",color:thm.text}},
-              pf.avgParaLen>300?"高密度":"低密度"," · 每段约",pf.avgParaLen,"字"),
-            React.createElement("span",{className:"text-xs px-2 py-0.5 rounded-full",style:{backgroundColor:pageIsDark?"#334155":"#e2e8f0",color:thm.text}},pf.emoji>0?pf.emoji+" 个表情":"无表情符号"),
-            pf.keywords.slice(0,3).map(function(kw:string){return React.createElement("span",{key:kw,className:"text-xs px-2 py-0.5 rounded-full",style:{backgroundColor:tpl.accent+"1a",color:tpl.accent,fontWeight:500}},"#"+kw);})),
-          pf.emoji===0&&!pf.hasNumbers&&React.createElement("p",{className:"text-xs mt-2",style:{color:thm.dim}},"💡 提示：添加表情、数字或引号内容可让排版更丰富"),
-          React.createElement("div",{className:"flex items-center gap-2 mt-2 pt-2 border-t",style:{borderColor:thm.border}},
-            React.createElement("span",{className:"text-xs",style:{color:thm.dim}},"智能推荐:",
-              React.createElement("span",{className:"font-bold ml-1",style:{color:tpl.accent}},TP[pf.suggestedLayout].name),"模板 + ",
-              {default:"默认",serif:"衬线",dark:"暗色",minimal:"极简"}[pf.suggestedTheme],"主题"),
-            autoLayout===null?React.createElement("span",{className:"text-xs px-2 py-0.5 rounded",style:{backgroundColor:tpl.accent,color:"white"}},"将自动应用"):
-            React.createElement("span",{className:"text-xs",style:{color:thm.dim}},"（已手动选择，推荐失效）")));
+        var raw=input.trim();
+        if(!raw||raw.length<80)return null;
+        var pf=analyzeText(smartSegment(raw));
+        var kw=pf.keywords.filter(function(k){return k.length>=2&&!/[发去是有在和这那就她了过到得着也说会能要个]/.test(k[0]);}).slice(0,3);
+        return React.createElement("div",{className:"mb-3 flex flex-wrap items-center gap-2 px-3 py-2 rounded-lg text-xs",style:{borderColor:thm.border,border:"1px solid",backgroundColor:pageIsDark?"#1e293b":"#f8fafc"}},
+          React.createElement("span",{style:{color:thm.dim}},pf.wordCount,"字 · ",pf.readingTime,"分钟"),
+          pf.genre!=="通用"&&React.createElement("span",{className:"px-1.5 py-0.5 rounded font-bold",style:{backgroundColor:tpl.accent+"18",color:tpl.accent}},pf.genre),
+          kw.length>0&&kw.map(function(k:string){return React.createElement("span",{key:k,className:"px-1.5 py-0.5 rounded",style:{backgroundColor:pageIsDark?"#334155":"#e2e8f0",color:thm.text}},"#"+k);}),
+          React.createElement("span",{style:{color:thm.dim}},"\u2192 ",TP[pf.suggestedLayout].name,"模板"),
+          autoLayout===null?React.createElement("span",{style:{color:tpl.accent,fontSize:11}},"\u25C9"):
+          React.createElement("button",{onClick:function(){setAutoLayout(null);},className:"underline",style:{color:thm.dim}},"重置推荐"));
       })(),
       React.createElement("textarea",{value:input,onChange:function(e:any){setInput(e.target.value);},
         placeholder:"第一行为标题\n\n第1章 项目背景分析\n本章介绍项目启动的宏观环境。\n\n**核心结论：市场正经历结构性转变。**\n\n## 细分市场洞察\n\n- 第一代产品已进入成熟期\n- 新兴技术带来颠覆性机会\n- 用户习惯正在快速迁移\n\n> 行业专家指出：未来三年将出现三到五家百亿级平台。\n\n---\n\n第2章 战略执行路线图\n本章阐述具体落地计划。",
