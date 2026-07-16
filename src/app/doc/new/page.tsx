@@ -384,12 +384,16 @@ export default function DocNewPage() {
         ];
         return (
           <div className="fixed bottom-6 right-6 flex flex-col gap-2 z-30">
-            {features.map((f) => (
-              <div key={f.label} className={`flex items-center gap-2 px-3 py-2 rounded-full text-xs shadow-lg transition-all ${f.ok ? "bg-white text-[#1C1D21]" : "bg-white/60 text-[#9CA3AF]"}`}>
-                <i className={`fas ${f.icon} w-3 text-center`} style={{ color: f.ok ? accentHex : "#9CA3AF" }} />{f.label}
-                {f.ok && <span className="w-1.5 h-1.5 rounded-full bg-green-400" />}
-              </div>
-            ))}
+            {features.map((f) => {
+              const divCls = "flex items-center gap-2 px-3 py-2 rounded-full text-xs shadow-lg transition-all " + (f.ok ? "bg-white text-[#1C1D21]" : "bg-white/60 text-[#9CA3AF]");
+              const iconCls = "fas " + f.icon + " w-3 text-center";
+              return (
+                <div key={f.label} className={divCls}>
+                  <i className={iconCls} style={{ color: f.ok ? accentHex : "#9CA3AF" }} />{f.label}
+                  {f.ok && <span className="w-1.5 h-1.5 rounded-full bg-green-400" />}
+                </div>
+              );
+            })}
           </div>
         );
       })()}
