@@ -1,1 +1,44 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlcm8oKSB7CiAgcmV0dXJuICgKICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGJnLXdoaXRlIj4KICAgICAgey8qIEJhY2tncm91bmQgZ3JhZGllbnQgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLWIgZnJvbS1bI2Y0ZjRmZV0gdmlhLXdoaXRlIHRvLXdoaXRlIiAvPgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgbGc6cHgtOCBwdC0yNCBwYi0xNiByZWxhdGl2ZSB6LTEwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWF4LXctNHhsIG14LWF1dG8iPgogICAgICAgICAgey8qIEJhZGdlICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1wcmltYXJ5LzIwIGJnLWFjY2VudCBweC00IHB5LTEuNSB0ZXh0LXNtIHRleHQtcHJpbWFyeSBtYi04Ij4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGgtMiB3LTIiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5saW5lLWZsZXggaC1mdWxsIHctZnVsbCBhbmltYXRlLXBpbmcgcm91bmRlZC1mdWxsIGJnLWdyZWVuLTQwMCBvcGFjaXR5LTc1IiAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmVsYXRpdmUgaW5saW5lLWZsZXggaC0yIHctMiByb3VuZGVkLWZ1bGwgYmctZ3JlZW4tNTAwIiAvPgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIFRlWHBlZWQgwrcgQUkgTGF5b3V0IEVuZ2luZQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtNHhsIHNtOnRleHQtNXhsIGxnOnRleHQtNnhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsgbWItNiB0cmFja2luZy10aWdodCBsZWFkaW5nLXRpZ2h0Ij4KICAgICAgICAgICAg6aaW5qy+44CMQUktTmF0aXZl44CNCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSI+5Y6f5paH5LiN5Yig5pS5PC9zcGFuPgogICAgICAgICAgICDmmbrog73mlofmoaPmjpLniYjlvJXmk44KICAgICAgICAgIDwvaDE+CgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtc2Vjb25kYXJ5IG1heC13LTJ4bCBteC1hdXRvIG1iLTEwIj4KICAgICAgICAgICAg5Z+65LqOQUnlpKfmqKHlnovnmoTor63kuYnnkIbop6PvvIwzMCDnp5LlsIbml6DmoLzlvI/mlofmnKzonJXlj5jkuLrlh7rniYjnuqfnsr7nvo7op4bop4kKICAgICAgICAgIDwvcD4KCiAgICAgICAgICA8TGluawogICAgICAgICAgICBocmVmPSIvZG9jLzEiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQteGwgYmctcHJpbWFyeSBweC04IHB5LTMuNSB0ZXh0LWJhc2UgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSBob3ZlcjpvcGFjaXR5LTkwIHRyYW5zaXRpb24tb3BhY2l0eSBzaGFkb3ctbGcgc2hhZG93LXByaW1hcnkvMjUiCiAgICAgICAgICA+CiAgICAgICAgICAgIOW8gOWni+aOkueJiAogICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1yaWdodCB0ZXh0LXNtIiAvPgogICAgICAgICAgPC9MaW5rPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9Cg==
+"use client";
+
+import Link from "next/link";
+
+export default function Hero() {
+  return (
+    <section className="relative overflow-hidden bg-white">
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#f4f4fe] via-white to-white" />
+
+      <div className="container mx-auto px-4 lg:px-8 pt-24 pb-16 relative z-10">
+        <div className="text-center max-w-4xl mx-auto">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-accent px-4 py-1.5 text-sm text-primary mb-8">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+            </span>
+            TeXpeed · AI Layout Engine
+          </div>
+
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-dark mb-6 tracking-tight leading-tight">
+            首款「AI-Native」
+            <br />
+            <span className="text-primary">原文不删改</span>
+            智能文档排版引擎
+          </h1>
+
+          <p className="text-lg text-secondary max-w-2xl mx-auto mb-10">
+            基于AI大模型的语义理解，30 秒将无格式文本蜕变为出版级精美视觉
+          </p>
+
+          <Link
+            href="/doc/1"
+            className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 text-base font-medium text-white hover:opacity-90 transition-opacity shadow-lg shadow-primary/25"
+          >
+            开始排版
+            <i className="fas fa-arrow-right text-sm" />
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}

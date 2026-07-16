@@ -1,1 +1,21 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENUQSgpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0yMCBiZy1iZy1saWdodCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IGxnOnB4LTggdGV4dC1jZW50ZXIiPgogICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBzbTp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1kYXJrIG1iLTMiPgogICAgICAgICAg5byA5aeL5o6S54mICiAgICAgICAgPC9oMj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5IHRleHQtYmFzZSBtYi04Ij7nq4vkuqvmmbrog73mjpLniYjkvZPpqow8L3A+CiAgICAgICAgPExpbmsKICAgICAgICAgIGhyZWY9Ii9kb2MvMSIKICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQteGwgYmctcHJpbWFyeSBweC04IHB5LTMuNSB0ZXh0LWJhc2UgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSBob3ZlcjpvcGFjaXR5LTkwIHRyYW5zaXRpb24tb3BhY2l0eSBzaGFkb3ctbGcgc2hhZG93LXByaW1hcnkvMjUiCiAgICAgICAgPgogICAgICAgICAg5byA5aeL5o6S54mICiAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1yaWdodCB0ZXh0LXNtIiAvPgogICAgICAgIDwvTGluaz4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo=
+import Link from "next/link";
+
+export default function CTA() {
+  return (
+    <section className="py-20 bg-bg-light">
+      <div className="container mx-auto px-4 lg:px-8 text-center">
+        <h2 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
+          开始排版
+        </h2>
+        <p className="text-secondary text-base mb-8">立享智能排版体验</p>
+        <Link
+          href="/doc/1"
+          className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 text-base font-medium text-white hover:opacity-90 transition-opacity shadow-lg shadow-primary/25"
+        >
+          开始排版
+          <i className="fas fa-arrow-right text-sm" />
+        </Link>
+      </div>
+    </section>
+  );
+}

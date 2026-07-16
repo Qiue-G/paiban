@@ -1,1 +1,123 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IHBsYW5zID0gWwogIHsKICAgIG5hbWU6ICLlhY3otLnniYgiLAogICAgcHJpY2U6ICIwIiwKICAgIGRlc2M6ICLkvZPpqowgQUkg5o6S54mI5Z+656GA5Yqf6IO9IiwKICAgIGZlYXR1cmVzOiBbCiAgICAgICLmr4/mnIggNSDnr4cgQUkg5o6S54mIIiwKICAgICAgIjMg56eN6aOO5qC85qih5p2/IiwKICAgICAgIuWfuuehgOWvvOWHuuWKn+iDvSIsCiAgICAgICLmoIflh4blrZfkvZPlupMiLAogICAgXSwKICAgIGN0YTogIuWFjei0ueS9v+eUqCIsCiAgICBwb3B1bGFyOiBmYWxzZSwKICB9LAogIHsKICAgIG5hbWU6ICLkuJPkuJrniYgiLAogICAgcHJpY2U6ICIyOSIsCiAgICBkZXNjOiAi6YCC5ZCI5YaF5a655Yib5L2c6ICFIiwKICAgIGZlYXR1cmVzOiBbCiAgICAgICLmr4/mnIggMTAwIOevhyBBSSDmjpLniYgiLAogICAgICAiMTIg56eN6aOO5qC85qih5p2/5YWo6YOoIiwKICAgICAgIkFJIOmFjeWbviAmIOWwgemdoueUn+aIkCIsCiAgICAgICLpq5jnuqflr7zlh7ogKEhUTUwvUERGKSIsCiAgICAgICLoh6rlrprkuYnkuLvpopjphY3oibIiLAogICAgICAi5LyY5YWI5oqA5pyv5pSv5oyBIiwKICAgIF0sCiAgICBjdGE6ICLnq4vljbPorqLpmIUiLAogICAgcG9wdWxhcjogdHJ1ZSwKICB9LAogIHsKICAgIG5hbWU6ICLlm6LpmJ/niYgiLAogICAgcHJpY2U6ICI5OSIsCiAgICBkZXNjOiAi6YCC5ZCI5Zui6Zif5Y2P5L2cIiwKICAgIGZlYXR1cmVzOiBbCiAgICAgICLml6DpmZAgQUkg5o6S54mI5qyh5pWwIiwKICAgICAgIuaJgOacieS4k+S4mueJiOWKn+iDvSIsCiAgICAgICLlm6LpmJ/ljY/kvZznqbrpl7QiLAogICAgICAi566h55CG5ZCO5Y+wIiwKICAgICAgIkFQSSDmjqXlj6MiLAogICAgICAi5LiT5bGe5a6i5oi35oiQ5Yqf57uP55CGIiwKICAgIF0sCiAgICBjdGE6ICLogZTns7vplIDllK4iLAogICAgcG9wdWxhcjogZmFsc2UsCiAgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFByaWNpbmdQYWdlKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJnLWxpZ2h0Ij4KICAgICAgey8qIEhlYWRlciAqL30KICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlci1iIGJvcmRlci1ib3JkZXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IGxnOnB4LTggZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGgtMTQiPgogICAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LWRhcmsgaG92ZXI6dGV4dC1wcmltYXJ5IHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgICAgPGkgY2xhc3NOYW1lPSJmYXMgZmEtYXJyb3ctbGVmdCB0ZXh0LXNtIiAvPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSBmb250LWJvbGQiPlRlWHBlZWQ8L3NwYW4+CiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPG1haW4gY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IGxnOnB4LTggcHktMTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi0xMiI+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgc206dGV4dC00eGwgZm9udC1ib2xkIHRleHQtZGFyayBtYi0zIj4KICAgICAgICAgICAg6YCJ5oup6YCC5ZCI5L2g55qECiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5Ij7mlrnmoYg8L3NwYW4+CiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSBtYXgtdy14bCBteC1hdXRvIj4KICAgICAgICAgICAg5pWw5Y2D5ZCN55So5oi35bey6YCa6L+HIFRlWHBlZWQg5pS55Y+Y5LqG5LuW5Lus55qE5Yib5L2c5LiO6ZiF6K+75L2T6aqMCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0zIGdhcC02IG1heC13LTV4bCBteC1hdXRvIj4KICAgICAgICAgIHtwbGFucy5tYXAoKHBsYW4pID0+ICgKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGtleT17cGxhbi5uYW1lfQogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIHJvdW5kZWQtMnhsIGJnLXdoaXRlIHAtOCAkewogICAgICAgICAgICAgICAgcGxhbi5wb3B1bGFyCiAgICAgICAgICAgICAgICAgID8gImJvcmRlci0yIGJvcmRlci1wcmltYXJ5IHNoYWRvdy1sZyBzaGFkb3ctcHJpbWFyeS8xMCIKICAgICAgICAgICAgICAgICAgOiAiYm9yZGVyIGJvcmRlci1ib3JkZXIiCiAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7cGxhbi5wb3B1bGFyICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTMgbGVmdC0xLzIgLXRyYW5zbGF0ZS14LTEvMiByb3VuZGVkLWZ1bGwgYmctcHJpbWFyeSBweC00IHB5LTAuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgICDmnIDlj5fmrKLov44KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtZGFyayBtYi0xIj57cGxhbi5uYW1lfTwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2Vjb25kYXJ5LWxpZ2h0IG1iLTQiPntwbGFuLmRlc2N9PC9wPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi02Ij4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC00eGwgZm9udC1ib2xkIHRleHQtZGFyayBmb250LWRpc3BsYXkiPsKle3BsYW4ucHJpY2V9PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5LWxpZ2h0Ij4v5pyIPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMi41IG1iLTgiPgogICAgICAgICAgICAgICAge3BsYW4uZmVhdHVyZXMubWFwKChmKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e2Z9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMiB0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS1jaGVjayB0ZXh0LXhzIHRleHQtZ3JlZW4tNTAwIG10LTEgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICAgICAge2Z9CiAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCByb3VuZGVkLXhsIHB5LTIuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICAgIHBsYW4ucG9wdWxhcgogICAgICAgICAgICAgICAgICAgID8gImJnLXByaW1hcnkgdGV4dC13aGl0ZSBob3ZlcjpiZy1wcmltYXJ5LWhvdmVyIgogICAgICAgICAgICAgICAgICAgIDogImJvcmRlciBib3JkZXItcHJpbWFyeSB0ZXh0LXByaW1hcnkgYmctd2hpdGUgaG92ZXI6YmctcHJpbWFyeS1saWdodCIKICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtwbGFuLmN0YX0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9tYWluPgoKICAgICAgPGZvb3RlciBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTYgdGV4dC14cyB0ZXh0LXNlY29uZGFyeS1saWdodCI+CiAgICAgICAg5YyX5Lqs6Ze55rW36YCg5rWq56eR5oqA5pyJ6ZmQ5YWs5Y+4IMK3IOS6rElDUOWkhzIwMjUxMjM2MjXlj7ctNAogICAgICA8L2Zvb3Rlcj4KICAgIDwvZGl2PgogICk7Cn0K
+"use client";
+
+import Link from "next/link";
+
+const plans = [
+  {
+    name: "免费版",
+    price: "0",
+    desc: "体验 AI 排版基础功能",
+    features: [
+      "每月 5 篇 AI 排版",
+      "3 种风格模板",
+      "基础导出功能",
+      "标准字体库",
+    ],
+    cta: "免费使用",
+    popular: false,
+  },
+  {
+    name: "专业版",
+    price: "29",
+    desc: "适合内容创作者",
+    features: [
+      "每月 100 篇 AI 排版",
+      "12 种风格模板全部",
+      "AI 配图 & 封面生成",
+      "高级导出 (HTML/PDF)",
+      "自定义主题配色",
+      "优先技术支持",
+    ],
+    cta: "立即订阅",
+    popular: true,
+  },
+  {
+    name: "团队版",
+    price: "99",
+    desc: "适合团队协作",
+    features: [
+      "无限 AI 排版次数",
+      "所有专业版功能",
+      "团队协作空间",
+      "管理后台",
+      "API 接口",
+      "专属客户成功经理",
+    ],
+    cta: "联系销售",
+    popular: false,
+  },
+];
+
+export default function PricingPage() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      {/* Header */}
+      <header className="bg-white border-b border-border">
+        <div className="container mx-auto px-4 lg:px-8 flex items-center justify-between h-14">
+          <Link href="/" className="flex items-center gap-2 text-dark hover:text-primary transition-colors">
+            <i className="fas fa-arrow-left text-sm" />
+            <span className="font-display font-bold">TeXpeed</span>
+          </Link>
+        </div>
+      </header>
+
+      <main className="container mx-auto px-4 lg:px-8 py-16">
+        <div className="text-center mb-12">
+          <h1 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
+            选择适合你的
+            <span className="text-primary">方案</span>
+          </h1>
+          <p className="text-secondary max-w-xl mx-auto">
+            数千名用户已通过 TeXpeed 改变了他们的创作与阅读体验
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {plans.map((plan) => (
+            <div
+              key={plan.name}
+              className={`relative rounded-2xl bg-white p-8 ${
+                plan.popular
+                  ? "border-2 border-primary shadow-lg shadow-primary/10"
+                  : "border border-border"
+              }`}
+            >
+              {plan.popular && (
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-0.5 text-xs font-medium text-white">
+                  最受欢迎
+                </div>
+              )}
+              <h3 className="text-lg font-semibold text-dark mb-1">{plan.name}</h3>
+              <p className="text-xs text-secondary-light mb-4">{plan.desc}</p>
+              <div className="mb-6">
+                <span className="text-4xl font-bold text-dark font-display">¥{plan.price}</span>
+                <span className="text-sm text-secondary-light">/月</span>
+              </div>
+              <ul className="space-y-2.5 mb-8">
+                {plan.features.map((f) => (
+                  <li key={f} className="flex items-start gap-2 text-sm text-secondary">
+                    <i className="fas fa-check text-xs text-green-500 mt-1 shrink-0" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <button
+                className={`w-full rounded-xl py-2.5 text-sm font-medium transition-colors ${
+                  plan.popular
+                    ? "bg-primary text-white hover:bg-primary-hover"
+                    : "border border-primary text-primary bg-white hover:bg-primary-light"
+                }`}
+              >
+                {plan.cta}
+              </button>
+            </div>
+          ))}
+        </div>
+      </main>
+
+      <footer className="text-center py-6 text-xs text-secondary-light">
+        北京闹海造浪科技有限公司 · 京ICP备2025123625号-4
+      </footer>
+    </div>
+  );
+}

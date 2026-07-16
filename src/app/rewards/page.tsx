@@ -1,1 +1,42 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IHJld2FyZHMgPSBbCiAgeyBkYXRlOiAiMjAyNi0wNy0xNSIsIGRlc2M6ICLmr4/ml6Xnrb7liLDlpZblirEiLCBhbW91bnQ6ICIrNSDnp6/liIYiIH0sCiAgeyBkYXRlOiAiMjAyNi0wNy0xNCIsIGRlc2M6ICLliIbkuqvlpZblirEiLCBhbW91bnQ6ICIrMTAg56ev5YiGIiB9LAogIHsgZGF0ZTogIjIwMjYtMDctMTMiLCBkZXNjOiAi5q+P5pel562+5Yiw5aWW5YqxIiwgYW1vdW50OiAiKzUg56ev5YiGIiB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUmV3YXJkc1BhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmctbGlnaHQiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iYmctd2hpdGUgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBweC00IHB5LTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgIDxMaW5rIGhyZWY9Ii91c2VyIiBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij48aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1sZWZ0IiAvPjwvTGluaz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayI+5aWW5Yqx6K6w5b2VPC9oMT4KICAgICAgPC9oZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNCBweS02IG1heC13LWxnIG14LWF1dG8iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTUgbWItNCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zZWNvbmRhcnkiPuW9k+WJjeenr+WIhjwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtZGFyayI+MzIwPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJyb3VuZGVkLXhsIGJnLXByaW1hcnkgcHgtNSBweS0yIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSI+CiAgICAgICAgICAgIOetvuWIsAogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAge3Jld2FyZHMubWFwKChyLCBpKSA9PiAoCiAgICAgICAgICAgIDxkaXYga2V5PXtpfSBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC0zIGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGFyayI+e3IuZGVzY308L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNlY29uZGFyeS1saWdodCBtdC0wLjUiPntyLmRhdGV9PC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZ3JlZW4tNjAwIj57ci5hbW91bnR9PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+import Link from "next/link";
+
+const rewards = [
+  { date: "2026-07-15", desc: "每日签到奖励", amount: "+5 积分" },
+  { date: "2026-07-14", desc: "分享奖励", amount: "+10 积分" },
+  { date: "2026-07-13", desc: "每日签到奖励", amount: "+5 积分" },
+];
+
+export default function RewardsPage() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">奖励记录</h1>
+      </header>
+
+      <div className="px-4 py-6 max-w-lg mx-auto">
+        <div className="bg-white rounded-2xl border border-border p-5 mb-4 flex items-center justify-between">
+          <div>
+            <div className="text-xs text-secondary">当前积分</div>
+            <div className="text-2xl font-bold text-dark">320</div>
+          </div>
+          <button className="rounded-xl bg-primary px-5 py-2 text-xs font-medium text-white">
+            签到
+          </button>
+        </div>
+
+        <div className="space-y-2">
+          {rewards.map((r, i) => (
+            <div key={i} className="bg-white rounded-xl border border-border p-3 flex justify-between items-center">
+              <div>
+                <div className="text-sm text-dark">{r.desc}</div>
+                <div className="text-[10px] text-secondary-light mt-0.5">{r.date}</div>
+              </div>
+              <span className="text-sm font-medium text-green-600">{r.amount}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}

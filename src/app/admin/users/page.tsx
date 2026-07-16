@@ -1,1 +1,51 @@
-Y29uc3QgdXNlcnMgPSBbCiAgeyBuYW1lOiAi5byg6ICB5biIIiwgZW1haWw6ICJ6aGFuZ0BleGFtcGxlLmNvbSIsIHJvbGU6ICJWSVDnlKjmiLciLCBqb2luZWQ6ICIyMDI2LTA2LTE1IiwgZG9jczogNDIgfSwKICB7IG5hbWU6ICLmnY7nvJbovpEiLCBlbWFpbDogImxpQGV4YW1wbGUuY29tIiwgcm9sZTogIlZJUOeUqOaItyIsIGpvaW5lZDogIjIwMjYtMDYtMjAiLCBkb2NzOiAyOCB9LAogIHsgbmFtZTogIueOi+e7j+eQhiIsIGVtYWlsOiAid2FuZ0BleGFtcGxlLmNvbSIsIHJvbGU6ICLmma7pgJrnlKjmiLciLCBqb2luZWQ6ICIyMDI2LTA3LTAxIiwgZG9jczogNSB9LAogIHsgbmFtZTogIumZiOWQjOWtpiIsIGVtYWlsOiAiY2hlbkBleGFtcGxlLmNvbSIsIHJvbGU6ICLmma7pgJrnlKjmiLciLCBqb2luZWQ6ICIyMDI2LTA3LTA1IiwgZG9jczogMTIgfSwKICB7IG5hbWU6ICLotbXogIHluIgiLCBlbWFpbDogInpoYW9AZXhhbXBsZS5jb20iLCByb2xlOiAiVklQ55So5oi3Iiwgam9pbmVkOiAiMjAyNi0wNi0yOCIsIGRvY3M6IDM1IH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBVc2Vyc0FkbWluKCkgewogIHJldHVybiAoCiAgICA8ZGl2PgogICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsgbWItNiI+55So5oi3566h55CGPC9oMj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlciBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJvdmVyZmxvdy14LWF1dG8iPgogICAgICAgICAgPHRhYmxlIGNsYXNzTmFtZT0idy1mdWxsIHRleHQtc20iPgogICAgICAgICAgICA8dGhlYWQ+CiAgICAgICAgICAgICAgPHRyIGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBiZy1iZy1saWdodCI+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkiPueUqOaIt+WQjTwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkgaGlkZGVuIHNtOnRhYmxlLWNlbGwiPumCrueusTwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkiPuinkuiJsjwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LWxlZnQgcHgtNCBweS0zIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkgaGlkZGVuIG1kOnRhYmxlLWNlbGwiPuWKoOWFpeaXtumXtDwvdGg+CiAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5Ij7mlofmoaM8L3RoPgogICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICB7dXNlcnMubWFwKCh1LCBpKSA9PiAoCiAgICAgICAgICAgICAgICA8dHIga2V5PXtpfSBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1ib3JkZXIgbGFzdDpib3JkZXItMCBob3ZlcjpiZy1iZy1saWdodCI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LWRhcmsgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTcgaC03IHJvdW5kZWQtZnVsbCBiZy1hY2NlbnQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1wcmltYXJ5IHRleHQtWzEwcHhdIGZvbnQtYm9sZCI+CiAgICAgICAgICAgICAgICAgICAgICB7dS5uYW1lLmNoYXJBdCgwKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICB7dS5uYW1lfQogICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgdGV4dC1zZWNvbmRhcnkgdGV4dC14cyBoaWRkZW4gc206dGFibGUtY2VsbCI+e3UuZW1haWx9PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2B0ZXh0LVsxMHB4XSBweC0yIHB5LTAuNSByb3VuZGVkLWZ1bGwgJHsKICAgICAgICAgICAgICAgICAgICAgIHUucm9sZSA9PT0gIlZJUOeUqOaItyIgPyAiYmctcHVycGxlLTUwIHRleHQtcHVycGxlLTYwMCIgOiAiYmctZ3JheS0xMDAgdGV4dC1ncmF5LTUwMCIKICAgICAgICAgICAgICAgICAgICB9YH0+e3Uucm9sZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXNlY29uZGFyeS1saWdodCB0ZXh0LXhzIGhpZGRlbiBtZDp0YWJsZS1jZWxsIj57dS5qb2luZWR9PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIHRleHQtc2Vjb25kYXJ5IHRleHQteHMgdGV4dC1yaWdodCI+e3UuZG9jc308L3RkPgogICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+const users = [
+  { name: "张老师", email: "zhang@example.com", role: "VIP用户", joined: "2026-06-15", docs: 42 },
+  { name: "李编辑", email: "li@example.com", role: "VIP用户", joined: "2026-06-20", docs: 28 },
+  { name: "王经理", email: "wang@example.com", role: "普通用户", joined: "2026-07-01", docs: 5 },
+  { name: "陈同学", email: "chen@example.com", role: "普通用户", joined: "2026-07-05", docs: 12 },
+  { name: "赵老师", email: "zhao@example.com", role: "VIP用户", joined: "2026-06-28", docs: 35 },
+];
+
+export default function UsersAdmin() {
+  return (
+    <div>
+      <h2 className="text-xl font-bold text-dark mb-6">用户管理</h2>
+
+      <div className="bg-white rounded-2xl border border-border overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border bg-bg-light">
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">用户名</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden sm:table-cell">邮箱</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">角色</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden md:table-cell">加入时间</th>
+                <th className="text-right px-4 py-3 text-xs font-medium text-secondary">文档</th>
+              </tr>
+            </thead>
+            <tbody>
+              {users.map((u, i) => (
+                <tr key={i} className="border-b border-border last:border-0 hover:bg-bg-light">
+                  <td className="px-4 py-3 text-dark flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-full bg-accent flex items-center justify-center text-primary text-[10px] font-bold">
+                      {u.name.charAt(0)}
+                    </div>
+                    {u.name}
+                  </td>
+                  <td className="px-4 py-3 text-secondary text-xs hidden sm:table-cell">{u.email}</td>
+                  <td className="px-4 py-3">
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+                      u.role === "VIP用户" ? "bg-purple-50 text-purple-600" : "bg-gray-100 text-gray-500"
+                    }`}>{u.role}</span>
+                  </td>
+                  <td className="px-4 py-3 text-secondary-light text-xs hidden md:table-cell">{u.joined}</td>
+                  <td className="px-4 py-3 text-secondary text-xs text-right">{u.docs}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}

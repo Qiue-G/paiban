@@ -1,1 +1,44 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IG9yZGVycyA9IFsKICB7IGlkOiAiVFgyMDI2MDcxNTAwMSIsIGRhdGU6ICIyMDI2LTA3LTE1IiwgcGxhbjogIuW5tOW6plZJUCIsIGFtb3VudDogIsKlMTk5LjAwIiwgc3RhdHVzOiAi5bey5a6M5oiQIiB9LAogIHsgaWQ6ICJUWDIwMjYwNjI4MDAyIiwgZGF0ZTogIjIwMjYtMDYtMjgiLCBwbGFuOiAi5pyI5bqmVklQIiwgYW1vdW50OiAiwqUyOS45MCIsIHN0YXR1czogIuW3suWujOaIkCIgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE9yZGVyc1BhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmctbGlnaHQiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iYmctd2hpdGUgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBweC00IHB5LTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgIDxMaW5rIGhyZWY9Ii91c2VyIiBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij48aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1sZWZ0IiAvPjwvTGluaz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayI+5oiR55qE6K6i5Y2VPC9oMT4KICAgICAgPC9oZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNCBweS02IHNwYWNlLXktMyBtYXgtdy1sZyBteC1hdXRvIj4KICAgICAgICB7b3JkZXJzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBweS0yMCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTE2IGgtMTYgcm91bmRlZC1mdWxsIGJnLWFjY2VudCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXByaW1hcnkgbXgtYXV0byBtYi00Ij4KICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS1iYXNrZXQtc2hvcHBpbmcgdGV4dC0yeGwiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5IHRleHQtc20iPuaaguaXoOiuouWNleiusOW9lTwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkgOiAoCiAgICAgICAgICBvcmRlcnMubWFwKChvLCBpKSA9PiAoCiAgICAgICAgICAgIDxkaXYga2V5PXtpfSBjbGFzc05hbWU9ImJnLXdoaXRlIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItYm9yZGVyIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLXN0YXJ0IG1iLTIiPgogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWRhcmsiPntvLnBsYW59PC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNlY29uZGFyeS1saWdodCBtdC0wLjUiPntvLmlkfTwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtZGFyayI+e28uYW1vdW50fTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gdGV4dC1bMTBweF0gdGV4dC1zZWNvbmRhcnktbGlnaHQiPgogICAgICAgICAgICAgICAgPHNwYW4+e28uZGF0ZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JlZW4tNjAwIj57by5zdGF0dXN9PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkpCiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import Link from "next/link";
+
+const orders = [
+  { id: "TX20260715001", date: "2026-07-15", plan: "年度VIP", amount: "¥199.00", status: "已完成" },
+  { id: "TX20260628002", date: "2026-06-28", plan: "月度VIP", amount: "¥29.90", status: "已完成" },
+];
+
+export default function OrdersPage() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">我的订单</h1>
+      </header>
+
+      <div className="px-4 py-6 space-y-3 max-w-lg mx-auto">
+        {orders.length === 0 ? (
+          <div className="text-center py-20">
+            <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center text-primary mx-auto mb-4">
+              <i className="fas fa-basket-shopping text-2xl" />
+            </div>
+            <p className="text-secondary text-sm">暂无订单记录</p>
+          </div>
+        ) : (
+          orders.map((o, i) => (
+            <div key={i} className="bg-white rounded-2xl border border-border p-4">
+              <div className="flex justify-between items-start mb-2">
+                <div>
+                  <div className="text-sm font-semibold text-dark">{o.plan}</div>
+                  <div className="text-[10px] text-secondary-light mt-0.5">{o.id}</div>
+                </div>
+                <span className="text-sm font-bold text-dark">{o.amount}</span>
+              </div>
+              <div className="flex justify-between text-[10px] text-secondary-light">
+                <span>{o.date}</span>
+                <span className="text-green-600">{o.status}</span>
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  );
+}

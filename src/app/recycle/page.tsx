@@ -1,1 +1,49 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IGRlbGV0ZWREb2NzID0gWwogIHsgbmFtZTogIuWto+W6puW3peS9nOaAu+e7k+aKpeWRiiIsIGRhdGU6ICIyMDI2LTA3LTE0IiwgZXhwaXJlOiAi5Ymp5L2ZIDI2IOWkqSIgfSwKICB7IG5hbWU6ICLkuqflk4HpnIDmsYLmlofmoaMgVjIiLCBkYXRlOiAiMjAyNi0wNy0xMiIsIGV4cGlyZTogIuWJqeS9mSAyNCDlpKkiIH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSZWN5Y2xlUGFnZSgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iZy1saWdodCI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJiZy13aGl0ZSBib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTQgcHktNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPExpbmsgaHJlZj0iL3VzZXIiIGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkiPjxpIGNsYXNzTmFtZT0iZmFzIGZhLWFycm93LWxlZnQiIC8+PC9MaW5rPgogICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1kYXJrIj7lm57mlLbnq5k8L2gxPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtbC1hdXRvIHRleHQteHMgdGV4dC1zZWNvbmRhcnktbGlnaHQiPjMw5aSp5ZCO6Ieq5Yqo5riF6ZmkPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTQgcHktNiBtYXgtdy1sZyBteC1hdXRvIj4KICAgICAgICB7ZGVsZXRlZERvY3MubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTIwIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiByb3VuZGVkLWZ1bGwgYmctYWNjZW50IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtcHJpbWFyeSBteC1hdXRvIG1iLTQiPgogICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT0iZmFzIGZhLXRyYXNoLWNhbiB0ZXh0LTJ4bCIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkgdGV4dC1zbSI+5Zue5pS256uZ5Li656m6PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICB7ZGVsZXRlZERvY3MubWFwKChkLCBpKSA9PiAoCiAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTkgaC05IHJvdW5kZWQtbGcgYmctYWNjZW50IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtcHJpbWFyeSI+CiAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPSJmYXMgZmEtZmlsZS1saW5lcyB0ZXh0LXNtIiAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWRhcmsiPntkLm5hbWV9PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtc2Vjb25kYXJ5LWxpZ2h0Ij57ZC5kYXRlfSDCtyB7ZC5leHBpcmV9PC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXByaW1hcnkiPuaBouWkjTwvYnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyIHB5LTIuNSB0ZXh0LXhzIHRleHQtc2Vjb25kYXJ5IG10LTQgaG92ZXI6dGV4dC1kZXN0cnVjdGl2ZSBob3Zlcjpib3JkZXItZGVzdHJ1Y3RpdmUvMjAgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgIOa4heepuuWbnuaUtuermQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+
+const deletedDocs = [
+  { name: "季度工作总结报告", date: "2026-07-14", expire: "剩余 26 天" },
+  { name: "产品需求文档 V2", date: "2026-07-12", expire: "剩余 24 天" },
+];
+
+export default function RecyclePage() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">回收站</h1>
+        <div className="ml-auto text-xs text-secondary-light">30天后自动清除</div>
+      </header>
+
+      <div className="px-4 py-6 max-w-lg mx-auto">
+        {deletedDocs.length === 0 ? (
+          <div className="text-center py-20">
+            <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center text-primary mx-auto mb-4">
+              <i className="fas fa-trash-can text-2xl" />
+            </div>
+            <p className="text-secondary text-sm">回收站为空</p>
+          </div>
+        ) : (
+          <div className="space-y-2">
+            {deletedDocs.map((d, i) => (
+              <div key={i} className="bg-white rounded-xl border border-border p-3 flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-lg bg-accent flex items-center justify-center text-primary">
+                    <i className="fas fa-file-lines text-sm" />
+                  </div>
+                  <div>
+                    <div className="text-sm text-dark">{d.name}</div>
+                    <div className="text-[10px] text-secondary-light">{d.date} · {d.expire}</div>
+                  </div>
+                </div>
+                <button className="text-xs text-primary">恢复</button>
+              </div>
+            ))}
+            <button className="w-full rounded-xl border border-border py-2.5 text-xs text-secondary mt-4 hover:text-destructive hover:border-destructive/20 transition-colors">
+              清空回收站
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

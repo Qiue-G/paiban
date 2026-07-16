@@ -1,1 +1,43 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IHNob3djYXNlcyA9IFsKICB7IHRpdGxlOiAi5Lqn5ZOB6ZyA5rGC5paH5qGjIiwgZGVzYzogIue7k+aehOWMluOAgeWxguasoeWIhuaYjueahCBQUkQg5o6S54mI56S65L6LIiwgaWNvbjogImZhLWZpbGUtbGluZXMiIH0sCiAgeyB0aXRsZTogIuWto+W6puW3peS9nOaAu+e7kyIsIGRlc2M6ICLmlbDmja7lj6/op4bljJYgKyDnsr7nvo7mjpLniYjnmoTlt6XkvZzmiqXlkYoiLCBpY29uOiAiZmEtY2hhcnQtc2ltcGxlIiB9LAogIHsgdGl0bGU6ICLlrabmnK/orrrmlociLCBkZXNjOiAi5Lil6LCo55qE5byV55So5qC85byP5LiO5a2m5pyv5Zu+6KGo5o6S54mIIiwgaWNvbjogImZhLWdyYWR1YXRpb24tY2FwIiB9LAogIHsgdGl0bGU6ICLokKXplIDplb/lm74iLCBkZXNjOiAi6YCC5ZCI56S+5Lqk5aqS5L2T55qE6ZW/5Zu+5paH5o6S54mI5pWI5p6cIiwgaWNvbjogImZhLXNoYXJlLW5vZGVzIiB9LAogIHsgdGl0bGU6ICLmioDmnK/ljZrlrqIiLCBkZXNjOiAi5Luj56CB5Z2XICsg5Zu+5paH5re35o6S55qE5oqA5pyv5paH56ugIiwgaWNvbjogImZhLWNvZGUiIH0sCiAgeyB0aXRsZTogIuS8muiurue6quimgSIsIGRlc2M6ICLmuIXmmbDnmoTorq7nqIvnu5PmnoTkuI7ph43ngrnpq5jkuq4iLCBpY29uOiAiZmEtY2xpcGJvYXJkLWxpc3QiIH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaG93cm9vbSgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iZy1saWdodCI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJiZy13aGl0ZSBib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTQgcHktNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+PGkgY2xhc3NOYW1lPSJmYXMgZmEtYXJyb3ctbGVmdCIgLz48L0xpbms+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWRhcmsiPuaOkueJiOWxleekujwvaDE+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgbGc6cHgtOCBweS0xMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTEwIj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTJ4bCBzbTp0ZXh0LTN4bCBmb250LWJvbGQgdGV4dC1kYXJrIG1iLTIiPgogICAgICAgICAgICDnsr7pgInmjpLniYg8c3BhbiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSI+5L2c5ZOBPC9zcGFuPgogICAgICAgICAgPC9oMj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMgZ2FwLTQgbWF4LXctNXhsIG14LWF1dG8iPgogICAgICAgICAge3Nob3djYXNlcy5tYXAoKHMsIGkpID0+ICgKICAgICAgICAgICAgPExpbmsga2V5PXtpfSBocmVmPXtgL2RvYy8ke2kgKyAxfWB9IGNsYXNzTmFtZT0iZ3JvdXAiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTYgaG92ZXI6Ym9yZGVyLXByaW1hcnkvMjAgaG92ZXI6c2hhZG93LW1kIHRyYW5zaXRpb24tYWxsIGgtZnVsbCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQteGwgYmctYWNjZW50IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtcHJpbWFyeSBtYi00IGdyb3VwLWhvdmVyOnNjYWxlLTExMCB0cmFuc2l0aW9uLXRyYW5zZm9ybSI+CiAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT17YGZhcyAke3MuaWNvbn1gfSAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayBtYi0xIj57cy50aXRsZX08L2gzPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2Vjb25kYXJ5Ij57cy5kZXNjfTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+
+const showcases = [
+  { title: "产品需求文档", desc: "结构化、层次分明的 PRD 排版示例", icon: "fa-file-lines" },
+  { title: "季度工作总结", desc: "数据可视化 + 精美排版的工作报告", icon: "fa-chart-simple" },
+  { title: "学术论文", desc: "严谨的引用格式与学术图表排版", icon: "fa-graduation-cap" },
+  { title: "营销长图", desc: "适合社交媒体的长图文排版效果", icon: "fa-share-nodes" },
+  { title: "技术博客", desc: "代码块 + 图文混排的技术文章", icon: "fa-code" },
+  { title: "会议纪要", desc: "清晰的议程结构与重点高亮", icon: "fa-clipboard-list" },
+];
+
+export default function Showroom() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">排版展示</h1>
+      </header>
+
+      <div className="container mx-auto px-4 lg:px-8 py-10">
+        <div className="text-center mb-10">
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-dark mb-2">
+            精选排版<span className="text-primary">作品</span>
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+          {showcases.map((s, i) => (
+            <Link key={i} href={`/doc/${i + 1}`} className="group">
+              <div className="bg-white rounded-2xl border border-border p-6 hover:border-primary/20 hover:shadow-md transition-all h-full">
+                <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center text-primary mb-4 group-hover:scale-110 transition-transform">
+                  <i className={`fas ${s.icon}`} />
+                </div>
+                <h3 className="font-semibold text-dark mb-1">{s.title}</h3>
+                <p className="text-xs text-secondary">{s.desc}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}

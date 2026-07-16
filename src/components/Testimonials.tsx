@@ -1,1 +1,66 @@
-Y29uc3QgdGVzdGltb25pYWxzID0gWwogIHsKICAgIHF1b3RlOiAi5L2c5Li65LiA5Liq5YaF5a655Yib5L2c6ICF77yMVGVYcGVlZCDluK7miJHoioLnnIHkuoblpKfph4/mjpLniYjml7bpl7TjgILku6XliY3miYvliqjmjpLniYjkuIDnr4fmlofnq6DopoHoirHljYrlsI/ml7bvvIznjrDlnKjlh6Dnp5Lpkp/lsLHmkJ7lrprkuobjgIJBSSDmjpLniYjnmoTmlYjmnpzmr5TmiJHoh6rlt7HmjpLnmoTlpb3lpJrkuobjgIIiLAogICAgbmFtZTogIuW8oOiAgeW4iCIsCiAgICByb2xlOiAi5YaF5a655Yib5L2c6ICFIiwKICB9LAogIHsKICAgIHF1b3RlOiAi5oiR57uP5bi46ZyA6KaB5Y+R5biD6ZW/5Zu+5paH77yMVGVYcGVlZCDnmoTkuLvpopjliIfmjaLlip/og73lpKrmo5LkuobjgILkuIDplK7lsLHog73liIfmjaLmlbTkuKrmlofmoaPnmoTop4bop4npo47moLzvvIzlho3kuZ/kuI3nlKjkuIDkuKrkuKrosIPmlbTkuobjgIIiLAogICAgbmFtZTogIuadjue8lui+kSIsCiAgICByb2xlOiAi6ZW/5Zu+5paH5L2c6ICFIiwKICB9LAogIHsKICAgIHF1b3RlOiAi5L2c5Li66IGM5Zy65Lq65aOr77yM5oiR57uP5bi46ZyA6KaB5YGa5oql5ZGK5ZKM5o+Q5qGI44CCVGVYcGVlZCDorqnmiJHnmoTmlofmoaPnnIvotbfmnaXkuJPkuJrkuoblvojlpJrlgI3vvIzpooblr7zpg73lpLjmiJHmjpLniYjmsLTlubPnqoHpo57njJvov5vjgIIiLAogICAgbmFtZTogIueOi+e7j+eQhiIsCiAgICByb2xlOiAi6IGM5Zy65Lq65aOrIiwKICB9LAogIHsKICAgIHF1b3RlOiAi5YaZ6K665paH55qE5pe25YCZ5pyA5aS055a855qE5bCx5piv5o6S54mI77yMVGVYcGVlZCDlroznvo7op6PlhrPkuobov5nkuKrpl67popjjgIJBSSDoh6rliqjor4bliKvlrabmnK/ph43ngrnlubbpq5jkuq7vvIzorqnmiJHnmoTorrrmloflsYLmrKHliIbmmI7jgIIiLAogICAgbmFtZTogIumZiOWQjOWtpiIsCiAgICByb2xlOiAi5a2m55SfIC8g56CU56m26ICFIiwKICB9LAogIHsKICAgIHF1b3RlOiAi5oiR5Zyo5pWZ6IKy6KGM5Lia5bel5L2c77yM57uP5bi46ZyA6KaB57yW6L6R5pWZ5a2m5p2Q5paZ44CCVGVYcGVlZCDnmoTlj6/op4bljJblm77ooajlip/og73nibnliKvlpb3nlKjvvIzlpI3mnYLnmoTnn6Xor4bngrnnlKjlm77ooajlsZXnpLrvvIzlrabnlJ/nkIbop6PotbfmnaXlrrnmmJPlpJrkuobjgIIiLAogICAgbmFtZTogIui1teiAgeW4iCIsCiAgICByb2xlOiAi5pWZ6IKy6ICFIiwKICB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVGVzdGltb25pYWxzKCkgewogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB5LTIwIGJnLXdoaXRlIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgbGc6cHgtOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTE0Ij4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBzbTp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1kYXJrIG1iLTMiPgogICAgICAgICAgICDnlKjmiLc8c3BhbiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSI+6K+E5Lu3PC9zcGFuPgogICAgICAgICAgPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkgbWF4LXcteGwgbXgtYXV0byI+CiAgICAgICAgICAgIOeci+eci+WIm+S9nOiAheS7rOaAjuS5iOivtAogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNSBnYXAtNCBtYXgtdy02eGwgbXgtYXV0byI+CiAgICAgICAgICB7dGVzdGltb25pYWxzLm1hcCgodCwgaSkgPT4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy13aGl0ZSBwLTUgaG92ZXI6Ym9yZGVyLXByaW1hcnkvMjAgaG92ZXI6c2hhZG93LXNtIHRyYW5zaXRpb24tYWxsIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0wLjUgdGV4dC1wcmltYXJ5IG1iLTMiPgogICAgICAgICAgICAgICAge1suLi5BcnJheSg1KV0ubWFwKChfLCBqKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxpIGtleT17an0gY2xhc3NOYW1lPSJmYXMgZmEtc3RhciB0ZXh0LVsxMHB4XSIgLz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNlY29uZGFyeSBsZWFkaW5nLXJlbGF4ZWQgbWItNCBmbGV4LTEiPgogICAgICAgICAgICAgICAgInt0LnF1b3RlfSIKICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci1ib3JkZXIgcHQtMyI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZGFyayI+e3QubmFtZX08L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNlY29uZGFyeS1saWdodCI+e3Qucm9sZX08L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo=
+const testimonials = [
+  {
+    quote: "作为一个内容创作者，TeXpeed 帮我节省了大量排版时间。以前手动排版一篇文章要花半小时，现在几秒钟就搞定了。AI 排版的效果比我自己排的好多了。",
+    name: "张老师",
+    role: "内容创作者",
+  },
+  {
+    quote: "我经常需要发布长图文，TeXpeed 的主题切换功能太棒了。一键就能切换整个文档的视觉风格，再也不用一个个调整了。",
+    name: "李编辑",
+    role: "长图文作者",
+  },
+  {
+    quote: "作为职场人士，我经常需要做报告和提案。TeXpeed 让我的文档看起来专业了很多倍，领导都夸我排版水平突飞猛进。",
+    name: "王经理",
+    role: "职场人士",
+  },
+  {
+    quote: "写论文的时候最头疼的就是排版，TeXpeed 完美解决了这个问题。AI 自动识别学术重点并高亮，让我的论文层次分明。",
+    name: "陈同学",
+    role: "学生 / 研究者",
+  },
+  {
+    quote: "我在教育行业工作，经常需要编辑教学材料。TeXpeed 的可视化图表功能特别好用，复杂的知识点用图表展示，学生理解起来容易多了。",
+    name: "赵老师",
+    role: "教育者",
+  },
+];
+
+export default function Testimonials() {
+  return (
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="text-center mb-14">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
+            用户<span className="text-primary">评价</span>
+          </h2>
+          <p className="text-secondary max-w-xl mx-auto">
+            看看创作者们怎么说
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
+          {testimonials.map((t, i) => (
+            <div
+              key={i}
+              className="flex flex-col rounded-2xl border border-border bg-white p-5 hover:border-primary/20 hover:shadow-sm transition-all"
+            >
+              <div className="flex items-center gap-0.5 text-primary mb-3">
+                {[...Array(5)].map((_, j) => (
+                  <i key={j} className="fas fa-star text-[10px]" />
+                ))}
+              </div>
+              <p className="text-xs text-secondary leading-relaxed mb-4 flex-1">
+                "{t.quote}"
+              </p>
+              <div className="border-t border-border pt-3">
+                <div className="text-sm font-semibold text-dark">{t.name}</div>
+                <div className="text-[10px] text-secondary-light">{t.role}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

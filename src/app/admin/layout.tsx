@@ -1,1 +1,49 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IG5hdkl0ZW1zID0gWwogIHsgaWNvbjogImZhLWdyaWQtMiIsIGxhYmVsOiAi5Luq6KGo55uYIiwgaHJlZjogIi9hZG1pbiIgfSwKICB7IGljb246ICJmYS1maWxlLWxpbmVzIiwgbGFiZWw6ICLmlofmoaPnrqHnkIYiLCBocmVmOiAiL2FkbWluL2RvY3VtZW50cyIgfSwKICB7IGljb246ICJmYS11c2VycyIsIGxhYmVsOiAi55So5oi3566h55CGIiwgaHJlZjogIi9hZG1pbi91c2VycyIgfSwKICB7IGljb246ICJmYS1hcnJvdy1sZWZ0IiwgbGFiZWw6ICLov5Tlm57pppbpobUiLCBocmVmOiAiLyIgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFkbWluTGF5b3V0KHsgY2hpbGRyZW4gfTogeyBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlIH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggbWluLWgtc2NyZWVuIGJnLWJnLWxpZ2h0Ij4KICAgICAgey8qIFNpZGViYXIgKi99CiAgICAgIDxhc2lkZSBjbGFzc05hbWU9ImhpZGRlbiBsZzpmbGV4IGZsZXgtY29sIHctNTYgYmctd2hpdGUgYm9yZGVyLXIgYm9yZGVyLWJvcmRlciBzaHJpbmstMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTUgcHktNSBib3JkZXItYiBib3JkZXItYm9yZGVyIj4KICAgICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy04IGgtOCByb3VuZGVkLWxnIGJnLXByaW1hcnkgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT0iZmFzIGZhLWJvbHQgdGV4dC13aGl0ZSB0ZXh0LXNtIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayB0ZXh0LXNtIj5UZVhwZWVkIOeuoeeQhjwvc3Bhbj4KICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleC0xIHB4LTMgcHktNCBzcGFjZS15LTEiPgogICAgICAgICAge25hdkl0ZW1zLm1hcCgoaXRlbSwgaSkgPT4gKAogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICBocmVmPXtpdGVtLmhyZWZ9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyByb3VuZGVkLXhsIHB4LTMgcHktMi41IHRleHQtc20gdGV4dC1zZWNvbmRhcnkgaG92ZXI6YmctYWNjZW50IGhvdmVyOnRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT17YGZhcyAke2l0ZW0uaWNvbn0gdy00IHRleHQtY2VudGVyYH0gLz4KICAgICAgICAgICAgICB7aXRlbS5sYWJlbH0KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9uYXY+CiAgICAgIDwvYXNpZGU+CgogICAgICB7LyogTW9iaWxlIGhlYWRlciAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImxnOmhpZGRlbiBmaXhlZCB0b3AtMCBsZWZ0LTAgcmlnaHQtMCBiZy13aGl0ZSBib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTQgcHktMyB6LTUwIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij48aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1sZWZ0IiAvPjwvTGluaz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayB0ZXh0LXNtIj7nrqHnkIblkI7lj7A8L2gxPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBDb250ZW50ICovfQogICAgICA8bWFpbiBjbGFzc05hbWU9ImZsZXgtMSBwLTQgbGc6cC04IHB0LTE2IGxnOnB0LTgiPgogICAgICAgIHtjaGlsZHJlbn0KICAgICAgPC9tYWluPgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+
+const navItems = [
+  { icon: "fa-grid-2", label: "仪表盘", href: "/admin" },
+  { icon: "fa-file-lines", label: "文档管理", href: "/admin/documents" },
+  { icon: "fa-users", label: "用户管理", href: "/admin/users" },
+  { icon: "fa-arrow-left", label: "返回首页", href: "/" },
+];
+
+export default function AdminLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex min-h-screen bg-bg-light">
+      {/* Sidebar */}
+      <aside className="hidden lg:flex flex-col w-56 bg-white border-r border-border shrink-0">
+        <div className="px-5 py-5 border-b border-border">
+          <Link href="/" className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+              <i className="fas fa-bolt text-white text-sm" />
+            </div>
+            <span className="font-semibold text-dark text-sm">TeXpeed 管理</span>
+          </Link>
+        </div>
+        <nav className="flex-1 px-3 py-4 space-y-1">
+          {navItems.map((item, i) => (
+            <Link
+              key={i}
+              href={item.href}
+              className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm text-secondary hover:bg-accent hover:text-primary transition-colors"
+            >
+              <i className={`fas ${item.icon} w-4 text-center`} />
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+      </aside>
+
+      {/* Mobile header */}
+      <div className="lg:hidden fixed top-0 left-0 right-0 bg-white border-b border-border px-4 py-3 z-50 flex items-center gap-3">
+        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark text-sm">管理后台</h1>
+      </div>
+
+      {/* Content */}
+      <main className="flex-1 p-4 lg:p-8 pt-16 lg:pt-8">
+        {children}
+      </main>
+    </div>
+  );
+}

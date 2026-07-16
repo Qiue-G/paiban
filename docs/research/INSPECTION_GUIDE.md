@@ -1,1 +1,80 @@
-IyBXZWJzaXRlIEluc3BlY3Rpb24gR3VpZGUKCiMjIEhvdyB0byBSZXZlcnNlLUVuZ2luZWVyIEFueSBXZWJzaXRlCgpUaGlzIGd1aWRlIG91dGxpbmVzIHdoYXQgdG8gY2FwdHVyZSB3aGVuIGluc3BlY3RpbmcgYSB0YXJnZXQgd2Vic2l0ZSB2aWEgQ2hyb21lIE1DUCBvciBicm93c2VyIERldlRvb2xzLgoKIyMgUGhhc2UgMTogVmlzdWFsIEF1ZGl0CgojIyMgU2NyZWVuc2hvdHMgdG8gQ2FwdHVyZQotIFsgXSBFdmVyeSBkaXN0aW5jdCBwYWdlIOKAlCBkZXNrdG9wLCB0YWJsZXQsIG1vYmlsZQotIFsgXSBEYXJrIG1vZGUgdmFyaWFudHMgKGlmIGFwcGxpY2FibGUpCi0gWyBdIExpZ2h0IG1vZGUgdmFyaWFudHMgKGlmIGFwcGxpY2FibGUpCi0gWyBdIEtleSBpbnRlcmFjdGlvbiBzdGF0ZXMgKGhvdmVyLCBhY3RpdmUsIG9wZW4gbWVudXMsIG1vZGFscykKLSBbIF0gTG9hZGluZy9za2VsZXRvbiBzdGF0ZXMKLSBbIF0gRW1wdHkgc3RhdGVzCi0gWyBdIEVycm9yIHN0YXRlcwoKIyMjIERlc2lnbiBUb2tlbnMgdG8gRXh0cmFjdAotIFsgXSAqKkNvbG9ycyoqIOKAlCBiYWNrZ3JvdW5kLCB0ZXh0IChwcmltYXJ5L3NlY29uZGFyeS9tdXRlZCksIGFjY2VudCwgYm9yZGVyLCBob3ZlciwgZXJyb3IsIHN1Y2Nlc3MsIHdhcm5pbmcKLSBbIF0gKipUeXBvZ3JhcGh5Kiog4oCUIGZvbnQgZmFtaWx5LCBzaXplcyAoaDEtaDYsIGJvZHksIGNhcHRpb24sIGxhYmVsKSwgd2VpZ2h0cywgbGluZSBoZWlnaHRzLCBsZXR0ZXIgc3BhY2luZwotIFsgXSAqKlNwYWNpbmcqKiDigJQgcGFkZGluZy9tYXJnaW4gcGF0dGVybnMgKGxvb2sgZm9yIGEgc2NhbGU6IDRweCwgOHB4LCAxMnB4LCAxNnB4LCAyNHB4LCAzMnB4LCBldGMuKQotIFsgXSAqKkJvcmRlciByYWRpdXMqKiDigJQgYnV0dG9ucywgY2FyZHMsIGF2YXRhcnMsIGlucHV0cwotIFsgXSAqKlNoYWRvd3MvZWxldmF0aW9uKiog4oCUIGNhcmQgc2hhZG93cywgZHJvcGRvd24gc2hhZG93cywgbW9kYWwgb3ZlcmxheQotIFsgXSAqKkJyZWFrcG9pbnRzKiog4oCUIHdoZW4gZG9lcyB0aGUgbGF5b3V0IHNoaWZ0PyAoaW5zcGVjdCB3aXRoIERldlRvb2xzIHJlc3BvbnNpdmUgbW9kZSkKLSBbIF0gKipJY29ucyoqIOKAlCB3aGljaCBpY29uIGxpYnJhcnk/IGN1c3RvbSBTVkdzPyBzaXplcz8KLSBbIF0gKipBdmF0YXJzKiog4oCUIHNpemVzLCBzaGFwZXMsIGZhbGxiYWNrIGJlaGF2aW9yCi0gWyBdICoqQnV0dG9ucyoqIOKAlCBhbGwgdmFyaWFudHMgKHByaW1hcnksIHNlY29uZGFyeSwgZ2hvc3QsIGljb24tb25seSwgZGFuZ2VyKQotIFsgXSAqKklucHV0cyoqIOKAlCB0ZXh0IGZpZWxkcywgdGV4dGFyZWFzLCBzZWxlY3RzLCBjaGVja2JveGVzLCB0b2dnbGVzCgojIyBQaGFzZSAyOiBDb21wb25lbnQgSW52ZW50b3J5CgpGb3IgZWFjaCBkaXN0aW5jdCBVSSBjb21wb25lbnQsIGRvY3VtZW50OgoxLiAqKk5hbWUqKiDigJQgd2hhdCB3b3VsZCB5b3UgY2FsbCB0aGlzIGNvbXBvbmVudD8KMi4gKipTdHJ1Y3R1cmUqKiDigJQgd2hhdCBIVE1MIGVsZW1lbnRzIC8gY2hpbGQgY29tcG9uZW50cyBkb2VzIGl0IGNvbnRhaW4/CjMuICoqVmFyaWFudHMqKiDigJQgZG9lcyBpdCBoYXZlIGRpZmZlcmVudCBzaXplcywgY29sb3JzLCBvciBzdGF0ZXM/CjQuICoqU3RhdGVzKiog4oCUIGRlZmF1bHQsIGhvdmVyLCBhY3RpdmUsIGRpc2FibGVkLCBsb2FkaW5nLCBlcnJvciwgZW1wdHkKNS4gKipSZXNwb25zaXZlIGJlaGF2aW9yKiog4oCUIGhvdyBkb2VzIGl0IGNoYW5nZSBhdCBkaWZmZXJlbnQgYnJlYWtwb2ludHM/CjYuICoqSW50ZXJhY3Rpb25zKiog4oCUIGNsaWNrLCBob3ZlciwgZm9jdXMsIGtleWJvYXJkIG5hdmlnYXRpb24KNy4gKipBbmltYXRpb25zKiog4oCUIHRyYW5zaXRpb25zLCBlbnRyYW5jZS9leGl0IGFuaW1hdGlvbnMsIG1pY3JvLWludGVyYWN0aW9ucwoKIyMjIENvbW1vbiBDb21wb25lbnRzIHRvIExvb2sgRm9yCi0gTmF2aWdhdGlvbiAodG9wIGJhciwgc2lkZWJhciwgYm90dG9tIGJhcikKLSBDYXJkcyAvIGxpc3QgaXRlbXMKLSBCdXR0b25zIGFuZCBsaW5rcwotIEZvcm1zIGFuZCBpbnB1dHMKLSBNb2RhbHMgYW5kIGRpYWxvZ3MKLSBEcm9wZG93bnMgYW5kIG1lbnVzCi0gVGFicyBhbmQgc2VnbWVudGVkIGNvbnRyb2xzCi0gQXZhdGFycyBhbmQgdXNlciBiYWRnZXMKLSBMb2FkaW5nIHNrZWxldG9ucwotIFRvYXN0IG5vdGlmaWNhdGlvbnMKLSBUb29sdGlwcyBhbmQgcG9wb3ZlcnMKCiMjIFBoYXNlIDM6IExheW91dCBBcmNoaXRlY3R1cmUKCi0gWyBdICoqR3JpZCBzeXN0ZW0qKiDigJQgQ1NTIEdyaWQ/IEZsZXhib3g/IEZpeGVkIHdpZHRocz8KLSBbIF0gKipDb2x1bW4gbGF5b3V0Kiog4oCUIGhvdyBtYW55IGNvbHVtbnMgYXQgZWFjaCBicmVha3BvaW50PwotIFsgXSAqKk1heC13aWR0aCoqIOKAlCBtYWluIGNvbnRlbnQgYXJlYSBtYXgtd2lkdGgKLSBbIF0gKipTdGlja3kgZWxlbWVudHMqKiDigJQgaGVhZGVyLCBzaWRlYmFyLCBmbG9hdGluZyBidXR0b25zCi0gWyBdICoqWi1pbmRleCBsYXllcnMqKiDigJQgbmF2aWdhdGlvbiwgbW9kYWxzLCB0b29sdGlwcywgb3ZlcmxheXMKLSBbIF0gKipTY3JvbGwgYmVoYXZpb3IqKiDigJQgaW5maW5pdGUgc2Nyb2xsLCBwYWdpbmF0aW9uLCB2aXJ0dWFsIHNjcm9sbGluZwoKIyMgUGhhc2UgNDogVGVjaG5pY2FsIFN0YWNrIEFuYWx5c2lzCgotIFsgXSAqKkZyYW1ld29yayoqIOKAlCBSZWFjdD8gVnVlPyBBbmd1bGFyPyBDaGVjayBgX19ORVhUX0RBVEFfX2AsIGBfX05VWFRfX2AsIGBuZy12ZXJzaW9uYAotIFsgXSAqKkNTUyBhcHByb2FjaCoqIOKAlCBUYWlsd2luZCAodXRpbGl0eSBjbGFzc2VzKSwgQ1NTIE1vZHVsZXMsIFN0eWxlZCBDb21wb25lbnRzLCBFbW90aW9uLCB2YW5pbGxhIENTUwotIFsgXSAqKlN0YXRlIG1hbmFnZW1lbnQqKiDigJQgUmVkdXggKGNoZWNrIERldlRvb2xzKSwgUmVhY3QgUXVlcnksIFp1c3RhbmQsIFBpbmlhCi0gWyBdICoqQVBJIHBhdHRlcm5zKiog4oCUIFJFU1QsIEdyYXBoUUwgKGNoZWNrIG5ldHdvcmsgdGFiIGZvciBgL2dyYXBocWxgIHJlcXVlc3RzKQotIFsgXSAqKkZvbnQgbG9hZGluZyoqIOKAlCBHb29nbGUgRm9udHMsIHNlbGYtaG9zdGVkLCBzeXN0ZW0gZm9udHMKLSBbIF0gKipJbWFnZSBzdHJhdGVneSoqIOKAlCBDRE4sIGxhenkgbG9hZGluZywgc3Jjc2V0LCBXZWJQL0FWSUYKLSBbIF0gKipBbmltYXRpb24gbGlicmFyeSoqIOKAlCBGcmFtZXIgTW90aW9uLCBHU0FQLCBDU1MgdHJhbnNpdGlvbnMgb25seQoKIyMgUGhhc2UgNTogRG9jdW1lbnRhdGlvbiBPdXRwdXQKCkFmdGVyIGluc3BlY3Rpb24sIGNyZWF0ZSB0aGVzZSBmaWxlcyBpbiBgZG9jcy9yZXNlYXJjaC9gOgoxLiBgREVTSUdOX1RPS0VOUy5tZGAg4oCUIEFsbCBleHRyYWN0ZWQgY29sb3JzLCB0eXBvZ3JhcGh5LCBzcGFjaW5nCjIuIGBDT01QT05FTlRfSU5WRU5UT1JZLm1kYCDigJQgRXZlcnkgY29tcG9uZW50IHdpdGggc3RydWN0dXJlIG5vdGVzCjMuIGBMQVlPVVRfQVJDSElURUNUVVJFLm1kYCDigJQgUGFnZSBsYXlvdXRzLCBncmlkIHN5c3RlbSwgcmVzcG9uc2l2ZSBiZWhhdmlvcgo0LiBgSU5URVJBQ1RJT05fUEFUVEVSTlMubWRgIOKAlCBBbmltYXRpb25zLCB0cmFuc2l0aW9ucywgaG92ZXIgc3RhdGVzCjUuIGBURUNIX1NUQUNLX0FOQUxZU0lTLm1kYCDigJQgV2hhdCB0aGUgc2l0ZSB1c2VzIGFuZCBvdXIgY2hvc2VuIGVxdWl2YWxlbnRzCg==
+# Website Inspection Guide
+
+## How to Reverse-Engineer Any Website
+
+This guide outlines what to capture when inspecting a target website via Chrome MCP or browser DevTools.
+
+## Phase 1: Visual Audit
+
+### Screenshots to Capture
+- [ ] Every distinct page — desktop, tablet, mobile
+- [ ] Dark mode variants (if applicable)
+- [ ] Light mode variants (if applicable)
+- [ ] Key interaction states (hover, active, open menus, modals)
+- [ ] Loading/skeleton states
+- [ ] Empty states
+- [ ] Error states
+
+### Design Tokens to Extract
+- [ ] **Colors** — background, text (primary/secondary/muted), accent, border, hover, error, success, warning
+- [ ] **Typography** — font family, sizes (h1-h6, body, caption, label), weights, line heights, letter spacing
+- [ ] **Spacing** — padding/margin patterns (look for a scale: 4px, 8px, 12px, 16px, 24px, 32px, etc.)
+- [ ] **Border radius** — buttons, cards, avatars, inputs
+- [ ] **Shadows/elevation** — card shadows, dropdown shadows, modal overlay
+- [ ] **Breakpoints** — when does the layout shift? (inspect with DevTools responsive mode)
+- [ ] **Icons** — which icon library? custom SVGs? sizes?
+- [ ] **Avatars** — sizes, shapes, fallback behavior
+- [ ] **Buttons** — all variants (primary, secondary, ghost, icon-only, danger)
+- [ ] **Inputs** — text fields, textareas, selects, checkboxes, toggles
+
+## Phase 2: Component Inventory
+
+For each distinct UI component, document:
+1. **Name** — what would you call this component?
+2. **Structure** — what HTML elements / child components does it contain?
+3. **Variants** — does it have different sizes, colors, or states?
+4. **States** — default, hover, active, disabled, loading, error, empty
+5. **Responsive behavior** — how does it change at different breakpoints?
+6. **Interactions** — click, hover, focus, keyboard navigation
+7. **Animations** — transitions, entrance/exit animations, micro-interactions
+
+### Common Components to Look For
+- Navigation (top bar, sidebar, bottom bar)
+- Cards / list items
+- Buttons and links
+- Forms and inputs
+- Modals and dialogs
+- Dropdowns and menus
+- Tabs and segmented controls
+- Avatars and user badges
+- Loading skeletons
+- Toast notifications
+- Tooltips and popovers
+
+## Phase 3: Layout Architecture
+
+- [ ] **Grid system** — CSS Grid? Flexbox? Fixed widths?
+- [ ] **Column layout** — how many columns at each breakpoint?
+- [ ] **Max-width** — main content area max-width
+- [ ] **Sticky elements** — header, sidebar, floating buttons
+- [ ] **Z-index layers** — navigation, modals, tooltips, overlays
+- [ ] **Scroll behavior** — infinite scroll, pagination, virtual scrolling
+
+## Phase 4: Technical Stack Analysis
+
+- [ ] **Framework** — React? Vue? Angular? Check `__NEXT_DATA__`, `__NUXT__`, `ng-version`
+- [ ] **CSS approach** — Tailwind (utility classes), CSS Modules, Styled Components, Emotion, vanilla CSS
+- [ ] **State management** — Redux (check DevTools), React Query, Zustand, Pinia
+- [ ] **API patterns** — REST, GraphQL (check network tab for `/graphql` requests)
+- [ ] **Font loading** — Google Fonts, self-hosted, system fonts
+- [ ] **Image strategy** — CDN, lazy loading, srcset, WebP/AVIF
+- [ ] **Animation library** — Framer Motion, GSAP, CSS transitions only
+
+## Phase 5: Documentation Output
+
+After inspection, create these files in `docs/research/`:
+1. `DESIGN_TOKENS.md` — All extracted colors, typography, spacing
+2. `COMPONENT_INVENTORY.md` — Every component with structure notes
+3. `LAYOUT_ARCHITECTURE.md` — Page layouts, grid system, responsive behavior
+4. `INTERACTION_PATTERNS.md` — Animations, transitions, hover states
+5. `TECH_STACK_ANALYSIS.md` — What the site uses and our chosen equivalents

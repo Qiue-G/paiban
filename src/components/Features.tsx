@@ -1,1 +1,57 @@
-Y29uc3QgZmVhdHVyZXMgPSBbCiAgewogICAgaWNvbjogImZhLW1hZ2ljIiwKICAgIHRpdGxlOiAiQUkg5o6S54mIIiwKICAgIGRlc2M6ICLmt7Hluqbor63kuYnnkIbop6PvvIzoh6rliqjlrozmiJDmrrXokL3liIfliIbjgIHlsYLnuqfkvJjljJbkuI7lhajmlofmoLzlvI/osIPmlbTvvIzkuI3liKDmlLnljp/mlociLAogIH0sCiAgewogICAgaWNvbjogImZhLWltYWdlcyIsCiAgICB0aXRsZTogIkFJIOmFjeWbviIsCiAgICBkZXNjOiAi5qC55o2u5LiK5LiL5paH6Ieq5Yqo5qOA57Si5YWN54mI5p2D5Zu+54mH5oiW55Sf5oiQ6auY57qn5oSf6YWN5Zu+77yM5peg6ZyA5omL5Yqo6L6T5YWlIFByb21wdCIsCiAgfSwKICB7CiAgICBpY29uOiAiZmEtc2xpZGVycyIsCiAgICB0aXRsZTogIuiHqueUseW+ruiwgyIsCiAgICBkZXNjOiAi5o6S54mI5a6M5oiQ5ZCO5pSv5oyB5omL5Yqo5b6u6LCD77yM6Ieq55Sx5L+u5pS55paH5a2X44CB5pu/5o2i5Zu+54mH44CB6LCD5pW054mI5byP57uG6IqCIiwKICB9LAogIHsKICAgIGljb246ICJmYS1wYWxldHRlIiwKICAgIHRpdGxlOiAi5Li76aKY5YiH5o2iIiwKICAgIGRlc2M6ICLlpJrlpZfnsr7pgInop4bop4nkuLvpopjkuIDplK7liIfmjaLvvIzmr4/lpZfkuLvpopjmi6XmnInni6znq4vnmoTlrZfkvZPjgIHphY3oibLkuI7niYjlvI/po47moLwiLAogIH0sCiAgewogICAgaWNvbjogImZhLXNoYXJlLW5vZGVzIiwKICAgIHRpdGxlOiAi5aSa5bmz5Y+w5YiG5Y+RIiwKICAgIGRlc2M6ICLmjpLniYjlrozmiJDlkI7mlK/mjIHkuIDplK7lpI3liLbjgIHlr7zlh7rplb/lm77miJbnlJ/miJDliIbkuqvpk77mjqXvvIzovbvmnb7lrp7njrDlpJrlubPlj7DliIblj5EiLAogIH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGZWF0dXJlcygpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJweS0yMCBiZy1iZy1saWdodCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IGxnOnB4LTgiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi0xNCI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgc206dGV4dC00eGwgZm9udC1ib2xkIHRleHQtZGFyayBtYi0zIj4KICAgICAgICAgICAg5by65aSn5Yqf6IO977yM6K6p5o6S54mICiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5Ij7lpoLmraTnroDljZU8L3NwYW4+CiAgICAgICAgICA8L2gyPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNSBnYXAtNSBtYXgtdy02eGwgbXgtYXV0byI+CiAgICAgICAgICB7ZmVhdHVyZXMubWFwKChmZWF0LCBpKSA9PiAoCiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJncm91cCByb3VuZGVkLTJ4bCBiZy13aGl0ZSBwLTYgYm9yZGVyIGJvcmRlci1ib3JkZXIgaG92ZXI6Ym9yZGVyLXByaW1hcnkvMjAgaG92ZXI6c2hhZG93LW1kIGhvdmVyOnNoYWRvdy1wcmltYXJ5LzUgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGgtMTIgdy0xMiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC14bCBiZy1hY2NlbnQgdGV4dC1wcmltYXJ5IG1iLTQgZ3JvdXAtaG92ZXI6c2NhbGUtMTEwIHRyYW5zaXRpb24tdHJhbnNmb3JtIj4KICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT17YGZhcyAke2ZlYXQuaWNvbn0gdGV4dC1sZ2B9IC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC1kYXJrIG1iLTIiPntmZWF0LnRpdGxlfTwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2Vjb25kYXJ5IGxlYWRpbmctcmVsYXhlZCI+e2ZlYXQuZGVzY308L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K
+const features = [
+  {
+    icon: "fa-magic",
+    title: "AI 排版",
+    desc: "深度语义理解，自动完成段落切分、层级优化与全文格式调整，不删改原文",
+  },
+  {
+    icon: "fa-images",
+    title: "AI 配图",
+    desc: "根据上下文自动检索免版权图片或生成高级感配图，无需手动输入 Prompt",
+  },
+  {
+    icon: "fa-sliders",
+    title: "自由微调",
+    desc: "排版完成后支持手动微调，自由修改文字、替换图片、调整版式细节",
+  },
+  {
+    icon: "fa-palette",
+    title: "主题切换",
+    desc: "多套精选视觉主题一键切换，每套主题拥有独立的字体、配色与版式风格",
+  },
+  {
+    icon: "fa-share-nodes",
+    title: "多平台分发",
+    desc: "排版完成后支持一键复制、导出长图或生成分享链接，轻松实现多平台分发",
+  },
+];
+
+export default function Features() {
+  return (
+    <section className="py-20 bg-bg-light">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="text-center mb-14">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-dark mb-3">
+            强大功能，让排版
+            <span className="text-primary">如此简单</span>
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 max-w-6xl mx-auto">
+          {features.map((feat, i) => (
+            <div
+              key={i}
+              className="group rounded-2xl bg-white p-6 border border-border hover:border-primary/20 hover:shadow-md hover:shadow-primary/5 transition-all duration-300"
+            >
+              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-primary mb-4 group-hover:scale-110 transition-transform">
+                <i className={`fas ${feat.icon} text-lg`} />
+              </div>
+              <h3 className="text-base font-semibold text-dark mb-2">{feat.title}</h3>
+              <p className="text-xs text-secondary leading-relaxed">{feat.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

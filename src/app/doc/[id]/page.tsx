@@ -1,1 +1,41 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIERvY1BhZ2UoeyBwYXJhbXMgfTogeyBwYXJhbXM6IFByb21pc2U8eyBpZDogc3RyaW5nIH0+IH0pIHsKICBjb25zdCB7IGlkIH0gPSBhd2FpdCBwYXJhbXM7CiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctd2hpdGUiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBweC00IHB5LTQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgc3RpY2t5IHRvcC0wIGJnLXdoaXRlIHotNDAiPgogICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkiPjxpIGNsYXNzTmFtZT0iZmFzIGZhLWFycm93LWxlZnQiIC8+PC9MaW5rPgogICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1kYXJrIHRleHQtc20iPuaWh+aho+aOkueJiCAje2lkfTwvaDE+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1sLWF1dG8gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgcHgtMyBweS0xLjUgdGV4dC14cyB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgIDxpIGNsYXNzTmFtZT0iZmFzIGZhLXBhbGV0dGUgbXItMSIgLz7kuLvpopgKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYmctcHJpbWFyeSBweC00IHB5LTEuNSB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtd2hpdGUiPgogICAgICAgICAgICDlvIDlp4vmjpLniYgKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy0zeGwgbXgtYXV0byBweC00IHB5LTEwIj4KICAgICAgICB7LyogTW9jayBkb2N1bWVudCBjb250ZW50ICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwcm9zZSBwcm9zZS1zbGF0ZSBtYXgtdy1ub25lIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsgbWItNCI+56S65L6L5paH5qGj5qCH6aKYPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkgbWItNiI+6L+Z5piv5LiA56+H55SxIFRlWHBlZWQgQUkg5o6S54mI5byV5pOO5aSE55CG55qE56S65L6L5paH5qGj44CC5bCG5oKo55qE5peg5qC85byP5paH5pys57KY6LS05Yiw5q2k5aSE77yMQUkg5Lya6Ieq5Yqo5a6M5oiQ5q616JC95YiH5YiG44CB5bGC57qn5LyY5YyW44CB5o6S54mI576O5YyW5LiO6YWN5Zu+55Sf5oiQ44CCPC9wPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtZGFyayBtdC04IG1iLTMiPuesrOS4gOeroCDlvJXoqIA8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSBtYi00Ij5UZVhwZWVkIOWfuuS6jiBBSSDlpKfmqKHlnovnmoTor63kuYnnkIbop6Pog73lipvvvIzog73lpJ/lnKggMzAg56eS5YaF5bCG5peg5qC85byP5paH5pys6JyV5Y+Y5Li65Ye654mI57qn57K+576O6KeG6KeJ44CC5LiN5ZCM5LqO5Lyg57uf5o6S54mI5bel5YW377yMVGVYcGVlZCDpgbXlvqrjgIzljp/mlofkuI3liKDmlLnjgI3ljp/liJnvvIzku4XlnKjop4bop4nlsYLpnaLov5vooYzkvJjljJbjgII8L3A+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1kYXJrIG10LTggbWItMyI+56ys5LqM56ugIOaguOW/g+eJueaApzwvaDI+CiAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJsaXN0LWRpc2MgbGlzdC1pbnNpZGUgdGV4dC1zZWNvbmRhcnkgc3BhY2UteS0xIG1iLTQiPgogICAgICAgICAgICA8bGk+6K+t5LmJ5YiH5YiG77ya6Ieq5Yqo56eR5a2m5YiS5YiG57qv5paH5pys56ug6IqCPC9saT4KICAgICAgICAgICAgPGxpPum7hOmHkeaOkueJiO+8muiHquWKqOWMuemFjeWtl+S9k+OAgeWtl+WPt+S4jum7hOmHkeihjOi3nTwvbGk+CiAgICAgICAgICAgIDxsaT7mmbrog73phY3lm77vvJrmt7HluqbljLnphY3mhI/looPvvIzkuIDplK7nlJ/miJDpq5jnuqfmhJ/phY3lm748L2xpPgogICAgICAgICAgICA8bGk+5Li76aKY5YiH5o2i77ya5aSa5aWX57K+6YCJ6KeG6KeJ5Li76aKY5LiA6ZSu5YiH5o2iPC9saT4KICAgICAgICAgICAgPGxpPuWkmuW5s+WPsOWIhuWPke+8muS4gOmUruWkjeWItuOAgeWvvOWHuumVv+WbvuaIlueUn+aIkOWIhuS6q+mTvuaOpTwvbGk+CiAgICAgICAgICA8L3VsPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtZGFyayBtdC04IG1iLTMiPuesrOS4ieeroCDnu5Por608L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSBtYi00Ij5UZVhwZWVkIOiuqeavj+S4quS6uumDveiDvei9u+advuaLpeacieS4k+S4mue6p+aOkueJiOaViOaenOOAguS4jeW/heaHguiuvuiuoe+8jOS4jeW/heivt+e8lui+ke+8jEFJIOS4uuS9oOWujOaIkOS4gOWIh+OAgjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import Link from "next/link";
+
+export default async function DocPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  return (
+    <div className="min-h-screen bg-white">
+      <header className="border-b border-border px-4 py-4 flex items-center gap-3 sticky top-0 bg-white z-40">
+        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark text-sm">文档排版 #{id}</h1>
+        <div className="ml-auto flex items-center gap-2">
+          <button className="rounded-lg border border-border px-3 py-1.5 text-xs text-secondary">
+            <i className="fas fa-palette mr-1" />主题
+          </button>
+          <button className="rounded-lg bg-primary px-4 py-1.5 text-xs font-medium text-white">
+            开始排版
+          </button>
+        </div>
+      </header>
+
+      <div className="max-w-3xl mx-auto px-4 py-10">
+        {/* Mock document content */}
+        <div className="prose prose-slate max-w-none">
+          <h1 className="text-2xl font-bold text-dark mb-4">示例文档标题</h1>
+          <p className="text-secondary mb-6">这是一篇由 TeXpeed AI 排版引擎处理的示例文档。将您的无格式文本粘贴到此处，AI 会自动完成段落切分、层级优化、排版美化与配图生成。</p>
+          <h2 className="text-xl font-semibold text-dark mt-8 mb-3">第一章 引言</h2>
+          <p className="text-secondary mb-4">TeXpeed 基于 AI 大模型的语义理解能力，能够在 30 秒内将无格式文本蜕变为出版级精美视觉。不同于传统排版工具，TeXpeed 遵循「原文不删改」原则，仅在视觉层面进行优化。</p>
+          <h2 className="text-xl font-semibold text-dark mt-8 mb-3">第二章 核心特性</h2>
+          <ul className="list-disc list-inside text-secondary space-y-1 mb-4">
+            <li>语义切分：自动科学划分纯文本章节</li>
+            <li>黄金排版：自动匹配字体、字号与黄金行距</li>
+            <li>智能配图：深度匹配意境，一键生成高级感配图</li>
+            <li>主题切换：多套精选视觉主题一键切换</li>
+            <li>多平台分发：一键复制、导出长图或生成分享链接</li>
+          </ul>
+          <h2 className="text-xl font-semibold text-dark mt-8 mb-3">第三章 结语</h2>
+          <p className="text-secondary mb-4">TeXpeed 让每个人都能轻松拥有专业级排版效果。不必懂设计，不必请编辑，AI 为你完成一切。</p>
+        </div>
+      </div>
+    </div>
+  );
+}

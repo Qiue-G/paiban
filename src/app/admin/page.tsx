@@ -1,1 +1,45 @@
-ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQWRtaW5EYXNoYm9hcmQoKSB7CiAgY29uc3Qgc3RhdHMgPSBbCiAgICB7IGxhYmVsOiAi5oC75paH5qGj5pWwIiwgdmFsdWU6ICIxLDI4NCIsIGljb246ICJmYS1maWxlLWxpbmVzIiwgY29sb3I6ICJ0ZXh0LXByaW1hcnkiIH0sCiAgICB7IGxhYmVsOiAi5LuK5pel5paw5aKeIiwgdmFsdWU6ICIzOCIsIGljb246ICJmYS1wbHVzIiwgY29sb3I6ICJ0ZXh0LWdyZWVuLTUwMCIgfSwKICAgIHsgbGFiZWw6ICLmtLvot4PnlKjmiLciLCB2YWx1ZTogIjQyNiIsIGljb246ICJmYS11c2VyLWNoZWNrIiwgY29sb3I6ICJ0ZXh0LW9yYW5nZS01MDAiIH0sCiAgICB7IGxhYmVsOiAiVklQ55So5oi3IiwgdmFsdWU6ICI4OSIsIGljb246ICJmYS1jcm93biIsIGNvbG9yOiAidGV4dC1wdXJwbGUtNTAwIiB9LAogIF07CgogIHJldHVybiAoCiAgICA8ZGl2PgogICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsgbWItNiI+5Luq6KGo55uYPC9oMj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQgZ2FwLTQgbWItOCI+CiAgICAgICAge3N0YXRzLm1hcCgocywgaSkgPT4gKAogICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC01Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi0zIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zZWNvbmRhcnkiPntzLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9e2BmYXMgJHtzLmljb259ICR7cy5jb2xvcn1gfSAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsiPntzLnZhbHVlfTwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIFJlY2VudCBkb2NzICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgcC01Ij4KICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayBtYi00Ij7mnIDov5HmlofmoaM8L2gzPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAge1si5Lqn5ZOB6ZyA5rGC5paH5qGjIiwgIuWto+W6puaAu+e7k+aKpeWRiiIsICLmlrDlip/og73lj5HluIPlhazlkYoiXS5tYXAoKG5hbWUsIGkpID0+ICgKICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB5LTIgYm9yZGVyLWIgYm9yZGVyLWJvcmRlciBsYXN0OmJvcmRlci0wIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctOCBoLTggcm91bmRlZC1sZyBiZy1hY2NlbnQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPSJmYXMgZmEtZmlsZS1saW5lcyB0ZXh0LXhzIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kYXJrIj57bmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXNlY29uZGFyeS1saWdodCI+ewogICAgICAgICAgICAgICAgWyIy5bCP5pe25YmNIiwgIuaYqOWkqSIsICIy5aSp5YmNIl1baV0KICAgICAgICAgICAgICB9PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+export default function AdminDashboard() {
+  const stats = [
+    { label: "总文档数", value: "1,284", icon: "fa-file-lines", color: "text-primary" },
+    { label: "今日新增", value: "38", icon: "fa-plus", color: "text-green-500" },
+    { label: "活跃用户", value: "426", icon: "fa-user-check", color: "text-orange-500" },
+    { label: "VIP用户", value: "89", icon: "fa-crown", color: "text-purple-500" },
+  ];
+
+  return (
+    <div>
+      <h2 className="text-xl font-bold text-dark mb-6">仪表盘</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        {stats.map((s, i) => (
+          <div key={i} className="bg-white rounded-2xl border border-border p-5">
+            <div className="flex items-center justify-between mb-3">
+              <span className="text-xs text-secondary">{s.label}</span>
+              <i className={`fas ${s.icon} ${s.color}`} />
+            </div>
+            <div className="text-2xl font-bold text-dark">{s.value}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Recent docs */}
+      <div className="bg-white rounded-2xl border border-border p-5">
+        <h3 className="font-semibold text-dark mb-4">最近文档</h3>
+        <div className="space-y-3">
+          {["产品需求文档", "季度总结报告", "新功能发布公告"].map((name, i) => (
+            <div key={i} className="flex items-center justify-between py-2 border-b border-border last:border-0">
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center text-primary">
+                  <i className="fas fa-file-lines text-xs" />
+                </div>
+                <span className="text-sm text-dark">{name}</span>
+              </div>
+              <span className="text-[10px] text-secondary-light">{
+                ["2小时前", "昨天", "2天前"][i]
+              }</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}

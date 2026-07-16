@@ -1,1 +1,53 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE1hZ2ljUGFnZSgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy13aGl0ZSI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItYm9yZGVyIHB4LTQgcHktNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+PGkgY2xhc3NOYW1lPSJmYXMgZmEtYXJyb3ctbGVmdCIgLz48L0xpbms+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWRhcmsiPuS4gOmUruaOkueJiDwvaDE+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTJ4bCBteC1hdXRvIHB4LTQgcHktMTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTgiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTgiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNiBoLTE2IHJvdW5kZWQtMnhsIGJnLWFjY2VudCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB0ZXh0LXByaW1hcnkgbXgtYXV0byBtYi00Ij4KICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS13YW5kLW1hZ2ljLXNwYXJrbGVzIHRleHQtMnhsIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQgdGV4dC1kYXJrIG1iLTIiPuS4gOmUrkFJ5o6S54mIPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij7nspjotLTml6DmoLzlvI/mlofmnKzvvIwzMOenkuWHuueJhzwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDx0ZXh0YXJlYQogICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTQ4IHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmctbGlnaHQgcC00IHRleHQtc20gdGV4dC1kYXJrIHBsYWNlaG9sZGVyOnRleHQtc2Vjb25kYXJ5LWxpZ2h0IHJlc2l6ZS1ub25lIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItcHJpbWFyeS81MCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuWcqOatpOeymOi0tOaCqOeahOaWh+acrOWGheWuuS4uLiIKICAgICAgICAgIC8+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBnYXAtMyI+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmbGV4LTEgcm91bmRlZC14bCBiZy1wcmltYXJ5IHB5LTMgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIGhvdmVyOm9wYWNpdHktOTAgdHJhbnNpdGlvbi1vcGFjaXR5Ij4KICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS13YW5kLW1hZ2ljLXNwYXJrbGVzIG1yLTEuNSIgLz4KICAgICAgICAgICAgICDlvIDlp4vmjpLniYgKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJyb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTQgcHktMyB0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLWJnLWxpZ2h0IHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9ImZhcyBmYS11cGxvYWQiIC8+CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICB7WyLkuqflk4HpnIDmsYIiLCAi5bel5L2c5oql5ZGKIiwgIuWtpuacr+iuuuaWhyIsICLokKXplIDmlofmoYgiLCAi5oqA5pyv5Y2a5a6iIl0ubWFwKCh0YWcpID0+ICgKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBrZXk9e3RhZ30KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItYm9yZGVyIHB4LTMgcHktMSB0ZXh0LVsxMHB4XSB0ZXh0LXNlY29uZGFyeSBob3Zlcjpib3JkZXItcHJpbWFyeS8zMCBob3Zlcjp0ZXh0LXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3RhZ30KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJyb3VuZGVkLWZ1bGwgYmctYWNjZW50IHB4LTMgcHktMSB0ZXh0LVsxMHB4XSB0ZXh0LXByaW1hcnkgZm9udC1tZWRpdW0iPgogICAgICAgICAgICAgIOabtOWkmuWcuuaZrwogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+import Link from "next/link";
+
+export default function MagicPage() {
+  return (
+    <div className="min-h-screen bg-white">
+      <header className="border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">一键排版</h1>
+      </header>
+
+      <div className="max-w-2xl mx-auto px-4 py-10">
+        <div className="bg-white rounded-2xl border border-border p-8">
+          <div className="text-center mb-8">
+            <div className="w-16 h-16 rounded-2xl bg-accent flex items-center justify-center text-primary mx-auto mb-4">
+              <i className="fas fa-wand-magic-sparkles text-2xl" />
+            </div>
+            <h2 className="text-xl font-bold text-dark mb-2">一键AI排版</h2>
+            <p className="text-sm text-secondary">粘贴无格式文本，30秒出片</p>
+          </div>
+
+          <textarea
+            className="w-full h-48 rounded-xl border border-border bg-bg-light p-4 text-sm text-dark placeholder:text-secondary-light resize-none focus:outline-none focus:border-primary/50 transition-colors"
+            placeholder="在此粘贴您的文本内容..."
+          />
+
+          <div className="mt-6 flex gap-3">
+            <button className="flex-1 rounded-xl bg-primary py-3 text-sm font-medium text-white hover:opacity-90 transition-opacity">
+              <i className="fas fa-wand-magic-sparkles mr-1.5" />
+              开始排版
+            </button>
+            <button className="rounded-xl border border-border px-4 py-3 text-sm text-secondary hover:bg-bg-light transition-colors">
+              <i className="fas fa-upload" />
+            </button>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2">
+            {["产品需求", "工作报告", "学术论文", "营销文案", "技术博客"].map((tag) => (
+              <button
+                key={tag}
+                className="rounded-full border border-border px-3 py-1 text-[10px] text-secondary hover:border-primary/30 hover:text-primary transition-colors"
+              >
+                {tag}
+              </button>
+            ))}
+            <button className="rounded-full bg-accent px-3 py-1 text-[10px] text-primary font-medium">
+              更多场景
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

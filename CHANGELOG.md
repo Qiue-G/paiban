@@ -1,1 +1,80 @@
-IyBDaGFuZ2Vsb2cKCkFsbCBub3RhYmxlIGNoYW5nZXMgdG8gdGhpcyBwcm9qZWN0IHdpbGwgYmUgZG9jdW1lbnRlZCBpbiB0aGlzIGZpbGUuCgpUaGUgZm9ybWF0IGlzIGJhc2VkIG9uIFtLZWVwIGEgQ2hhbmdlbG9nXShodHRwczovL2tlZXBhY2hhbmdlbG9nLmNvbS9lbi8xLjEuMC8pLAphbmQgdGhpcyBwcm9qZWN0IGFkaGVyZXMgdG8gW1NlbWFudGljIFZlcnNpb25pbmddKGh0dHBzOi8vc2VtdmVyLm9yZy9zcGVjL3YyLjAuMC5odG1sKS4KCiMjIFtVbnJlbGVhc2VkXQoKIyMjIENoYW5nZWQKLSBSYWlzZWQgdGhlIHByb2plY3QgTm9kZS5qcyBiYXNlbGluZSB0byAyNCBhY3Jvc3MgbG9jYWwgZGV2ZWxvcG1lbnQsIENJLCBEb2NrZXIsIGFuZCBjb250cmlidXRvci1mYWNpbmcgZG9jdW1lbnRhdGlvbgoKIyMgWzAuMy4xXSAtIDIwMjYtMDMtMjkKCiMjIyBGaXhlZAotIGBzeW5jLWFnZW50LXJ1bGVzLnNoYCBmYWlsaW5nIHRvIHJlc29sdmUgYEBmaWxlYCBpbXBvcnRzIG9uIFdpbmRvd3MgZHVlIHRvIENSTEYgbGluZSBlbmRpbmdzIOKAlCBwbGF0Zm9ybSBpbnN0cnVjdGlvbiBmaWxlcyBub3cgY29ycmVjdGx5IGlubGluZSB0aGUgSW5zcGVjdGlvbiBHdWlkZSBjb250ZW50CgojIyBbMC4zLjBdIC0gMjAyNi0wMy0yOQoKIyMjIEFkZGVkCi0gTXVsdGktVVJMIHN1cHBvcnQgZm9yIGAvY2xvbmUtd2Vic2l0ZWAg4oCUIGNsb25lIG11bHRpcGxlIHNpdGVzIGluIGEgc2luZ2xlIGNvbW1hbmQgd2l0aCBwYXJhbGxlbCBwcm9jZXNzaW5nIGFuZCBpc29sYXRlZCBvdXRwdXQKLSBDSSBxdWFsaXR5IGdhdGVzIHZpYSBHaXRIdWIgQWN0aW9ucyDigJQgYXV0b21hdGVkIGxpbnQsIHR5cGVjaGVjaywgYW5kIGJ1aWxkIG9uIGV2ZXJ5IHB1c2ggYW5kIFBSCi0gYG5wbSBydW4gdHlwZWNoZWNrYCBhbmQgYG5wbSBydW4gY2hlY2tgIHNjcmlwdHMgZm9yIGxvY2FsIHF1YWxpdHkgdmFsaWRhdGlvbgotIGAuZ2l0YXR0cmlidXRlc2AgZm9yIGNyb3NzLXBsYXRmb3JtIGxpbmUgZW5kaW5nIG5vcm1hbGl6YXRpb24KLSBgLm52bXJjYCB0byBwaW4gTm9kZS5qcyAyMCBmb3IgY29udHJpYnV0b3IgY29uc2lzdGVuY3kKCiMjIyBDaGFuZ2VkCi0gU3RyZWFtbGluZWQgUFIgdGVtcGxhdGUg4oCUIHJlbW92ZWQgcmVkdW5kYW50IGNoZWNrbGlzdCBpdGVtcyBhbmQgc2NyZWVuc2hvdHMgc2VjdGlvbgotIEltcHJvdmVkIHByb2plY3QgZGVzY3JpcHRpb24gYW5kIFJFQURNRSDigJQgY2xlYXJlciB1c2UgY2FzZXMsIGxpbWl0YXRpb25zLCBhbmQgbW9kZXJuIHdvcmRpbmcKLSBSZWZpbmVkIGRvY3VtZW50YXRpb24gYW5kIGFnZW50IHJ1bGVzIGFjcm9zcyBhbGwgcGxhdGZvcm1zIGZvciBjbGFyaXR5IGFuZCBjb25zaXN0ZW5jeQotIEZpeGVkIENSTEYgaGFuZGxpbmcgaW4gYHN5bmMtc2tpbGxzLm1qc2AgZm9yIHJlbGlhYmxlIFdpbmRvd3Mgb3BlcmF0aW9uCgojIyMgUmVtb3ZlZAotIE91dGRhdGVkIHVzZSBjYXNlIGZyb20gUkVBRE1FIGRvY3VtZW50YXRpb24KCiMjIFswLjIuMF0gLSAyMDI2LTAzLTI4CgojIyMgQWRkZWQKLSBNdWx0aS1wbGF0Zm9ybSBBSSBhZ2VudCBzdXBwb3J0OiBDbGF1ZGUgQ29kZSwgQ29kZXggQ0xJLCBPcGVuQ29kZSwgR2l0SHViIENvcGlsb3QsIEN1cnNvciwgV2luZHN1cmYsIEdlbWluaSBDTEksIENsaW5lL1JvbyBDb2RlLCBDb250aW51ZSwgQW1hem9uIFEsIEF1Z21lbnQgQ29kZSwgQWlkZXIKLSBQbGF0Zm9ybS1zcGVjaWZpYyBpbnN0cnVjdGlvbiBmaWxlcyBhbmQgYC9jbG9uZS13ZWJzaXRlYCBza2lsbCBmb3IgZWFjaCBzdXBwb3J0ZWQgYWdlbnQKLSBgc2NyaXB0cy9zeW5jLWFnZW50LXJ1bGVzLnNoYCB0byByZWdlbmVyYXRlIHBsYXRmb3JtIGluc3RydWN0aW9uIGZpbGVzIGZyb20gQUdFTlRTLm1kCi0gYHNjcmlwdHMvc3luYy1za2lsbHMubWpzYCB0byByZWdlbmVyYXRlIGAvY2xvbmUtd2Vic2l0ZWAgc2tpbGwgYWNyb3NzIGFsbCBwbGF0Zm9ybXMKLSBHRU1JTkkubWQgZm9yIEdlbWluaSBDTEkgY29uZmlndXJhdGlvbgotIFN1cHBvcnRlZCBQbGF0Zm9ybXMgdGFibGUgaW4gUkVBRE1FCi0gIlVwZGF0aW5nIGZvciBPdGhlciBQbGF0Zm9ybXMiIGRvY3VtZW50YXRpb24gc2VjdGlvbiBpbiBSRUFETUUKCiMjIyBDaGFuZ2VkCi0gUkVBRE1FIG5vdyBkZXNjcmliZXMgdGhlIHByb2plY3QgYXMgbXVsdGktYWdlbnQgKENsYXVkZSBDb2RlIHJlY29tbWVuZGVkLCBub3QgcmVxdWlyZWQpCi0gQUdFTlRTLm1kIHVwZGF0ZWQgd2l0aCBzeW5jIHNjcmlwdCByZW1pbmRlcnMKCiMjIFswLjEuMV0gLSAyMDI2LTAzLTI4CgojIyMgQWRkZWQKLSBCdWcgcmVwb3J0IGFuZCBmZWF0dXJlIHJlcXVlc3QgaXNzdWUgdGVtcGxhdGVzCi0gUHVsbCByZXF1ZXN0IHRlbXBsYXRlIHdpdGggY2hlY2tsaXN0Ci0gQ0hBTkdFTE9HLm1kIGZvbGxvd2luZyBLZWVwIGEgQ2hhbmdlbG9nIGZvcm1hdAotIFBhY2thZ2UuanNvbiBtZXRhZGF0YSAoZGVzY3JpcHRpb24sIHJlcG9zaXRvcnksIGhvbWVwYWdlLCBrZXl3b3JkcywgZW5naW5lcykKCiMjIyBGaXhlZAotIExJQ0VOU0UgY29weXJpZ2h0IGhvbGRlciBub3cgYXR0cmlidXRlZCB0byBKQ29kZXNNb3JlCgojIyBbMC4xLjBdIC0gMjAyNi0wMy0yOAoKIyMjIEFkZGVkCi0gSW5pdGlhbCB0ZW1wbGF0ZSBzY2FmZm9sZCBmb3Igd2Vic2l0ZSByZXZlcnNlLWVuZ2luZWVyaW5nIHdpdGggQ2xhdWRlIENvZGUKLSBgL2Nsb25lLXdlYnNpdGVgIHNraWxsIGZvciBmdWxsLXNpdGUgY2xvbmluZyBwaXBlbGluZQotIGAvYnVpbGQtZnJvbS1zcGVjYCBhbmQgYC9jdXN0b21pemVgIHNraWxscwotIFBhcmFsbGVsIGJ1aWxkZXIgYWdlbnRzIHdpdGggZ2l0IHdvcmt0cmVlIGlzb2xhdGlvbgotIENocm9tZSBNQ1AgaW50ZWdyYXRpb24gZm9yIGRlc2lnbiB0b2tlbiBleHRyYWN0aW9uCi0gQ29tcHJlaGVuc2l2ZSBpbnNwZWN0aW9uIGd1aWRlIGFuZCBwcm9qZWN0IHN0cnVjdHVyZSBkb2N1bWVudGF0aW9uCi0gTmV4dC5qcyAxNiArIHNoYWRjbi91aSArIFRhaWx3aW5kIENTUyB2NCBiYXNlIHNjYWZmb2xkCi0gTUlUIGxpY2Vuc2UKLSBSRUFETUUgd2l0aCBiYWRnZXMsIGRlbW8gc2VjdGlvbiwgcXVpY2sgc3RhcnQsIGFuZCBzdGFyIGhpc3RvcnkKCltVbnJlbGVhc2VkXTogaHR0cHM6Ly9naXRodWIuY29tL0pDb2Rlc01vcmUvYWktd2Vic2l0ZS1jbG9uZXItdGVtcGxhdGUvY29tcGFyZS92MC4zLjEuLi5IRUFEClswLjMuMV06IGh0dHBzOi8vZ2l0aHViLmNvbS9KQ29kZXNNb3JlL2FpLXdlYnNpdGUtY2xvbmVyLXRlbXBsYXRlL2NvbXBhcmUvdjAuMy4wLi4udjAuMy4xClswLjMuMF06IGh0dHBzOi8vZ2l0aHViLmNvbS9KQ29kZXNNb3JlL2FpLXdlYnNpdGUtY2xvbmVyLXRlbXBsYXRlL2NvbXBhcmUvdjAuMi4wLi4udjAuMy4wClswLjIuMF06IGh0dHBzOi8vZ2l0aHViLmNvbS9KQ29kZXNNb3JlL2FpLXdlYnNpdGUtY2xvbmVyLXRlbXBsYXRlL2NvbXBhcmUvdjAuMS4xLi4udjAuMi4wClswLjEuMV06IGh0dHBzOi8vZ2l0aHViLmNvbS9KQ29kZXNNb3JlL2FpLXdlYnNpdGUtY2xvbmVyLXRlbXBsYXRlL2NvbXBhcmUvdjAuMS4wLi4udjAuMS4xClswLjEuMF06IGh0dHBzOi8vZ2l0aHViLmNvbS9KQ29kZXNNb3JlL2FpLXdlYnNpdGUtY2xvbmVyLXRlbXBsYXRlL3JlbGVhc2VzL3RhZy92MC4xLjAK
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Changed
+- Raised the project Node.js baseline to 24 across local development, CI, Docker, and contributor-facing documentation
+
+## [0.3.1] - 2026-03-29
+
+### Fixed
+- `sync-agent-rules.sh` failing to resolve `@file` imports on Windows due to CRLF line endings — platform instruction files now correctly inline the Inspection Guide content
+
+## [0.3.0] - 2026-03-29
+
+### Added
+- Multi-URL support for `/clone-website` — clone multiple sites in a single command with parallel processing and isolated output
+- CI quality gates via GitHub Actions — automated lint, typecheck, and build on every push and PR
+- `npm run typecheck` and `npm run check` scripts for local quality validation
+- `.gitattributes` for cross-platform line ending normalization
+- `.nvmrc` to pin Node.js 20 for contributor consistency
+
+### Changed
+- Streamlined PR template — removed redundant checklist items and screenshots section
+- Improved project description and README — clearer use cases, limitations, and modern wording
+- Refined documentation and agent rules across all platforms for clarity and consistency
+- Fixed CRLF handling in `sync-skills.mjs` for reliable Windows operation
+
+### Removed
+- Outdated use case from README documentation
+
+## [0.2.0] - 2026-03-28
+
+### Added
+- Multi-platform AI agent support: Claude Code, Codex CLI, OpenCode, GitHub Copilot, Cursor, Windsurf, Gemini CLI, Cline/Roo Code, Continue, Amazon Q, Augment Code, Aider
+- Platform-specific instruction files and `/clone-website` skill for each supported agent
+- `scripts/sync-agent-rules.sh` to regenerate platform instruction files from AGENTS.md
+- `scripts/sync-skills.mjs` to regenerate `/clone-website` skill across all platforms
+- GEMINI.md for Gemini CLI configuration
+- Supported Platforms table in README
+- "Updating for Other Platforms" documentation section in README
+
+### Changed
+- README now describes the project as multi-agent (Claude Code recommended, not required)
+- AGENTS.md updated with sync script reminders
+
+## [0.1.1] - 2026-03-28
+
+### Added
+- Bug report and feature request issue templates
+- Pull request template with checklist
+- CHANGELOG.md following Keep a Changelog format
+- Package.json metadata (description, repository, homepage, keywords, engines)
+
+### Fixed
+- LICENSE copyright holder now attributed to JCodesMore
+
+## [0.1.0] - 2026-03-28
+
+### Added
+- Initial template scaffold for website reverse-engineering with Claude Code
+- `/clone-website` skill for full-site cloning pipeline
+- `/build-from-spec` and `/customize` skills
+- Parallel builder agents with git worktree isolation
+- Chrome MCP integration for design token extraction
+- Comprehensive inspection guide and project structure documentation
+- Next.js 16 + shadcn/ui + Tailwind CSS v4 base scaffold
+- MIT license
+- README with badges, demo section, quick start, and star history
+
+[Unreleased]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.3.1...HEAD
+[0.3.1]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.1.1...v0.2.0
+[0.1.1]: https://github.com/JCodesMore/ai-website-cloner-template/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/JCodesMore/ai-website-cloner-template/releases/tag/v0.1.0

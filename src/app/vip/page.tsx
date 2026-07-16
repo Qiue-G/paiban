@@ -1,1 +1,81 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmNvbnN0IHBsYW5zID0gWwogIHsKICAgIG5hbWU6ICLmnIjluqZWSVAiLAogICAgcHJpY2U6ICLCpTI5LjkiLAogICAgb3JpZ2luYWw6ICLCpTM5LjkiLAogICAgcGVyaW9kOiAiL+aciCIsCiAgICBmZWF0dXJlczogWyLml6DpmZDmrKFBSeaOkueJiCIsICI1MOasoUFJ6YWN5Zu+IiwgIuS4k+WxnuS4u+mimCIsICLml6DmsLTljbDlr7zlh7oiXSwKICAgIHBvcHVsYXI6IGZhbHNlLAogIH0sCiAgewogICAgbmFtZTogIuW5tOW6plZJUCIsCiAgICBwcmljZTogIsKlMTk5IiwKICAgIG9yaWdpbmFsOiAiwqUzOTkiLAogICAgcGVyaW9kOiAiL+W5tCIsCiAgICBmZWF0dXJlczogWyLml6DpmZDmrKFBSeaOkueJiCIsICLml6DpmZDmrKFBSemFjeWbviIsICLlhajpg6jkuLvpopgiLCAi5peg5rC05Y2w5a+85Ye6IiwgIuS8mOWFiOWuouacjSJdLAogICAgcG9wdWxhcjogdHJ1ZSwKICB9LAogIHsKICAgIG5hbWU6ICLnu4jouqtWSVAiLAogICAgcHJpY2U6ICLCpTQ5OSIsCiAgICBvcmlnaW5hbDogIsKlOTk5IiwKICAgIHBlcmlvZDogIiIsCiAgICBmZWF0dXJlczogWyLmiYDmnIlWSVDmnYPnm4oiLCAi5rC45LmF5pyJ5pWIIiwgIuS4k+WxnuW+veeroCIsICLmlrDlip/og73kvJjlhYjkvZPpqowiXSwKICAgIHBvcHVsYXI6IGZhbHNlLAogIH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBWSVBQYWdlKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJnLWxpZ2h0Ij4KICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcHgtNCBweS00IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8TGluayBocmVmPSIvdXNlciIgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+PGkgY2xhc3NOYW1lPSJmYXMgZmEtYXJyb3ctbGVmdCIgLz48L0xpbms+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWRhcmsiPlZJUOS8muWRmDwvaDE+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzc05hbWU9InB4LTQgcHktOCBzcGFjZS15LTQgbWF4LXctbGcgbXgtYXV0byI+CiAgICAgICAge3BsYW5zLm1hcCgocGxhbiwgaSkgPT4gKAogICAgICAgICAgPGRpdgogICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtMnhsIGJvcmRlci0yIHAtNSBiZy13aGl0ZSByZWxhdGl2ZSAkewogICAgICAgICAgICAgIHBsYW4ucG9wdWxhciA/ICJib3JkZXItcHJpbWFyeSIgOiAiYm9yZGVyLWJvcmRlciIKICAgICAgICAgICAgfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIHtwbGFuLnBvcHVsYXIgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXRvcC0zIHJpZ2h0LTQgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgcHgtMyBweS0wLjUgdGV4dC1bMTBweF0gZm9udC1tZWRpdW0gdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgICDmjqjojZAKICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWVuZCBnYXAtMSBtYi00Ij4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsiPntwbGFuLnByaWNlfTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zZWNvbmRhcnkgbGluZS10aHJvdWdoIj57cGxhbi5vcmlnaW5hbH08L3NwYW4+CiAgICAgICAgICAgICAge3BsYW4ucGVyaW9kICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNlY29uZGFyeSI+e3BsYW4ucGVyaW9kfTwvc3Bhbj59CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtZGFyayBtYi0zIj57cGxhbi5uYW1lfTwvZGl2PgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTEuNSBtYi00Ij4KICAgICAgICAgICAgICB7cGxhbi5mZWF0dXJlcy5tYXAoKGYsIGopID0+ICgKICAgICAgICAgICAgICAgIDxsaSBrZXk9e2p9IGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNlY29uZGFyeSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPSJmYXMgZmEtY2hlY2sgdGV4dC1wcmltYXJ5IHRleHQtWzEwcHhdIiAvPntmfQogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCByb3VuZGVkLXhsIHB5LTIuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICBwbGFuLnBvcHVsYXIKICAgICAgICAgICAgICAgICAgPyAiYmctcHJpbWFyeSB0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICA6ICJib3JkZXIgYm9yZGVyLXByaW1hcnkgdGV4dC1wcmltYXJ5IGhvdmVyOmJnLWFjY2VudCIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIHtwbGFuLnBvcHVsYXIgPyAi56uL5Y2z5byA6YCaIiA6ICLpgInmi6kifQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkpfQogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgdGV4dC1bMTBweF0gdGV4dC1zZWNvbmRhcnktbGlnaHQgcHQtMiI+CiAgICAgICAgICDlvIDpgJrljbPku6PooajlkIzmhI/jgIpWSVDmnI3liqHljY/orq7jgIsKICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+
+const plans = [
+  {
+    name: "月度VIP",
+    price: "¥29.9",
+    original: "¥39.9",
+    period: "/月",
+    features: ["无限次AI排版", "50次AI配图", "专属主题", "无水印导出"],
+    popular: false,
+  },
+  {
+    name: "年度VIP",
+    price: "¥199",
+    original: "¥399",
+    period: "/年",
+    features: ["无限次AI排版", "无限次AI配图", "全部主题", "无水印导出", "优先客服"],
+    popular: true,
+  },
+  {
+    name: "终身VIP",
+    price: "¥499",
+    original: "¥999",
+    period: "",
+    features: ["所有VIP权益", "永久有效", "专属徽章", "新功能优先体验"],
+    popular: false,
+  },
+];
+
+export default function VIPPage() {
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/user" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">VIP会员</h1>
+      </header>
+
+      <div className="px-4 py-8 space-y-4 max-w-lg mx-auto">
+        {plans.map((plan, i) => (
+          <div
+            key={i}
+            className={`rounded-2xl border-2 p-5 bg-white relative ${
+              plan.popular ? "border-primary" : "border-border"
+            }`}
+          >
+            {plan.popular && (
+              <span className="absolute -top-3 right-4 rounded-full bg-primary px-3 py-0.5 text-[10px] font-medium text-white">
+                推荐
+              </span>
+            )}
+            <div className="flex items-end gap-1 mb-4">
+              <span className="text-2xl font-bold text-dark">{plan.price}</span>
+              <span className="text-xs text-secondary line-through">{plan.original}</span>
+              {plan.period && <span className="text-xs text-secondary">{plan.period}</span>}
+            </div>
+            <div className="text-sm font-semibold text-dark mb-3">{plan.name}</div>
+            <ul className="space-y-1.5 mb-4">
+              {plan.features.map((f, j) => (
+                <li key={j} className="text-xs text-secondary flex items-center gap-1.5">
+                  <i className="fas fa-check text-primary text-[10px]" />{f}
+                </li>
+              ))}
+            </ul>
+            <button
+              className={`w-full rounded-xl py-2.5 text-sm font-medium transition-colors ${
+                plan.popular
+                  ? "bg-primary text-white"
+                  : "border border-primary text-primary hover:bg-accent"
+              }`}
+            >
+              {plan.popular ? "立即开通" : "选择"}
+            </button>
+          </div>
+        ))}
+        <p className="text-center text-[10px] text-secondary-light pt-2">
+          开通即代表同意《VIP服务协议》
+        </p>
+      </div>
+    </div>
+  );
+}

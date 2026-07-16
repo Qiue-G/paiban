@@ -1,1 +1,84 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZiYXIoKSB7CiAgY29uc3QgW21vYmlsZU9wZW4sIHNldE1vYmlsZU9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwoKICByZXR1cm4gKAogICAgPGhlYWRlciBjbGFzc05hbWU9InN0aWNreSB0b3AtMCB6LTUwIHctZnVsbCBib3JkZXItYiBib3JkZXItYm9yZGVyIGJnLXdoaXRlLzk1IGJhY2tkcm9wLWJsdXIgc3VwcG9ydHMtW2JhY2tkcm9wLWZpbHRlcl06Ymctd2hpdGUvODAiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gZmxleCBoLTE2IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNCBsZzpweC04Ij4KICAgICAgICB7LyogTG9nbyAqL30KICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxpbWcKICAgICAgICAgICAgc3JjPSJodHRwczovL2Nkbi50ZXhwZWVkLmNuL3RwX2ljb24vZmF2aWNvbi5wbmciCiAgICAgICAgICAgIGFsdD0iVGVYcGVlZCIKICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTggdy04IgogICAgICAgICAgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQgdGV4dC1kYXJrIj4KICAgICAgICAgICAgVGVYcGVlZAogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvTGluaz4KCiAgICAgICAgey8qIERlc2t0b3AgTmF2ICovfQogICAgICAgIDxuYXYgY2xhc3NOYW1lPSJoaWRkZW4gbWQ6ZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTgiPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iLyIKICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZGFyayBob3Zlcjp0ZXh0LXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICA+CiAgICAgICAgICAgIOmmlumhtQogICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iL2RvY3MiCiAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNlY29uZGFyeSBob3Zlcjp0ZXh0LXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICA+CiAgICAgICAgICAgIOaWh+aho+W6kwogICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iL2NvbW11bml0eSIKICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5IGhvdmVyOnRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgID4KICAgICAgICAgICAg5Yqg5YWl55So5oi3576kCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9uYXY+CgogICAgICAgIHsvKiBEZXNrdG9wIENUQSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGlkZGVuIG1kOmZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJnLXByaW1hcnkgcHgtNSBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC13aGl0ZSBob3ZlcjpiZy1wcmltYXJ5LWhvdmVyIHRyYW5zaXRpb24tY29sb3JzIj4KICAgICAgICAgICAg55m75b2VCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIE1vYmlsZSB0b2dnbGUgKi99CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgY2xhc3NOYW1lPSJtZDpoaWRkZW4gcC0yIHRleHQtZGFyayIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE1vYmlsZU9wZW4oIW1vYmlsZU9wZW4pfQogICAgICAgICAgYXJpYS1sYWJlbD0i6I+c5Y2VIgogICAgICAgID4KICAgICAgICAgIDxpIGNsYXNzTmFtZT17YGZhcyAke21vYmlsZU9wZW4gPyAiZmEtdGltZXMiIDogImZhLWJhcnMifSB0ZXh0LWxnYH0gLz4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICB7LyogTW9iaWxlIE5hdiAqL30KICAgICAge21vYmlsZU9wZW4gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtZDpoaWRkZW4gYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBiZy13aGl0ZSBweC00IHBiLTQgcHQtMiI+CiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyI+CiAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRhcmsgcHktMSI+CiAgICAgICAgICAgICAg6aaW6aG1CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPExpbmsgaHJlZj0iL2RvY3MiIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNlY29uZGFyeSBweS0xIj4KICAgICAgICAgICAgICDmlofmoaPlupMKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8TGluayBocmVmPSIvY29tbXVuaXR5IiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkgcHktMSI+CiAgICAgICAgICAgICAg5Yqg5YWl55So5oi3576kCiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9Im10LTIgdy1mdWxsIHJvdW5kZWQtbGcgYmctcHJpbWFyeSBweS0yLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICDnmbvlvZUKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICA8L25hdj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvaGVhZGVyPgogICk7Cn0K
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+
+export default function Navbar() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2">
+          <img
+            src="https://cdn.texpeed.cn/tp_icon/favicon.png"
+            alt="TeXpeed"
+            className="h-8 w-8"
+          />
+          <span className="text-xl font-bold text-dark">
+            TeXpeed
+          </span>
+        </Link>
+
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex items-center gap-8">
+          <Link
+            href="/"
+            className="text-sm font-medium text-dark hover:text-primary transition-colors"
+          >
+            首页
+          </Link>
+          <Link
+            href="/docs"
+            className="text-sm font-medium text-secondary hover:text-primary transition-colors"
+          >
+            文档库
+          </Link>
+          <Link
+            href="/community"
+            className="text-sm font-medium text-secondary hover:text-primary transition-colors"
+          >
+            加入用户群
+          </Link>
+        </nav>
+
+        {/* Desktop CTA */}
+        <div className="hidden md:flex items-center gap-3">
+          <button className="rounded-lg bg-primary px-5 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors">
+            登录
+          </button>
+        </div>
+
+        {/* Mobile toggle */}
+        <button
+          className="md:hidden p-2 text-dark"
+          onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="菜单"
+        >
+          <i className={`fas ${mobileOpen ? "fa-times" : "fa-bars"} text-lg`} />
+        </button>
+      </div>
+
+      {/* Mobile Nav */}
+      {mobileOpen && (
+        <div className="md:hidden border-t border-border bg-white px-4 pb-4 pt-2">
+          <nav className="flex flex-col gap-3">
+            <Link href="/" className="text-sm font-medium text-dark py-1">
+              首页
+            </Link>
+            <Link href="/docs" className="text-sm font-medium text-secondary py-1">
+              文档库
+            </Link>
+            <Link href="/community" className="text-sm font-medium text-secondary py-1">
+              加入用户群
+            </Link>
+            <button className="mt-2 w-full rounded-lg bg-primary py-2.5 text-sm font-medium text-white">
+              登录
+            </button>
+          </nav>
+        </div>
+      )}
+    </header>
+  );
+}

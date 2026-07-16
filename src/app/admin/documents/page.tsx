@@ -1,1 +1,53 @@
-Y29uc3QgZG9jcyA9IFsKICB7IG5hbWU6ICLkuqflk4HpnIDmsYLmlofmoaMgVjMiLCBhdXRob3I6ICLlvKDkuIkiLCBkYXRlOiAiMjAyNi0wNy0xNSIsIHN0YXR1czogIuW3suWPkeW4gyIsIHZpZXdzOiAyMzAgfSwKICB7IG5hbWU6ICLlraPluqblt6XkvZzmgLvnu5MiLCBhdXRob3I6ICLmnY7lm5siLCBkYXRlOiAiMjAyNi0wNy0xNCIsIHN0YXR1czogIuaOkueJiOS4rSIsIHZpZXdzOiA0NSB9LAogIHsgbmFtZTogIuaWsOWKn+iDveWPkeW4g+WFrOWRiiIsIGF1dGhvcjogIueuoeeQhuWRmCIsIGRhdGU6ICIyMDI2LTA3LTEzIiwgc3RhdHVzOiAi5bey5Y+R5biDIiwgdmlld3M6IDEyMDAgfSwKICB7IG5hbWU6ICLnlKjmiLfkvb/nlKjmiYvlhowiLCBhdXRob3I6ICLnjovkupQiLCBkYXRlOiAiMjAyNi0wNy0xMiIsIHN0YXR1czogIuiNieeovyIsIHZpZXdzOiAxMiB9LAogIHsgbmFtZTogIkFQSeaOpeWPo+aWh+ahoyIsIGF1dGhvcjogIui1teWFrSIsIGRhdGU6ICIyMDI2LTA3LTEwIiwgc3RhdHVzOiAi5bey5Y+R5biDIiwgdmlld3M6IDg5IH0sCl07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBEb2N1bWVudHNBZG1pbigpIHsKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi02Ij4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LWRhcmsiPuaWh+aho+euoeeQhjwvaDI+CiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9InJvdW5kZWQteGwgYmctcHJpbWFyeSBweC00IHB5LTIgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LXdoaXRlIj4KICAgICAgICAgIDxpIGNsYXNzTmFtZT0iZmFzIGZhLXBsdXMgbXItMSIgLz7mlrDlu7rmlofmoaMKICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1ib3JkZXIgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3cteC1hdXRvIj4KICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCB0ZXh0LXNtIj4KICAgICAgICAgICAgPHRoZWFkPgogICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1ib3JkZXIgYmctYmctbGlnaHQiPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5Ij7mlofmoaPlkI3np7A8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5Ij7kvZzogIU8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5IGhpZGRlbiBzbTp0YWJsZS1jZWxsIj7ml6XmnJ88L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1sZWZ0IHB4LTQgcHktMyB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtc2Vjb25kYXJ5Ij7nirbmgIE8L3RoPgogICAgICAgICAgICAgICAgPHRoIGNsYXNzTmFtZT0idGV4dC1yaWdodCBweC00IHB5LTMgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LXNlY29uZGFyeSBoaWRkZW4gbWQ6dGFibGUtY2VsbCI+5rWP6KeIPC90aD4KICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICA8L3RoZWFkPgogICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAge2RvY3MubWFwKChkLCBpKSA9PiAoCiAgICAgICAgICAgICAgICA8dHIga2V5PXtpfSBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1ib3JkZXIgbGFzdDpib3JkZXItMCBob3ZlcjpiZy1iZy1saWdodCI+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LWRhcmsiPntkLm5hbWV9PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icHgtNCBweS0zIHRleHQtc2Vjb25kYXJ5IHRleHQteHMiPntkLmF1dGhvcn08L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMgdGV4dC1zZWNvbmRhcnktbGlnaHQgdGV4dC14cyBoaWRkZW4gc206dGFibGUtY2VsbCI+e2QuZGF0ZX08L3RkPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTMiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YHRleHQtWzEwcHhdIHB4LTIgcHktMC41IHJvdW5kZWQtZnVsbCAkewogICAgICAgICAgICAgICAgICAgICAgZC5zdGF0dXMgPT09ICLlt7Llj5HluIMiID8gImJnLWdyZWVuLTUwIHRleHQtZ3JlZW4tNjAwIiA6CiAgICAgICAgICAgICAgICAgICAgICBkLnN0YXR1cyA9PT0gIuaOkueJiOS4rSIgPyAiYmctb3JhbmdlLTUwIHRleHQtb3JhbmdlLTYwMCIgOgogICAgICAgICAgICAgICAgICAgICAgImJnLWdyYXktMTAwIHRleHQtZ3JheS01MDAiCiAgICAgICAgICAgICAgICAgICAgfWB9PntkLnN0YXR1c308L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMyB0ZXh0LXNlY29uZGFyeSB0ZXh0LXhzIHRleHQtcmlnaHQgaGlkZGVuIG1kOnRhYmxlLWNlbGwiPntkLnZpZXdzfTwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgPC90YWJsZT4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+const docs = [
+  { name: "产品需求文档 V3", author: "张三", date: "2026-07-15", status: "已发布", views: 230 },
+  { name: "季度工作总结", author: "李四", date: "2026-07-14", status: "排版中", views: 45 },
+  { name: "新功能发布公告", author: "管理员", date: "2026-07-13", status: "已发布", views: 1200 },
+  { name: "用户使用手册", author: "王五", date: "2026-07-12", status: "草稿", views: 12 },
+  { name: "API接口文档", author: "赵六", date: "2026-07-10", status: "已发布", views: 89 },
+];
+
+export default function DocumentsAdmin() {
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-6">
+        <h2 className="text-xl font-bold text-dark">文档管理</h2>
+        <button className="rounded-xl bg-primary px-4 py-2 text-xs font-medium text-white">
+          <i className="fas fa-plus mr-1" />新建文档
+        </button>
+      </div>
+
+      <div className="bg-white rounded-2xl border border-border overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border bg-bg-light">
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">文档名称</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">作者</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary hidden sm:table-cell">日期</th>
+                <th className="text-left px-4 py-3 text-xs font-medium text-secondary">状态</th>
+                <th className="text-right px-4 py-3 text-xs font-medium text-secondary hidden md:table-cell">浏览</th>
+              </tr>
+            </thead>
+            <tbody>
+              {docs.map((d, i) => (
+                <tr key={i} className="border-b border-border last:border-0 hover:bg-bg-light">
+                  <td className="px-4 py-3 text-dark">{d.name}</td>
+                  <td className="px-4 py-3 text-secondary text-xs">{d.author}</td>
+                  <td className="px-4 py-3 text-secondary-light text-xs hidden sm:table-cell">{d.date}</td>
+                  <td className="px-4 py-3">
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full ${
+                      d.status === "已发布" ? "bg-green-50 text-green-600" :
+                      d.status === "排版中" ? "bg-orange-50 text-orange-600" :
+                      "bg-gray-100 text-gray-500"
+                    }`}>{d.status}</span>
+                  </td>
+                  <td className="px-4 py-3 text-secondary text-xs text-right hidden md:table-cell">{d.views}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}

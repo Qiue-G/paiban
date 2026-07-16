@@ -1,1 +1,60 @@
-aW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFVzZXJDZW50ZXIoKSB7CiAgY29uc3QgdXNlciA9IHsgbmFtZTogIueUqCoqKiowSCIsIGF2YXRhcjogIi91c2VyLWRlZmF1bHQuanBnIiwgZXhwaXJlRGF0ZTogIjIwMjctMDYtMjUiLCB2aXA6IHRydWUgfTsKCiAgY29uc3Qgc2VydmljZXMgPSBbCiAgICB7IGljb246ICJmYS1jcm93biIsIGxhYmVsOiAi5oiR55qEVklQIiwgaHJlZjogIi92aXAiIH0sCiAgICB7IGljb246ICJmYS1iYXNrZXQtc2hvcHBpbmciLCBsYWJlbDogIuaIkeeahOiuouWNlSIsIGhyZWY6ICIvb3JkZXJzIiB9LAogICAgeyBpY29uOiAiZmEtZ2lmdCIsIGxhYmVsOiAi5aWW5Yqx6K6w5b2VIiwgaHJlZjogIi9yZXdhcmRzIiB9LAogICAgeyBpY29uOiAiZmEtdHJhc2gtY2FuIiwgbGFiZWw6ICLlm57mlLbnq5kiLCBocmVmOiAiL3JlY3ljbGUiIH0sCiAgICB7IGljb246ICJmYS1nZWFyIiwgbGFiZWw6ICLorr7nva4iLCBocmVmOiAiIyIgfSwKICAgIHsgaWNvbjogImZhLWhlYWRzZXQiLCBsYWJlbDogIuiBlOezu+WuouacjSIsIGhyZWY6ICIjIiB9LAogIF07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLWJnLWxpZ2h0Ij4KICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImJnLXdoaXRlIGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcHgtNCBweS00IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICA8TGluayBocmVmPSIvIiBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij48aSBjbGFzc05hbWU9ImZhcyBmYS1hcnJvdy1sZWZ0IiAvPjwvTGluaz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtZGFyayI+5Liq5Lq65Lit5b+DPC9oMT4KICAgICAgPC9oZWFkZXI+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNCBweS02Ij4KICAgICAgICB7LyogVXNlciBjYXJkICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSByb3VuZGVkLTJ4bCBwLTUgbWItNCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCBib3JkZXIgYm9yZGVyLWJvcmRlciI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xNCBoLTE0IHJvdW5kZWQtZnVsbCBiZy1hY2NlbnQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1wcmltYXJ5IGZvbnQtYm9sZCB0ZXh0LXhsIj4KICAgICAgICAgICAge3VzZXIubmFtZS5jaGFyQXQoMCl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWRhcmsiPnt1c2VyLm5hbWV9PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtc2Vjb25kYXJ5IG10LTAuNSI+CiAgICAgICAgICAgICAge3VzZXIudmlwID8gYFZJUCDmnInmlYjmnJ/oh7MgJHt1c2VyLmV4cGlyZURhdGV9YCA6ICLmma7pgJrnlKjmiLcifQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iL3ZpcCIKICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJnLXByaW1hcnkgcHgtNCBweS0yIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC13aGl0ZSIKICAgICAgICAgID4KICAgICAgICAgICAge3VzZXIudmlwID8gIue7rei0uSIgOiAi5byA6YCaVklQIn0KICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFNlcnZpY2UgZ3JpZCAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtMyI+CiAgICAgICAgICB7c2VydmljZXMubWFwKChzLCBpKSA9PiAoCiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgIGhyZWY9e3MuaHJlZn0KICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtMnhsIGJnLXdoaXRlIGJvcmRlciBib3JkZXItYm9yZGVyIHAtNCBob3Zlcjpib3JkZXItcHJpbWFyeS8yMCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC14bCBiZy1hY2NlbnQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC1wcmltYXJ5Ij4KICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT17YGZhcyAke3MuaWNvbn1gfSAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWRhcmsiPntzLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import Link from "next/link";
+
+export default function UserCenter() {
+  const user = { name: "用****0H", avatar: "/user-default.jpg", expireDate: "2027-06-25", vip: true };
+
+  const services = [
+    { icon: "fa-crown", label: "我的VIP", href: "/vip" },
+    { icon: "fa-basket-shopping", label: "我的订单", href: "/orders" },
+    { icon: "fa-gift", label: "奖励记录", href: "/rewards" },
+    { icon: "fa-trash-can", label: "回收站", href: "/recycle" },
+    { icon: "fa-gear", label: "设置", href: "#" },
+    { icon: "fa-headset", label: "联系客服", href: "#" },
+  ];
+
+  return (
+    <div className="min-h-screen bg-bg-light">
+      <header className="bg-white border-b border-border px-4 py-4 flex items-center gap-3">
+        <Link href="/" className="text-secondary"><i className="fas fa-arrow-left" /></Link>
+        <h1 className="font-semibold text-dark">个人中心</h1>
+      </header>
+
+      <div className="px-4 py-6">
+        {/* User card */}
+        <div className="bg-white rounded-2xl p-5 mb-4 flex items-center gap-4 border border-border">
+          <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center text-primary font-bold text-xl">
+            {user.name.charAt(0)}
+          </div>
+          <div className="flex-1">
+            <div className="font-semibold text-dark">{user.name}</div>
+            <div className="text-xs text-secondary mt-0.5">
+              {user.vip ? `VIP 有效期至 ${user.expireDate}` : "普通用户"}
+            </div>
+          </div>
+          <Link
+            href="/vip"
+            className="rounded-lg bg-primary px-4 py-2 text-xs font-medium text-white"
+          >
+            {user.vip ? "续费" : "开通VIP"}
+          </Link>
+        </div>
+
+        {/* Service grid */}
+        <div className="grid grid-cols-3 gap-3">
+          {services.map((s, i) => (
+            <Link
+              key={i}
+              href={s.href}
+              className="flex flex-col items-center gap-2 rounded-2xl bg-white border border-border p-4 hover:border-primary/20 transition-colors"
+            >
+              <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center text-primary">
+                <i className={`fas ${s.icon}`} />
+              </div>
+              <span className="text-xs text-dark">{s.label}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
