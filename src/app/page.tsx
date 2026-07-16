@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
-
 // ===== Types =====
 type Theme = "default" | "serif" | "dark" | "minimal";
 type BlockType = "title"|"toc"|"chapter"|"subchapter"|"paragraph"|"quote"|"list"|"code"|"image"|"divider";
@@ -620,7 +618,7 @@ export default function DocNewPage() {
     step==="result"&&React.createElement("div",{className:"fixed top-0 left-0 z-50 h-1 transition-all duration-150",style:{width:progress+"%",backgroundColor:tpl.accent}}),
     // header
     React.createElement("header",{className:"px-4 py-4 flex items-center gap-3 sticky top-0 z-40",style:{backgroundColor:thm.pageBg,borderBottom:"1px solid "+thm.border}},
-      React.createElement(Link,{href:"/",className:"text-sm hover:opacity-70",style:{color:thm.text}},React.createElement("i",{className:"fas fa-arrow-left"})),
+      React.createElement("button",{onClick:function(){setStep("template");setInput("");setBlocks([]);setTitle("未命名文档");},className:"text-sm hover:opacity-70",style:{color:thm.text}},React.createElement("i",{className:"fas fa-arrow-left"})),
       React.createElement("span",{className:"font-semibold text-sm truncate",style:{color:pageIsDark?thm.text:tpl.titleColor}},step==="template"?"选择模板":title),
       React.createElement("div",{className:"ml-auto flex items-center gap-2"},
         step!=="template"&&React.createElement("button",{onClick:cycleTheme,className:"rounded-lg border px-3 py-1.5 text-xs hover:opacity-80",style:{borderColor:thm.border,color:thm.text}},
