@@ -1,1 +1,6 @@
-W2J1aWxkXQogIGJ1aWxkZXIgPSAibml4cGFja3MiCiAgYnVpbGRDb21tYW5kID0gIm5wbSBydW4gYnVpbGQiCgpbZGVwbG95XQogIHN0YXJ0Q29tbWFuZCA9ICJucHggbmV4dCBzdGFydCAtcCAkUE9SVCIK
+[build]
+  builder = "nixpacks"
+  buildCommand = "npm run build"
+
+[deploy]
+  startCommand = "npx next start -p $PORT"
