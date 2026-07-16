@@ -503,8 +503,8 @@ export default function DocNewPage() {
   var progress = useReadingProgress();
 
   var tpl = TEMPLATES.find(function(t) { return t.id === layout; })!;
-  var isDarkTheme = theme === "dark" || layout === "marketing";
-  var contentBg = layout === "marketing" ? "#0f0b1a" : layout === "wechat" ? "#ededed" : THEME_MODES[theme].contentBg;
+  var pageIsDark = theme === "dark";
+  var pageBg = THEME_MODES[theme].contentBg;
   var svgKey = SVG_KEYS[layout] || "bz_tech";
   var accent = tpl.accentColor;
 
@@ -518,19 +518,23 @@ export default function DocNewPage() {
     setTimeout(function() { window.scrollTo({ top: 0, behavior: "smooth" }); }, 100);
   }
 
-  var headerBg = layout === "marketing" ? "#0f0b1a" : layout === "wechat" ? "#ededed" : contentBg;
-  var headerBorder = layout === "marketing" ? "#1e1640" : layout === "wechat" ? "#d9d9d9" : "#e2e8f0";
-  var headerText = layout === "marketing" ? "#cbd5e1" : "#64748b";
+  // Page chrome — always neutral, unaffected by template
+  var headerBg = pageBg;
+  var headerBorder = pageIsDark ? "#334155" : "#e2e8f0";
+  var headerText = pageIsDark ? "#94a3b8" : "#64748b";
+
+  // Template-specific content background for result area
+  var articleBg = layout === "marketing" ? "#0f0b1a" : layout === "wechat" ? "#ededed" : pageBg;
 
   return (
-    <div className="min-h-screen transition-colors duration-500" style={{ backgroundColor: contentBg }}>
+    <div className="min-h-screen transition-colors duration-500" style={{ backgroundColor: pageBg }}>
       {step === "result" && <div className="fixed top-0 left-0 z-50 h-1 transition-all duration-150" style={{ width: progress + "%", backgroundColor: accent }} />}
 
       <header className="px-4 py-4 flex items-center gap-3 sticky top-0 z-40 transition-colors" style={{ backgroundColor: headerBg, borderBottom: "1px solid " + headerBorder }}>
         <Link href="/" className="text-sm hover:opacity-70" style={{ color: headerText }}><i className="fas fa-arrow-left" /></Link>
         <span className="font-semibold text-sm truncate" style={{ color: tpl.headingColor }}>{step === "template" ? "选择模板" : title}</span>
         <div className="ml-auto flex items-center gap-2">
-          {step !== "template" && layout !== "marketing" && layout !== "wechat" && (
+          {step !== "template" && (
             <button onClick={cycleTheme} className="rounded-lg border px-3 py-1.5 text-xs hover:opacity-80" style={{ borderColor: headerBorder, color: headerText }}>
               <i className="fas fa-palette mr-1" />主题
             </button>
@@ -547,7 +551,7 @@ export default function DocNewPage() {
       {/* Template picker */}
       {step === "template" && (
         <div className="max-w-5xl mx-auto px-4 py-10">
-          <h2 className="text-xl font-bold mb-2 text-center" style={{ color: tpl.headingColor }}>选择排版模板</h2>
+          <h2 className="text-xl font-bold mb-2 text-center" style={{ color: pageIsDark ? "#e2e8f0" : "#1a1a2e" }}>选择排版模板</h2>
           <p className="text-sm mb-8 text-center" style={{ color: headerText }}>6 套独立视觉风格，点击预览</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {TEMPLATES.map(function(tp) {
@@ -588,7 +592,7 @@ export default function DocNewPage() {
           <textarea value={input} onChange={function(e) { setInput(e.target.value); }}
             placeholder={"第一行为标题\n\n第1章 项目背景分析\n本章介绍项目启动的宏观环境。\n\n**核心结论：市场正经历结构性转变。**\n\n## 细分市场洞察\n\n- 第一代产品已进入成熟期\n- 新兴技术带来颠覆性机会\n- 用户习惯正在快速迁移\n\n> 行业专家指出：未来三年将出现三到五家百亿级平台。\n\n---\n\n第2章 战略执行路线图\n本章阐述具体落地计划。"}
             className="w-full h-96 rounded-xl border p-6 text-sm leading-relaxed resize-none focus:outline-none focus:ring-2 transition-all font-mono"
-            style={{ backgroundColor: isDarkTheme ? "#1a1040" : "#ffffff", color: isDarkTheme ? "#e2e8f0" : "#1c1d21", borderColor: isDarkTheme ? "#2d1f6e" : "#e5e7eb" }}
+            style={{ backgroundColor: pageIsDark ? "#1e293b" : "#ffffff", color: pageIsDark ? "#e2e8f0" : "#1c1d21", borderColor: pageIsDark ? "#334155" : "#e5e7eb" }}
           />
         </div>
       )}
@@ -600,11 +604,13 @@ export default function DocNewPage() {
             <span className="text-xs px-2 py-0.5 rounded-full text-white" style={{ backgroundColor: accent }}>{tpl.name}</span>
           </div>
 
-          <article>
-            {blocks.map(function(block, idx) { return renderBlock(block, layout, idx, svgKey); })}
-          </article>
+          <div className="p-8 rounded-2xl" style={{ backgroundColor: articleBg }}>
+            <article>
+              {blocks.map(function(block, idx) { return renderBlock(block, layout, idx, svgKey); })}
+            </article>
+          </div>
 
-          <div className="mt-16 pt-8 flex flex-wrap items-center gap-3 justify-between" style={{ borderTop: "1px solid " + (layout === "marketing" ? "#1e1640" : "#e5e7eb") }}>
+          <div className="mt-10 pt-6 flex flex-wrap items-center gap-3 justify-between" style={{ borderTop: "1px solid " + headerBorder }}>
             <button onClick={function() { setStep("edit"); }} className="rounded-lg border px-4 py-2 text-sm hover:opacity-80" style={{ borderColor: headerBorder, color: headerText }}>
               <i className="fas fa-edit mr-1" />重新编辑
             </button>
