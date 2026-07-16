@@ -312,141 +312,170 @@ function WZ(contentBg:string,tp:Tpl) {
 // ====== RENDER: Sweet (甜美治愈) ======
 function SZ(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[];title?:string}) {
-    return React.createElement("div",{className:"max-w-2xl mx-auto px-5 py-10",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
+    return React.createElement("div",{className:"max-w-lg mx-auto px-5 py-10 rounded-3xl my-6",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily,boxShadow:"0 0 0 8px "+tp.accent+"0a"}},
+      // diary header
+      React.createElement("div",{className:"text-center mb-10"},
+        React.createElement("div",{className:"inline-block px-4 py-1.5 rounded-full text-xs font-bold mb-4 text-white",style:{background:"linear-gradient(135deg,"+tp.accent+","+tp.accent2+")"}},props.title||"\u672A\u547D\u540D"),
+        React.createElement("div",{className:"flex justify-center gap-1.5 mb-3"},
+          React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent,opacity:0.6}}),
+          React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent2}}),
+          React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent,opacity:0.6}})),
+        React.createElement("div",{className:"w-12 h-0.5 mx-auto rounded-full",style:{backgroundColor:tp.accent2,opacity:0.4}})),
       props.blocks.map(function(b,idx){
-        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 text-center"},
-          React.createElement("div",{className:"inline-block px-5 py-2 rounded-full mb-5 text-sm font-bold text-white",style:{background:"linear-gradient(135deg,"+tp.accent+","+tp.accent2+")",boxShadow:"0 4px 15px "+tp.accent+"44"}},
-            React.createElement("span",null,"\u2728 "),b.content),
-          React.createElement("div",{className:"flex justify-center gap-2 mt-3"},
-            React.createElement("div",{className:"w-2 h-2 rounded-full",style:{backgroundColor:tp.accent,opacity:0.3}}),
-            React.createElement("div",{className:"w-2 h-2 rounded-full",style:{backgroundColor:tp.accent2,opacity:0.5}}),
-            React.createElement("div",{className:"w-2 h-2 rounded-full",style:{backgroundColor:tp.accent,opacity:0.2}})));
-        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-10 mb-6",style:{scrollMarginTop:"5rem"}},
-          React.createElement("div",{className:"flex items-center gap-3"},
-            React.createElement("span",{className:"flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold",style:{backgroundColor:tp.accent,boxShadow:"0 2px 8px "+tp.accent+"44"}},String(b.chapterNum)),
-            React.createElement("h2",{className:"text-lg font-bold",style:{color:tp.titleColor}},b.content)));
-        if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-base font-bold mt-6 mb-3 pl-3",style:{color:tp.accent,scrollMarginTop:"5rem",borderLeft:"3px solid "+tp.accent2}},b.content);
-        if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-5 px-5 py-4 rounded-2xl text-sm leading-loose",style:{backgroundColor:tp.cardBg,border:"1px solid "+tp.cardBorder,color:tp.textColor},dangerouslySetInnerHTML:{__html:b.content}});
-        if(b.type==="quote") return React.createElement("blockquote",{key:idx,className:"my-7 p-5 rounded-2xl text-sm leading-relaxed italic text-center",style:{background:"linear-gradient(135deg,"+tp.accent+"11,"+tp.accent2+"0f)",border:"1px dashed "+tp.cardBorder,color:tp.accent}},
-          React.createElement("span",{className:"text-2xl"},b.content));
-        if(b.type==="list") return React.createElement("ul",{key:idx,className:"my-5 space-y-3"},
-          (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-start gap-3 text-sm px-4 py-3 rounded-xl",style:{backgroundColor:tp.cardBg,border:"1px solid "+tp.cardBorder,color:tp.textColor}},
-            React.createElement("span",{className:"flex-shrink-0 mt-0.5"},j%2?"\u2764\ufe0f":"\UD83C\UDF38"),
-            React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
-        if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-36 object-cover rounded-3xl my-7",style:{boxShadow:"0 4px 20px "+tp.accent+"22"}});
-        if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-8 flex justify-center gap-2"},
-          React.createElement("div",{className:"w-6 h-6 rounded-full",style:{backgroundColor:tp.accent,opacity:0.15}}),
-          React.createElement("div",{className:"w-6 h-6 rounded-full",style:{backgroundColor:tp.accent2,opacity:0.25}}),
-          React.createElement("div",{className:"w-6 h-6 rounded-full",style:{backgroundColor:tp.accent,opacity:0.1}}));
+        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-10 text-center"},
+          React.createElement("h1",{className:"text-xl font-bold leading-relaxed px-4 py-3 rounded-2xl inline-block",style:{backgroundColor:tp.accent+"10",color:tp.titleColor}},b.content));
+        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-12 mb-6 relative",style:{scrollMarginTop:"5rem"}},
+          React.createElement("div",{className:"absolute -top-6",style:{left:"50%",transform:"translateX(-50%)"}},
+            React.createElement("div",{className:"w-10 h-10 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-lg",style:{background:"linear-gradient(135deg,"+tp.accent+","+tp.accent2+")"}},String(b.chapterNum))),
+          React.createElement("h2",{className:"text-base font-bold text-center pt-6 pb-1",style:{color:tp.titleColor}},b.content));
+        if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-sm font-bold mt-6 mb-3 pl-3 py-1.5 rounded-r-lg",style:{color:tp.accent,scrollMarginTop:"5rem",backgroundColor:tp.accent+"0f",borderLeft:"3px solid "+tp.accent2}},b.content);
+        if(b.type==="paragraph") return React.createElement("div",{key:idx,className:"mb-4 p-4 rounded-2xl text-sm leading-loose",style:{backgroundColor:tp.cardBg,color:tp.textColor,border:"1px solid "+tp.cardBorder,boxShadow:"0 2px 8px "+tp.accent+"08"},dangerouslySetInnerHTML:{__html:b.content}});
+        if(b.type==="quote") return React.createElement("div",{key:idx,className:"my-6 p-4 rounded-2xl text-center text-sm italic leading-relaxed",style:{background:"linear-gradient(135deg,"+tp.accent+"12,"+tp.accent2+"08)",color:tp.accent}},
+          React.createElement("div",{className:"text-lg mb-1"},"❤"),React.createElement("span",{dangerouslySetInnerHTML:{__html:b.content}}));
+        if(b.type==="list") return React.createElement("div",{key:idx,className:"my-5 space-y-2.5"},
+          (b.items||[]).map(function(item,j){return React.createElement("div",{key:j,className:"flex items-center gap-2.5 text-sm px-3 py-2 rounded-xl",style:{backgroundColor:tp.accent+"08",color:tp.textColor}},
+            React.createElement("span",{className:"flex-shrink-0 text-sm",style:{color:tp.accent2}},"✨"),React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
+        if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-32 object-cover rounded-3xl my-6",style:{boxShadow:"0 4px 20px "+tp.accent+"1a"}});
+        if(b.type==="divider") return React.createElement("div",{key:idx,className:"flex justify-center gap-2 my-8"},
+          React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent,opacity:0.3}}),React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent2,opacity:0.6}}),React.createElement("div",{className:"w-1.5 h-1.5 rounded-full",style:{backgroundColor:tp.accent,opacity:0.3}}));
         if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-6 p-4 rounded-2xl text-xs overflow-x-auto",style:{backgroundColor:"#2d1b30",color:"#f0c8e0"}},React.createElement("code",null,b.content));
         if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-8 p-5 rounded-2xl",style:{background:"linear-gradient(135deg,"+tp.accent+"0f,"+tp.accent2+"08)",border:"1px solid "+tp.cardBorder}},
-          React.createElement("p",{className:"text-xs font-bold mb-3",style:{color:tp.accent}},"\UD83C\UDF38 \u76ee\u5f55"),
+          React.createElement("p",{className:"text-xs font-bold mb-3",style:{color:tp.accent}},"🌸 目录"),
           React.createElement("ul",{className:"space-y-1.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm",style:{color:tp.subColor}},t);})));
         return null;
-      }));
+      }),
+      // signature
+      React.createElement("div",{className:"mt-10 pt-6 text-center",style:{borderTop:"1px dashed "+tp.cardBorder}},
+        React.createElement("span",{className:"text-xs px-3 py-1 rounded-full",style:{backgroundColor:tp.accent+"10",color:tp.accent}},"💌 with love")));
   };
 }
-
-
 // ====== RENDER: Fresh (清新治愈) ======
 function FZ(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[];title?:string}) {
-    return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
-      props.blocks.map(function(b,idx){
-        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 text-center"},
-          React.createElement("h1",{className:"text-2xl font-bold tracking-wide",style:{color:tp.titleColor}},b.content),
-          React.createElement("div",{className:"mt-3 w-12 h-0.5 mx-auto rounded-full",style:{backgroundColor:tp.accent}}));
-        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"relative mt-14 mb-8",style:{scrollMarginTop:"5rem"}},
-          React.createElement("span",{className:"absolute -top-8 -left-2 text-7xl font-black pointer-events-none",style:{color:tp.accent,opacity:0.08}},String(b.chapterNum||0).padStart(2,"0")),
-          React.createElement("h2",{className:"text-xl font-bold pl-4 relative",style:{color:tp.titleColor}},b.content));
-        if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-base font-semibold mt-7 mb-4",style:{color:tp.titleColor,scrollMarginTop:"5rem",backgroundColor:tp.accent+"15",display:"inline-block",padding:"2px 12px",borderRadius:6}},b.content);
-        if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-5 text-sm leading-loose p-4 rounded-xl",style:{backgroundColor:tp.accent+"0c",color:tp.textColor},dangerouslySetInnerHTML:{__html:b.content}});
-        if(b.type==="quote") return React.createElement("blockquote",{key:idx,className:"my-8 p-5 rounded-xl text-sm leading-relaxed",style:{backgroundColor:tp.accent+"10",borderLeft:"3px solid "+tp.accent,color:tp.titleColor}},
-          React.createElement("span",null,"\u275d "),React.createElement("span",{dangerouslySetInnerHTML:{__html:b.content}}),React.createElement("span",null," \u275e"));
-        if(b.type==="list") return React.createElement("ul",{key:idx,className:"my-5 space-y-2.5"},
-          (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-start gap-3 text-sm",style:{color:tp.textColor}},
-            React.createElement("span",{className:"flex-shrink-0 w-5 h-5 rounded flex items-center justify-center text-white text-xs font-bold mt-0.5",style:{backgroundColor:tp.accent}},"\u2713"),
-            React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
-        if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-32 object-cover rounded-2xl my-7",style:{opacity:0.85}});
-        if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-8 flex items-center justify-center gap-3"},
-          React.createElement("div",{className:"h-px flex-1",style:{background:"linear-gradient(to right,transparent,"+tp.accent+"33)"}}),
-          React.createElement("span",{className:"text-sm",style:{color:tp.accent}},"\u2766"),
-          React.createElement("div",{className:"h-px flex-1",style:{background:"linear-gradient(to left,transparent,"+tp.accent+"33)"}}));
-        if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-6 p-4 rounded-xl text-xs overflow-x-auto",style:{backgroundColor:"#1a2e2a",color:"#a0d4c4"}},React.createElement("code",null,b.content));
-        if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-8 p-5 rounded-xl",style:{backgroundColor:tp.accent+"0f",border:"1px solid "+tp.cardBorder}},
-          React.createElement("p",{className:"text-xs font-bold mb-3",style:{color:tp.accent}},"\UD83C\UDF43 \u672c\u6587\u5bfc\u89c8"),
-          React.createElement("ul",{className:"space-y-1.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm",style:{color:tp.subColor}},t);})));
-        return null;
-      }));
+    return React.createElement("div",{className:"max-w-xl mx-auto",style:{fontFamily:tp.fontFamily,backgroundColor:contentBg}},
+      // masthead
+      React.createElement("div",{className:"px-6 pt-10 pb-6 relative overflow-hidden"},
+        React.createElement("div",{className:"absolute top-0 left-0 w-full h-1",style:{background:"linear-gradient(90deg,"+tp.accent+","+tp.accent2+","+tp.accent+")"}}),
+        React.createElement("span",{className:"text-[10px] tracking-[0.3em] uppercase mb-3 block",style:{color:tp.accent}},"Journal"),
+        React.createElement("h1",{className:"text-2xl font-light tracking-wide leading-relaxed",style:{color:tp.titleColor}},props.title||"未命名"),
+        React.createElement("div",{className:"mt-3 w-8 h-0.5 rounded-full",style:{backgroundColor:tp.accent}})),
+      // body
+      React.createElement("div",{className:"px-6 py-2",style:{backgroundColor:tp.accent+"05"}},
+        props.blocks.map(function(b,idx){
+          if(b.type==="title") return null;
+          if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-12 mb-6",style:{scrollMarginTop:"5rem"}},
+            React.createElement("div",{className:"flex items-baseline gap-3"},
+              React.createElement("span",{className:"text-7xl font-black leading-none",style:{color:tp.accent,opacity:0.08}},String(b.chapterNum||0)),
+              React.createElement("h2",{className:"text-lg font-medium",style:{color:tp.titleColor}},b.content)));
+          if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-sm font-semibold mt-8 mb-3 flex items-center gap-2",style:{color:tp.titleColor,scrollMarginTop:"5rem"}},
+            React.createElement("span",{className:"w-1 h-4 rounded-full",style:{backgroundColor:tp.accent}}),b.content);
+          if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-5 text-sm leading-loose",style:{color:tp.textColor,fontWeight:300},dangerouslySetInnerHTML:{__html:b.content}});
+          if(b.type==="quote") return React.createElement("div",{key:idx,className:"my-8 ml-6 pl-5 py-4 text-sm leading-relaxed italic relative",style:{borderLeft:"2px solid "+tp.accent,color:tp.subColor}},
+            React.createElement("span",{className:"absolute",style:{left:"-10px",top:0,fontSize:20,lineHeight:1,color:tp.accent}},"\u201C"),React.createElement("span",{dangerouslySetInnerHTML:{__html:b.content}}));
+          if(b.type==="list") return React.createElement("ul",{key:idx,className:"my-5 space-y-2.5"},
+            (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-start gap-2.5 text-sm pl-2",style:{color:tp.textColor}},
+              React.createElement("span",{className:"mt-1.5 w-1 h-1 rounded-full flex-shrink-0",style:{backgroundColor:tp.accent,opacity:0.6}}),
+              React.createElement("span",{className:"leading-relaxed font-light",dangerouslySetInnerHTML:{__html:item}}));}));
+          if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-36 object-cover rounded my-8",style:{opacity:0.85}});
+          if(b.type==="divider") return React.createElement("div",{key:idx,className:"flex items-center justify-center gap-3 my-10"},
+            React.createElement("div",{className:"h-px flex-1",style:{background:"linear-gradient(to right,transparent,"+tp.accent+"22)"}}),
+            React.createElement("span",{className:"text-xs",style:{color:tp.accent,opacity:0.5}},"♦"),
+            React.createElement("div",{className:"h-px flex-1",style:{background:"linear-gradient(to left,transparent,"+tp.accent+"22)"}}));
+          if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-6 p-4 rounded text-xs overflow-x-auto",style:{backgroundColor:"#1a2e2a",color:"#a0d4c4"}},React.createElement("code",null,b.content));
+          if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-8 p-5 rounded border",style:{backgroundColor:tp.cardBg,borderColor:tp.cardBorder}},
+            React.createElement("p",{className:"text-xs font-bold mb-3",style:{color:tp.accent}},"🍃 本文导览"),
+            React.createElement("ul",{className:"space-y-1.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm",style:{color:tp.subColor}},t);})));
+          return null;
+        })),
+      // footer
+      React.createElement("div",{className:"px-6 py-8 text-center"},
+        React.createElement("div",{className:"w-6 h-0.5 mx-auto rounded-full mb-2",style:{backgroundColor:tp.accent,opacity:0.3}}),
+        React.createElement("span",{className:"text-[10px] tracking-wider",style:{color:tp.subColor}},"─ FIN ─")));
   };
 }
-
-
 // ====== RENDER: Avant (先锋审美) ======
 function VZ(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[];title?:string}) {
-    return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
-      props.blocks.map(function(b,idx){
-        if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-16"},
-          React.createElement("div",{className:"inline-block px-4 py-2 mb-4 text-xs font-black tracking-[0.2em] uppercase",style:{backgroundColor:tp.accent2,color:"#fff"}},b.content.slice(0,15)),
-          React.createElement("h1",{className:"text-3xl font-black leading-tight",style:{color:tp.accent2}},b.content));
-        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-16 mb-8",style:{scrollMarginTop:"5rem"}},
-          React.createElement("div",{className:"flex items-baseline gap-3"},
-            React.createElement("span",{className:"text-5xl font-black",style:{color:tp.accent,opacity:0.15}},String(b.chapterNum).padStart(2,"0")),
-            React.createElement("h2",{className:"text-xl font-black uppercase tracking-wide",style:{color:tp.accent2}},b.content)));
-        if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-sm font-black mt-8 mb-4",style:{color:tp.accent,scrollMarginTop:"5rem",letterSpacing:"0.1em"}},
-          "\u25b8 "+b.content);
-        if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-6 text-sm leading-loose",style:{color:tp.textColor,fontWeight:300},dangerouslySetInnerHTML:{__html:b.content}});
-        if(b.type==="quote") return React.createElement("blockquote",{key:idx,className:"my-10 pl-6 py-4 text-sm leading-relaxed italic",style:{borderLeft:"4px solid "+tp.accent,color:tp.subColor,backgroundColor:tp.cardBg}},
-          React.createElement("span",{dangerouslySetInnerHTML:{__html:b.content}}));
-        if(b.type==="list") return React.createElement("ul",{key:idx,className:"my-6 space-y-3"},
-          (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-start gap-3 text-sm",style:{color:tp.textColor}},
-            React.createElement("span",{className:"flex-shrink-0 mt-1 font-black text-xs",style:{color:tp.accent}},"\u279c"),
-            React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
-        if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-36 object-cover my-10",style:{filter:"grayscale(0.3)"}});
-        if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-10 w-1/4 h-1",style:{backgroundColor:tp.accent2}});
-        if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-6 p-5 text-xs overflow-x-auto",style:{backgroundColor:tp.accent2,color:"#e0e0e0"}},React.createElement("code",null,b.content));
-        if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-10 p-6",style:{backgroundColor:tp.cardBg}},
-          React.createElement("p",{className:"text-[10px] font-black tracking-[0.3em] uppercase mb-4",style:{color:tp.accent}},"Index"),
-          React.createElement("ul",{className:"space-y-2"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm",style:{color:tp.subColor}},t);})));
-        return null;
-      }));
+    return React.createElement("div",{className:"max-w-2xl mx-auto",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
+      // hero zone - title breaks the container
+      React.createElement("div",{className:"px-6 pt-16 pb-10 relative"},
+        React.createElement("div",{className:"absolute top-0 right-0 w-32 h-32",style:{background:"linear-gradient(135deg,"+tp.accent+"33,transparent)"}}),
+        React.createElement("div",{className:"inline-block px-3 py-1 mb-6 text-[10px] font-black tracking-[0.3em] uppercase",style:{backgroundColor:tp.accent2,color:"#fff"}},"Vol.1"),
+        React.createElement("h1",{className:"text-4xl font-black leading-[1.1] uppercase tracking-tight",style:{color:tp.accent2}},props.title||"\u672A\u547D\u540D")),
+      // body
+      React.createElement("div",{className:"px-6"},
+        props.blocks.map(function(b,idx){
+          if(b.type==="title") return null;
+          if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-16 mb-8 border-t pt-6",style:{scrollMarginTop:"5rem",borderColor:tp.accent2+"33"}},
+            React.createElement("h2",{className:"flex items-baseline gap-4 text-xl font-black uppercase tracking-wider",style:{color:tp.accent2}},
+              React.createElement("span",{className:"text-6xl font-black leading-none",style:{color:tp.accent,opacity:0.12}},"0"+String(b.chapterNum)),
+              b.content));
+          if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-xs font-black mt-10 mb-4 uppercase tracking-[0.2em]",style:{color:tp.accent,scrollMarginTop:"5rem"}},"▶ "+b.content);
+          if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-6 text-sm leading-loose font-light",style:{color:tp.textColor},dangerouslySetInnerHTML:{__html:b.content}});
+          if(b.type==="quote") return React.createElement("div",{key:idx,className:"my-10 px-6 py-8 relative",style:{backgroundColor:tp.accent2,color:"#fff"}},
+            React.createElement("span",{className:"absolute top-2 right-3 text-4xl leading-none opacity-20"},"\u201D"),
+            React.createElement("p",{className:"text-base font-black leading-snug relative z-10"},b.content));
+          if(b.type==="list") return React.createElement("ul",{key:idx,className:"my-8 space-y-4"},
+            (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-center gap-3 text-sm py-2 px-4",style:{borderLeft:"2px solid "+tp.accent,color:tp.textColor}},
+              React.createElement("span",{className:"text-xs font-black",style:{color:tp.accent}},"0"+(j+1)),
+              React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
+          if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-40 object-cover my-10",style:{filter:"grayscale(0.3) contrast(1.1)"}});
+          if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-12 w-full h-0.5",style:{backgroundColor:tp.accent2}});
+          if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-8 p-6 text-xs overflow-x-auto",style:{backgroundColor:tp.accent2,color:"#e0e0e0",fontWeight:300}},React.createElement("code",null,b.content));
+          if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-10 p-6",style:{backgroundColor:tp.cardBg}},
+            React.createElement("p",{className:"text-[10px] font-black tracking-[0.3em] uppercase mb-5",style:{color:tp.accent}},"Index"),
+            React.createElement("ul",{className:"space-y-2.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm",style:{color:tp.subColor}},t);})));
+          return null;
+        })),
+      // colophon
+      React.createElement("div",{className:"mt-12 px-6 py-6",style:{backgroundColor:tp.cardBg}},
+        React.createElement("div",{className:"flex gap-4 items-end"},
+          React.createElement("div",{className:"w-8 h-8",style:{backgroundColor:tp.accent2}}),
+          React.createElement("span",{className:"text-[10px] font-black uppercase tracking-widest",style:{color:tp.subColor}},"END OF DOCUMENT"))));
   };
 }
-
-
 // ====== RENDER: NewMedia (新媒体商业) ======
 function NZ(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[];title?:string}) {
-    return React.createElement("div",{className:"max-w-2xl mx-auto",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
-      props.blocks.map(function(b,idx){
-        if(b.type==="title") return React.createElement("header",{key:idx,className:"text-center py-14 px-6",style:{backgroundColor:tp.accent}},
-          React.createElement("span",{className:"inline-block px-3 py-1 mb-4 rounded text-xs font-black text-white",style:{backgroundColor:"rgba(0,0,0,0.15)"}},"\u26a1 EXCLUSIVE"),
-          React.createElement("h1",{className:"text-3xl font-black leading-tight text-white"},b.content));
-        if(b.type==="chapter") return React.createElement("section",{key:idx,className:"px-6 mt-10 mb-6",style:{scrollMarginTop:"5rem"}},
-          React.createElement("div",{className:"flex items-center gap-3"},
-            React.createElement("div",{className:"w-10 h-10 flex items-center justify-center rounded font-black text-white text-sm",style:{backgroundColor:tp.accent2,color:tp.titleColor}},String(b.chapterNum)),
-            React.createElement("h2",{className:"text-xl font-black",style:{color:tp.titleColor}},b.content)));
-        if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-base font-black mt-8 mb-3 px-6",style:{color:tp.titleColor,scrollMarginTop:"5rem"}},b.content);
-        if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-4 px-6 text-sm leading-loose font-medium",style:{color:tp.textColor},dangerouslySetInnerHTML:{__html:b.content}});
-        if(b.type==="quote") return React.createElement("blockquote",{key:idx,className:"mx-6 my-8 p-5 rounded text-base font-bold text-center",style:{backgroundColor:tp.accent+"15",color:tp.titleColor}},
-          React.createElement("span",{dangerouslySetInnerHTML:{__html:b.content}}));
-        if(b.type==="list") return React.createElement("ul",{key:idx,className:"px-6 my-5 space-y-2.5"},
-          (b.items||[]).map(function(item,j){return React.createElement("li",{key:j,className:"flex items-center gap-3 text-sm py-3 px-4 rounded-lg font-medium",style:{backgroundColor:tp.accent+"0c",color:tp.textColor}},
-            React.createElement("span",{className:"flex-shrink-0 text-lg",style:{color:tp.accent}},"\UD83D\UDCCC"),
-            React.createElement("span",{dangerouslySetInnerHTML:{__html:item}}));}));
-        if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-40 object-cover my-6"});
-        if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-8 mx-6 h-1",style:{background:"linear-gradient(90deg,"+tp.accent+","+tp.accent2+",transparent)"}});
-        if(b.type==="code") return React.createElement("pre",{key:idx,className:"mx-6 my-6 p-5 rounded-lg text-xs overflow-x-auto",style:{backgroundColor:"#1a1a1a",color:"#f7c600"}},React.createElement("code",null,b.content));
-        if(b.type==="toc") return React.createElement("div",{key:idx,className:"mx-6 my-8 p-5 rounded-lg",style:{backgroundColor:tp.cardBg,border:"2px solid "+tp.accent+"33"}},
-          React.createElement("p",{className:"text-xs font-black uppercase tracking-wider mb-3",style:{color:tp.accent}},"\UD83D\UDCCA \u6570\u636e\u5bfc\u89c8"),
-          React.createElement("ul",{className:"space-y-1.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm font-medium",style:{color:tp.textColor}},t);})));
-        return null;
-      }));
+    return React.createElement("div",{className:"max-w-full mx-auto",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
+      // full-width hero
+      React.createElement("div",{className:"py-20 px-6 text-center relative overflow-hidden",style:{background:"linear-gradient(135deg,"+tp.accent+" 0%,"+tp.accent2+" 100%)"}},
+        React.createElement("div",{className:"absolute inset-0 opacity-10",style:{background:"radial-gradient(circle at 30% 50%, white 0%, transparent 60%)"}}),
+        React.createElement("span",{className:"inline-block px-3 py-1 mb-4 rounded text-[10px] font-black tracking-wider text-white uppercase",style:{backgroundColor:"rgba(255,255,255,0.15)"}},"🔥 EXCLUSIVE"),
+        React.createElement("h1",{className:"text-4xl font-black leading-tight text-white max-w-lg mx-auto relative z-10"},props.title||"未命名"),
+        React.createElement("div",{className:"mt-5 w-16 h-1 mx-auto rounded-full",style:{backgroundColor:"rgba(255,255,255,0.3)"}})),
+      // content
+      React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-8"},
+        props.blocks.map(function(b,idx){
+          if(b.type==="title") return null;
+          if(b.type==="chapter") return React.createElement("section",{key:idx,className:"mt-12 mb-8",style:{scrollMarginTop:"5rem"}},
+            React.createElement("div",{className:"flex items-center gap-3 rounded-2xl p-4 shadow-sm",style:{backgroundColor:tp.cardBg,border:"1px solid "+tp.cardBorder}},
+              React.createElement("div",{className:"w-12 h-12 rounded-xl flex items-center justify-center text-white text-lg font-black flex-shrink-0",style:{backgroundColor:tp.accent}},String(b.chapterNum)),
+              React.createElement("h2",{className:"text-xl font-black",style:{color:tp.titleColor}},b.content)));
+          if(b.type==="subchapter") return React.createElement("h3",{key:idx,className:"text-base font-black mt-8 mb-3 px-4 py-2 rounded-lg inline-block",style:{color:tp.titleColor,backgroundColor:tp.accent+"10",scrollMarginTop:"5rem"}},b.content);
+          if(b.type==="paragraph") return React.createElement("p",{key:idx,className:"mb-5 text-sm leading-loose font-medium",style:{color:tp.textColor},dangerouslySetInnerHTML:{__html:b.content}});
+          if(b.type==="quote") return React.createElement("div",{key:idx,className:"my-8 p-6 rounded-2xl text-center relative overflow-hidden",style:{backgroundColor:tp.accent+"10"}},
+            React.createElement("div",{className:"absolute top-0 left-0 w-full h-1",style:{background:"linear-gradient(90deg,"+tp.accent+","+tp.accent2+")"}}),
+            React.createElement("p",{className:"text-lg font-black leading-snug relative z-10",style:{color:tp.titleColor}},b.content));
+          if(b.type==="list") return React.createElement("div",{key:idx,className:"my-6 grid grid-cols-1 gap-3"},
+            (b.items||[]).map(function(item,j){return React.createElement("div",{key:j,className:"flex items-center gap-3 text-sm p-4 rounded-xl font-medium",style:{backgroundColor:tp.cardBg,border:"1px solid "+tp.cardBorder,color:tp.textColor}},
+              React.createElement("span",{className:"flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-black",style:{backgroundColor:tp.accent2}},String(j+1)),
+              React.createElement("span",{className:"leading-relaxed",dangerouslySetInnerHTML:{__html:item}}));}));
+          if(b.type==="image") return React.createElement("img",{key:idx,src:svgData(tp,idx),alt:b.content,className:"w-full h-44 object-cover rounded-2xl my-8 shadow-lg"});
+          if(b.type==="divider") return React.createElement("div",{key:idx,className:"my-10 h-1.5 w-full rounded-full",style:{background:"linear-gradient(90deg,"+tp.accent+","+tp.accent2+",transparent)"}});
+          if(b.type==="code") return React.createElement("pre",{key:idx,className:"my-6 p-5 rounded-2xl text-xs overflow-x-auto font-mono",style:{backgroundColor:"#1a1a1a",color:"#f7c600"}},React.createElement("code",null,b.content));
+          if(b.type==="toc") return React.createElement("div",{key:idx,className:"my-8 p-5 rounded-2xl",style:{backgroundColor:tp.cardBg,border:"2px solid "+tp.accent+"22"}},
+            React.createElement("p",{className:"text-xs font-black uppercase tracking-wider mb-3",style:{color:tp.accent}},"📊 数据导览"),
+            React.createElement("ul",{className:"space-y-1.5"},(b.items||[]).map(function(t,i){return React.createElement("li",{key:i,className:"text-sm font-medium",style:{color:tp.textColor}},t);})));
+          return null;
+        })),
+      // CTA footer
+      React.createElement("div",{className:"max-w-2xl mx-auto px-6 pb-10"},
+        React.createElement("div",{className:"p-6 rounded-2xl text-center",style:{background:"linear-gradient(135deg,"+tp.accent+"15,"+tp.accent2+"10)",border:"1px solid "+tp.cardBorder}},
+          React.createElement("p",{className:"text-sm font-black mb-2",style:{color:tp.titleColor}},"🚀 "+(props.title||"")),
+          React.createElement("div",{className:"inline-block px-6 py-2.5 rounded-full text-white text-sm font-black mt-2",style:{backgroundColor:tp.accent}},"立即查看"))));
   };
 }
-
-
 // ====== RENDER: Tech (互联网科技) ======
 function TZ(contentBg:string,tp:Tpl) {
   return function(props:{blocks:Block[];title?:string}) {
