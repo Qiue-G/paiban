@@ -100,7 +100,7 @@ function svgData(tp:Tpl,idx:number):string {
 
 // ====== RENDER: Business ======
 function BZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-3xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-14"},
@@ -133,7 +133,7 @@ function BZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Media ======
 function MZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-4 py-8",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-10 text-center"},
@@ -167,7 +167,7 @@ function MZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Academic ======
 function AZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-8 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       React.createElement("div",{className:"text-center mb-2 text-xs tracking-widest uppercase",style:{color:tp.subColor}},"\u2500\u2500 学术排版 \u2500\u2500"),
       props.blocks.map(function(b,idx){
@@ -198,7 +198,7 @@ function AZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Resume ======
 function RZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-8 py-16",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-16"},
@@ -228,7 +228,7 @@ function RZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Marketing ======
 function KT(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-10",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 p-8 -mx-6 text-center rounded-3xl",style:{background:"linear-gradient(135deg, "+tp.accent+" 0%, "+tp.accent2+" 100%)"}},
@@ -258,7 +258,7 @@ function KT(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: WeChat ======
 function WZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-sm mx-auto",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily,borderRadius:24,overflow:"hidden",boxShadow:"0 0 0 3px #1a1a1a, 0 0 0 6px #333, 0 20px 60px rgba(0,0,0,0.3)"}},
       // phone notch
       React.createElement("div",{className:"h-8 flex items-center justify-center",style:{backgroundColor:"#1a1a1a"}},
@@ -311,7 +311,7 @@ function WZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Sweet (甜美治愈) ======
 function SZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-5 py-10",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 text-center"},
@@ -350,7 +350,7 @@ function SZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Fresh (清新治愈) ======
 function FZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-12 text-center"},
@@ -384,7 +384,7 @@ function FZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Avant (先锋审美) ======
 function VZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-16"},
@@ -417,7 +417,7 @@ function VZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: NewMedia (新媒体商业) ======
 function NZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"text-center py-14 px-6",style:{backgroundColor:tp.accent}},
@@ -449,7 +449,7 @@ function NZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Tech (互联网科技) ======
 function TZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-12",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-14"},
@@ -484,7 +484,7 @@ function TZ(contentBg:string,tp:Tpl) {
 
 // ====== RENDER: Zen (极简心理) ======
 function ZZ(contentBg:string,tp:Tpl) {
-  return function(props:{blocks:Block[]}) {
+  return function(props:{blocks:Block[];title?:string}) {
     return React.createElement("div",{className:"max-w-2xl mx-auto px-6 py-14",style:{backgroundColor:contentBg,fontFamily:tp.fontFamily}},
       props.blocks.map(function(b,idx){
         if(b.type==="title") return React.createElement("header",{key:idx,className:"mb-16"},
