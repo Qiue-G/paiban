@@ -159,12 +159,12 @@ function analyzeText(text:string):TextProfile {
   if(emoji>3){mediaScore+=3;chatScore+=2;}
   if(hasNumbers&&hasQuotes)academicScore+=2;
   if(wordCount<50)resumeScore+=2;
-  if(wordCount>500)academicScore+=1;bizScore+=1;
+  if(wordCount>500){academicScore+=1;bizScore+=1;}
   var scores:{[k:string]:number}={academic:academicScore,biz:bizScore,media:mediaScore,chat:chatScore,resume:resumeScore};
   var top="biz",topV=0;
   Object.keys(scores).forEach(function(k){if(scores[k]>topV){topV=scores[k];top=k;}});
   var genreMap:{[k:string]:string}={academic:"学术型",biz:"商务型",media:"新媒体型",chat:"对话型",resume:"简历型"};
-  if(topV>=4)genre=genreMap[top]||"通用";
+  if(topV>=3)genre=genreMap[top]||"通用";
 
   // Suggested layout
   var layoutMap:{[k:string]:Layout}={academic:"academic",biz:"business",media:"media",chat:"wechat",resume:"resume"};
